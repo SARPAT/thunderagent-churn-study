@@ -1,0 +1,49 @@
+{
+  "config": {
+    "n_programs": 2,
+    "n_steps": 2,
+    "min_start_tokens": 1500,
+    "max_start_tokens": 8000,
+    "growth_tokens": 400,
+    "tool_time_min": 1.0,
+    "tool_time_max": 6.0,
+    "max_inflight": 24,
+    "seed": 42,
+    "out": "results/smoke.json"
+  },
+  "elapsed_s": 7.8453123569488525,
+  "events": [
+    {
+      "program_id": "prog-000",
+      "step": 0,
+      "start_tokens": 8000,
+      "latency_s": 0.5437428951263428,
+      "ok": true,
+      "wallclock": 1787342760.013087
+    },
+    {
+      "program_id": "prog-001",
+      "step": 0,
+      "start_tokens": 1500,
+      "latency_s": 0.5374500751495361,
+      "ok": true,
+      "wallclock": 1787342760.0138993
+    },
+    {
+      "program_id": "prog-000",
+      "step": 1,
+      "start_tokens": 8000,
+      "latency_s": 0.26343870162963867,
+      "ok": true,
+      "wallclock": 1787342761.4026976
+    },
+    {
+      "program_id": "prog-001",
+      "step": 1,
+      "start_tokens": 1500,
+      "latency_s": 0.1778855323791504,
+      "ok": true,
+      "wallclock": 1787342762.5687678
+    }
+  ]
+}

@@ -1,0 +1,3858 @@
+{
+  "config": {
+    "n_programs": 40,
+    "n_steps": 12,
+    "min_start_tokens": 1500,
+    "max_start_tokens": 8000,
+    "growth_tokens": 400,
+    "tool_time_min": 0.5,
+    "tool_time_max": 3.0,
+    "max_inflight": 16,
+    "stagger_s": 1.0,
+    "seed": 42,
+    "out": "results/run3.json"
+  },
+  "elapsed_s": 776.4241740703583,
+  "events": [
+    {
+      "program_id": "prog-000",
+      "step": 0,
+      "start_tokens": 3000,
+      "latency_s": 0.2047719955444336,
+      "ok": true,
+      "wallclock": 1787345166.38946
+    },
+    {
+      "program_id": "prog-001",
+      "step": 0,
+      "start_tokens": 2000,
+      "latency_s": 0.17997097969055176,
+      "ok": true,
+      "wallclock": 1787345167.3726428
+    },
+    {
+      "program_id": "prog-000",
+      "step": 1,
+      "start_tokens": 3000,
+      "latency_s": 0.1959211826324463,
+      "ok": true,
+      "wallclock": 1787345167.9853113
+    },
+    {
+      "program_id": "prog-002",
+      "step": 0,
+      "start_tokens": 3166,
+      "latency_s": 0.18933486938476562,
+      "ok": true,
+      "wallclock": 1787345168.3823566
+    },
+    {
+      "program_id": "prog-001",
+      "step": 1,
+      "start_tokens": 2000,
+      "latency_s": 0.18346023559570312,
+      "ok": true,
+      "wallclock": 1787345168.9184895
+    },
+    {
+      "program_id": "prog-002",
+      "step": 1,
+      "start_tokens": 3166,
+      "latency_s": 0.20665264129638672,
+      "ok": true,
+      "wallclock": 1787345169.1984985
+    },
+    {
+      "program_id": "prog-000",
+      "step": 2,
+      "start_tokens": 3000,
+      "latency_s": 0.24517273902893066,
+      "ok": true,
+      "wallclock": 1787345169.3924127
+    },
+    {
+      "program_id": "prog-003",
+      "step": 0,
+      "start_tokens": 7500,
+      "latency_s": 0.2601163387298584,
+      "ok": true,
+      "wallclock": 1787345169.451985
+    },
+    {
+      "program_id": "prog-002",
+      "step": 2,
+      "start_tokens": 3166,
+      "latency_s": 0.21158862113952637,
+      "ok": true,
+      "wallclock": 1787345170.223736
+    },
+    {
+      "program_id": "prog-003",
+      "step": 1,
+      "start_tokens": 7500,
+      "latency_s": 0.27838563919067383,
+      "ok": true,
+      "wallclock": 1787345170.4289556
+    },
+    {
+      "program_id": "prog-004",
+      "step": 0,
+      "start_tokens": 5666,
+      "latency_s": 0.2587904930114746,
+      "ok": true,
+      "wallclock": 1787345170.4514883
+    },
+    {
+      "program_id": "prog-001",
+      "step": 2,
+      "start_tokens": 2000,
+      "latency_s": 0.1986253261566162,
+      "ok": true,
+      "wallclock": 1787345170.7668045
+    },
+    {
+      "program_id": "prog-005",
+      "step": 0,
+      "start_tokens": 5500,
+      "latency_s": 0.21987652778625488,
+      "ok": true,
+      "wallclock": 1787345171.412278
+    },
+    {
+      "program_id": "prog-002",
+      "step": 3,
+      "start_tokens": 3166,
+      "latency_s": 0.21035289764404297,
+      "ok": true,
+      "wallclock": 1787345171.6680655
+    },
+    {
+      "program_id": "prog-001",
+      "step": 3,
+      "start_tokens": 2000,
+      "latency_s": 0.2747809886932373,
+      "ok": true,
+      "wallclock": 1787345172.4467638
+    },
+    {
+      "program_id": "prog-006",
+      "step": 0,
+      "start_tokens": 6500,
+      "latency_s": 0.3064255714416504,
+      "ok": true,
+      "wallclock": 1787345172.4992142
+    },
+    {
+      "program_id": "prog-000",
+      "step": 3,
+      "start_tokens": 3000,
+      "latency_s": 0.3104441165924072,
+      "ok": true,
+      "wallclock": 1787345172.5092204
+    },
+    {
+      "program_id": "prog-002",
+      "step": 4,
+      "start_tokens": 3166,
+      "latency_s": 0.301163911819458,
+      "ok": true,
+      "wallclock": 1787345172.64558
+    },
+    {
+      "program_id": "prog-005",
+      "step": 1,
+      "start_tokens": 5500,
+      "latency_s": 0.29676032066345215,
+      "ok": true,
+      "wallclock": 1787345172.690997
+    },
+    {
+      "program_id": "prog-003",
+      "step": 2,
+      "start_tokens": 7500,
+      "latency_s": 0.2658247947692871,
+      "ok": true,
+      "wallclock": 1787345172.767508
+    },
+    {
+      "program_id": "prog-004",
+      "step": 1,
+      "start_tokens": 5666,
+      "latency_s": 0.24715423583984375,
+      "ok": true,
+      "wallclock": 1787345173.4134908
+    },
+    {
+      "program_id": "prog-007",
+      "step": 0,
+      "start_tokens": 3333,
+      "latency_s": 0.23410534858703613,
+      "ok": true,
+      "wallclock": 1787345173.4258723
+    },
+    {
+      "program_id": "prog-008",
+      "step": 0,
+      "start_tokens": 2166,
+      "latency_s": 0.2158951759338379,
+      "ok": true,
+      "wallclock": 1787345174.4090621
+    },
+    {
+      "program_id": "prog-003",
+      "step": 3,
+      "start_tokens": 7500,
+      "latency_s": 0.2590761184692383,
+      "ok": true,
+      "wallclock": 1787345174.4775176
+    },
+    {
+      "program_id": "prog-001",
+      "step": 4,
+      "start_tokens": 2000,
+      "latency_s": 0.20065021514892578,
+      "ok": true,
+      "wallclock": 1787345174.8017237
+    },
+    {
+      "program_id": "prog-006",
+      "step": 1,
+      "start_tokens": 6500,
+      "latency_s": 0.24782061576843262,
+      "ok": true,
+      "wallclock": 1787345175.1809902
+    },
+    {
+      "program_id": "prog-004",
+      "step": 2,
+      "start_tokens": 5666,
+      "latency_s": 0.2531306743621826,
+      "ok": true,
+      "wallclock": 1787345175.3017492
+    },
+    {
+      "program_id": "prog-002",
+      "step": 5,
+      "start_tokens": 3166,
+      "latency_s": 0.2756798267364502,
+      "ok": true,
+      "wallclock": 1787345175.5606513
+    },
+    {
+      "program_id": "prog-008",
+      "step": 1,
+      "start_tokens": 2166,
+      "latency_s": 0.28154444694519043,
+      "ok": true,
+      "wallclock": 1787345175.5977101
+    },
+    {
+      "program_id": "prog-005",
+      "step": 2,
+      "start_tokens": 5500,
+      "latency_s": 0.2935178279876709,
+      "ok": true,
+      "wallclock": 1787345175.6517076
+    },
+    {
+      "program_id": "prog-000",
+      "step": 4,
+      "start_tokens": 3000,
+      "latency_s": 0.2521202564239502,
+      "ok": true,
+      "wallclock": 1787345175.7257137
+    },
+    {
+      "program_id": "prog-003",
+      "step": 4,
+      "start_tokens": 7500,
+      "latency_s": 0.25427746772766113,
+      "ok": true,
+      "wallclock": 1787345176.1205406
+    },
+    {
+      "program_id": "prog-007",
+      "step": 1,
+      "start_tokens": 3333,
+      "latency_s": 0.2285158634185791,
+      "ok": true,
+      "wallclock": 1787345176.242028
+    },
+    {
+      "program_id": "prog-002",
+      "step": 6,
+      "start_tokens": 3166,
+      "latency_s": 0.23162055015563965,
+      "ok": true,
+      "wallclock": 1787345176.4714222
+    },
+    {
+      "program_id": "prog-000",
+      "step": 5,
+      "start_tokens": 3000,
+      "latency_s": 0.2276909351348877,
+      "ok": true,
+      "wallclock": 1787345177.0668826
+    },
+    {
+      "program_id": "prog-001",
+      "step": 5,
+      "start_tokens": 2000,
+      "latency_s": 0.21844911575317383,
+      "ok": true,
+      "wallclock": 1787345177.1969883
+    },
+    {
+      "program_id": "prog-007",
+      "step": 2,
+      "start_tokens": 3333,
+      "latency_s": 0.28513574600219727,
+      "ok": true,
+      "wallclock": 1787345177.7026827
+    },
+    {
+      "program_id": "prog-006",
+      "step": 2,
+      "start_tokens": 6500,
+      "latency_s": 0.31382203102111816,
+      "ok": true,
+      "wallclock": 1787345177.7517354
+    },
+    {
+      "program_id": "prog-005",
+      "step": 3,
+      "start_tokens": 5500,
+      "latency_s": 0.3231089115142822,
+      "ok": true,
+      "wallclock": 1787345177.8114278
+    },
+    {
+      "program_id": "prog-004",
+      "step": 3,
+      "start_tokens": 5666,
+      "latency_s": 0.32388925552368164,
+      "ok": true,
+      "wallclock": 1787345177.835901
+    },
+    {
+      "program_id": "prog-008",
+      "step": 2,
+      "start_tokens": 2166,
+      "latency_s": 0.27202653884887695,
+      "ok": true,
+      "wallclock": 1787345177.9576561
+    },
+    {
+      "program_id": "prog-003",
+      "step": 5,
+      "start_tokens": 7500,
+      "latency_s": 0.2569241523742676,
+      "ok": true,
+      "wallclock": 1787345178.0341454
+    },
+    {
+      "program_id": "prog-001",
+      "step": 6,
+      "start_tokens": 2000,
+      "latency_s": 0.2081758975982666,
+      "ok": true,
+      "wallclock": 1787345178.455256
+    },
+    {
+      "program_id": "prog-005",
+      "step": 4,
+      "start_tokens": 5500,
+      "latency_s": 0.23265767097473145,
+      "ok": true,
+      "wallclock": 1787345178.6851509
+    },
+    {
+      "program_id": "prog-007",
+      "step": 3,
+      "start_tokens": 3333,
+      "latency_s": 0.2380664348602295,
+      "ok": true,
+      "wallclock": 1787345179.2529318
+    },
+    {
+      "program_id": "prog-001",
+      "step": 7,
+      "start_tokens": 2000,
+      "latency_s": 0.2694358825683594,
+      "ok": true,
+      "wallclock": 1787345179.390624
+    },
+    {
+      "program_id": "prog-002",
+      "step": 7,
+      "start_tokens": 3166,
+      "latency_s": 0.27854228019714355,
+      "ok": true,
+      "wallclock": 1787345179.5639925
+    },
+    {
+      "program_id": "prog-000",
+      "step": 6,
+      "start_tokens": 3000,
+      "latency_s": 0.2819688320159912,
+      "ok": true,
+      "wallclock": 1787345179.5706706
+    },
+    {
+      "program_id": "prog-003",
+      "step": 6,
+      "start_tokens": 7500,
+      "latency_s": 0.24661850929260254,
+      "ok": true,
+      "wallclock": 1787345179.7847605
+    },
+    {
+      "program_id": "prog-006",
+      "step": 3,
+      "start_tokens": 6500,
+      "latency_s": 0.23257994651794434,
+      "ok": true,
+      "wallclock": 1787345180.406435
+    },
+    {
+      "program_id": "prog-004",
+      "step": 4,
+      "start_tokens": 5666,
+      "latency_s": 0.26883721351623535,
+      "ok": true,
+      "wallclock": 1787345180.6603143
+    },
+    {
+      "program_id": "prog-008",
+      "step": 3,
+      "start_tokens": 2166,
+      "latency_s": 0.2729334831237793,
+      "ok": true,
+      "wallclock": 1787345180.7437956
+    },
+    {
+      "program_id": "prog-002",
+      "step": 8,
+      "start_tokens": 3166,
+      "latency_s": 0.25273895263671875,
+      "ok": true,
+      "wallclock": 1787345180.8489635
+    },
+    {
+      "program_id": "prog-007",
+      "step": 4,
+      "start_tokens": 3333,
+      "latency_s": 0.231339693069458,
+      "ok": true,
+      "wallclock": 1787345181.4032485
+    },
+    {
+      "program_id": "prog-000",
+      "step": 7,
+      "start_tokens": 3000,
+      "latency_s": 0.2504253387451172,
+      "ok": true,
+      "wallclock": 1787345181.570213
+    },
+    {
+      "program_id": "prog-005",
+      "step": 5,
+      "start_tokens": 5500,
+      "latency_s": 0.2926483154296875,
+      "ok": true,
+      "wallclock": 1787345181.7612948
+    },
+    {
+      "program_id": "prog-004",
+      "step": 5,
+      "start_tokens": 5666,
+      "latency_s": 0.29625678062438965,
+      "ok": true,
+      "wallclock": 1787345181.8152025
+    },
+    {
+      "program_id": "prog-008",
+      "step": 4,
+      "start_tokens": 2166,
+      "latency_s": 0.28986525535583496,
+      "ok": true,
+      "wallclock": 1787345181.883518
+    },
+    {
+      "program_id": "prog-001",
+      "step": 8,
+      "start_tokens": 2000,
+      "latency_s": 0.2660033702850342,
+      "ok": true,
+      "wallclock": 1787345181.9520729
+    },
+    {
+      "program_id": "prog-003",
+      "step": 7,
+      "start_tokens": 7500,
+      "latency_s": 0.26227807998657227,
+      "ok": true,
+      "wallclock": 1787345182.759534
+    },
+    {
+      "program_id": "prog-006",
+      "step": 4,
+      "start_tokens": 6500,
+      "latency_s": 0.2599353790283203,
+      "ok": true,
+      "wallclock": 1787345182.7743926
+    },
+    {
+      "program_id": "prog-002",
+      "step": 9,
+      "start_tokens": 3166,
+      "latency_s": 0.2852621078491211,
+      "ok": true,
+      "wallclock": 1787345183.4983842
+    },
+    {
+      "program_id": "prog-007",
+      "step": 5,
+      "start_tokens": 3333,
+      "latency_s": 0.2831919193267822,
+      "ok": true,
+      "wallclock": 1787345183.5345957
+    },
+    {
+      "program_id": "prog-005",
+      "step": 6,
+      "start_tokens": 5500,
+      "latency_s": 0.276395320892334,
+      "ok": true,
+      "wallclock": 1787345183.6100597
+    },
+    {
+      "program_id": "prog-003",
+      "step": 8,
+      "start_tokens": 7500,
+      "latency_s": 0.24638628959655762,
+      "ok": true,
+      "wallclock": 1787345183.8552697
+    },
+    {
+      "program_id": "prog-004",
+      "step": 6,
+      "start_tokens": 5666,
+      "latency_s": 0.26430392265319824,
+      "ok": true,
+      "wallclock": 1787345184.0396774
+    },
+    {
+      "program_id": "prog-000",
+      "step": 8,
+      "start_tokens": 3000,
+      "latency_s": 0.24743127822875977,
+      "ok": true,
+      "wallclock": 1787345184.1862147
+    },
+    {
+      "program_id": "prog-005",
+      "step": 7,
+      "start_tokens": 5500,
+      "latency_s": 0.25603175163269043,
+      "ok": true,
+      "wallclock": 1787345184.7492657
+    },
+    {
+      "program_id": "prog-006",
+      "step": 5,
+      "start_tokens": 6500,
+      "latency_s": 0.25653505325317383,
+      "ok": true,
+      "wallclock": 1787345184.7651787
+    },
+    {
+      "program_id": "prog-003",
+      "step": 9,
+      "start_tokens": 7500,
+      "latency_s": 0.25254273414611816,
+      "ok": true,
+      "wallclock": 1787345185.0082476
+    },
+    {
+      "program_id": "prog-001",
+      "step": 9,
+      "start_tokens": 2000,
+      "latency_s": 0.23523616790771484,
+      "ok": true,
+      "wallclock": 1787345185.1821468
+    },
+    {
+      "program_id": "prog-002",
+      "step": 10,
+      "start_tokens": 3166,
+      "latency_s": 0.2316741943359375,
+      "ok": true,
+      "wallclock": 1787345186.1222155
+    },
+    {
+      "program_id": "prog-000",
+      "step": 9,
+      "start_tokens": 3000,
+      "latency_s": 0.3100464344024658,
+      "ok": true,
+      "wallclock": 1787345186.4889505
+    },
+    {
+      "program_id": "prog-007",
+      "step": 6,
+      "start_tokens": 3333,
+      "latency_s": 0.3197751045227051,
+      "ok": true,
+      "wallclock": 1787345186.5075681
+    },
+    {
+      "program_id": "prog-005",
+      "step": 8,
+      "start_tokens": 5500,
+      "latency_s": 0.3111081123352051,
+      "ok": true,
+      "wallclock": 1787345186.5244699
+    },
+    {
+      "program_id": "prog-004",
+      "step": 7,
+      "start_tokens": 5666,
+      "latency_s": 0.5462625026702881,
+      "ok": true,
+      "wallclock": 1787345186.7886372
+    },
+    {
+      "program_id": "prog-001",
+      "step": 10,
+      "start_tokens": 2000,
+      "latency_s": 0.48715686798095703,
+      "ok": true,
+      "wallclock": 1787345186.7987432
+    },
+    {
+      "program_id": "prog-003",
+      "step": 10,
+      "start_tokens": 7500,
+      "latency_s": 0.27852869033813477,
+      "ok": true,
+      "wallclock": 1787345186.9577513
+    },
+    {
+      "program_id": "prog-006",
+      "step": 6,
+      "start_tokens": 6500,
+      "latency_s": 0.283458948135376,
+      "ok": true,
+      "wallclock": 1787345187.0390265
+    },
+    {
+      "program_id": "prog-005",
+      "step": 9,
+      "start_tokens": 5500,
+      "latency_s": 0.22938084602355957,
+      "ok": true,
+      "wallclock": 1787345187.5412104
+    },
+    {
+      "program_id": "prog-002",
+      "step": 11,
+      "start_tokens": 3166,
+      "latency_s": 0.2325587272644043,
+      "ok": true,
+      "wallclock": 1787345188.2396328
+    },
+    {
+      "program_id": "prog-006",
+      "step": 7,
+      "start_tokens": 6500,
+      "latency_s": 0.23113775253295898,
+      "ok": true,
+      "wallclock": 1787345188.6213214
+    },
+    {
+      "program_id": "prog-014",
+      "step": 0,
+      "start_tokens": 3500,
+      "latency_s": 12.342369794845581,
+      "ok": true,
+      "wallclock": 1787345192.5346043
+    },
+    {
+      "program_id": "prog-008",
+      "step": 5,
+      "start_tokens": 2166,
+      "latency_s": 9.252646923065186,
+      "ok": true,
+      "wallclock": 1787345192.5422523
+    },
+    {
+      "program_id": "prog-005",
+      "step": 10,
+      "start_tokens": 5500,
+      "latency_s": 4.012862682342529,
+      "ok": true,
+      "wallclock": 1787345192.7886333
+    },
+    {
+      "program_id": "prog-006",
+      "step": 8,
+      "start_tokens": 6500,
+      "latency_s": 3.6737351417541504,
+      "ok": true,
+      "wallclock": 1787345192.8049908
+    },
+    {
+      "program_id": "prog-001",
+      "step": 11,
+      "start_tokens": 2000,
+      "latency_s": 3.846182346343994,
+      "ok": true,
+      "wallclock": 1787345193.0236127
+    },
+    {
+      "program_id": "prog-000",
+      "step": 10,
+      "start_tokens": 3000,
+      "latency_s": 3.903712749481201,
+      "ok": true,
+      "wallclock": 1787345193.2495956
+    },
+    {
+      "program_id": "prog-003",
+      "step": 11,
+      "start_tokens": 7500,
+      "latency_s": 4.109943389892578,
+      "ok": true,
+      "wallclock": 1787345193.4899955
+    },
+    {
+      "program_id": "prog-004",
+      "step": 8,
+      "start_tokens": 5666,
+      "latency_s": 4.2207159996032715,
+      "ok": true,
+      "wallclock": 1787345193.7220175
+    },
+    {
+      "program_id": "prog-007",
+      "step": 7,
+      "start_tokens": 3333,
+      "latency_s": 8.870925188064575,
+      "ok": true,
+      "wallclock": 1787345197.58106
+    },
+    {
+      "program_id": "prog-013",
+      "step": 0,
+      "start_tokens": 4500,
+      "latency_s": 18.395442247390747,
+      "ok": true,
+      "wallclock": 1787345197.588022
+    },
+    {
+      "program_id": "prog-018",
+      "step": 0,
+      "start_tokens": 3666,
+      "latency_s": 13.402270078659058,
+      "ok": true,
+      "wallclock": 1787345197.5941615
+    },
+    {
+      "program_id": "prog-009",
+      "step": 0,
+      "start_tokens": 6833,
+      "latency_s": 600.0993165969849,
+      "ok": false,
+      "wallclock": 1787345775.291917
+    },
+    {
+      "program_id": "prog-000",
+      "step": 11,
+      "start_tokens": 3000,
+      "latency_s": 581.5087623596191,
+      "ok": true,
+      "wallclock": 1787345775.5256343
+    },
+    {
+      "program_id": "prog-010",
+      "step": 0,
+      "start_tokens": 5000,
+      "latency_s": 600.0033912658691,
+      "ok": false,
+      "wallclock": 1787345776.1965747
+    },
+    {
+      "program_id": "prog-014",
+      "step": 1,
+      "start_tokens": 3500,
+      "latency_s": 581.5588383674622,
+      "ok": true,
+      "wallclock": 1787345776.3994102
+    },
+    {
+      "program_id": "prog-008",
+      "step": 6,
+      "start_tokens": 2166,
+      "latency_s": 581.7675704956055,
+      "ok": true,
+      "wallclock": 1787345776.610246
+    },
+    {
+      "program_id": "prog-011",
+      "step": 0,
+      "start_tokens": 6166,
+      "latency_s": 600.00288438797,
+      "ok": false,
+      "wallclock": 1787345777.195544
+    },
+    {
+      "program_id": "prog-006",
+      "step": 9,
+      "start_tokens": 6500,
+      "latency_s": 582.2160263061523,
+      "ok": true,
+      "wallclock": 1787345777.4283922
+    },
+    {
+      "program_id": "prog-005",
+      "step": 11,
+      "start_tokens": 5500,
+      "latency_s": 581.9420874118805,
+      "ok": true,
+      "wallclock": 1787345777.6610274
+    },
+    {
+      "program_id": "prog-012",
+      "step": 0,
+      "start_tokens": 5333,
+      "latency_s": 600.0028066635132,
+      "ok": false,
+      "wallclock": 1787345778.1956255
+    },
+    {
+      "program_id": "prog-004",
+      "step": 9,
+      "start_tokens": 5666,
+      "latency_s": 582.1036651134491,
+      "ok": true,
+      "wallclock": 1787345778.4306452
+    },
+    {
+      "program_id": "prog-015",
+      "step": 0,
+      "start_tokens": 7166,
+      "latency_s": 600.0026688575745,
+      "ok": false,
+      "wallclock": 1787345781.1950436
+    },
+    {
+      "program_id": "prog-016",
+      "step": 0,
+      "start_tokens": 7333,
+      "latency_s": 600.0032155513763,
+      "ok": false,
+      "wallclock": 1787345782.1960716
+    },
+    {
+      "program_id": "prog-013",
+      "step": 1,
+      "start_tokens": 4500,
+      "latency_s": 583.8259918689728,
+      "ok": true,
+      "wallclock": 1787345782.4126215
+    },
+    {
+      "program_id": "prog-018",
+      "step": 1,
+      "start_tokens": 3666,
+      "latency_s": 583.5875663757324,
+      "ok": true,
+      "wallclock": 1787345782.6173732
+    },
+    {
+      "program_id": "prog-017",
+      "step": 0,
+      "start_tokens": 5833,
+      "latency_s": 600.0042128562927,
+      "ok": false,
+      "wallclock": 1787345783.196577
+    },
+    {
+      "program_id": "prog-007",
+      "step": 8,
+      "start_tokens": 3333,
+      "latency_s": 584.0920352935791,
+      "ok": true,
+      "wallclock": 1787345783.4435353
+    },
+    {
+      "program_id": "prog-033",
+      "step": 0,
+      "start_tokens": 2500,
+      "latency_s": 584.3986232280731,
+      "ok": true,
+      "wallclock": 1787345783.5908222
+    },
+    {
+      "program_id": "prog-032",
+      "step": 0,
+      "start_tokens": 2333,
+      "latency_s": 585.4063506126404,
+      "ok": true,
+      "wallclock": 1787345783.5994308
+    },
+    {
+      "program_id": "prog-029",
+      "step": 0,
+      "start_tokens": 1500,
+      "latency_s": 588.4079458713531,
+      "ok": true,
+      "wallclock": 1787345783.601154
+    },
+    {
+      "program_id": "prog-028",
+      "step": 0,
+      "start_tokens": 1833,
+      "latency_s": 589.4081099033356,
+      "ok": true,
+      "wallclock": 1787345783.6013527
+    },
+    {
+      "program_id": "prog-019",
+      "step": 0,
+      "start_tokens": 5166,
+      "latency_s": 600.0028605461121,
+      "ok": false,
+      "wallclock": 1787345785.1956499
+    },
+    {
+      "program_id": "prog-020",
+      "step": 0,
+      "start_tokens": 4833,
+      "latency_s": 600.0035049915314,
+      "ok": false,
+      "wallclock": 1787345786.1959755
+    },
+    {
+      "program_id": "prog-021",
+      "step": 0,
+      "start_tokens": 6666,
+      "latency_s": 600.0026710033417,
+      "ok": false,
+      "wallclock": 1787345787.1955037
+    },
+    {
+      "program_id": "prog-006",
+      "step": 10,
+      "start_tokens": 6500,
+      "latency_s": 9.230249881744385,
+      "ok": true,
+      "wallclock": 1787345787.4388068
+    },
+    {
+      "program_id": "prog-008",
+      "step": 7,
+      "start_tokens": 2166,
+      "latency_s": 9.04586410522461,
+      "ok": true,
+      "wallclock": 1787345787.6541178
+    },
+    {
+      "program_id": "prog-022",
+      "step": 0,
+      "start_tokens": 7666,
+      "latency_s": 600.0030550956726,
+      "ok": false,
+      "wallclock": 1787345788.19585
+    },
+    {
+      "program_id": "prog-038",
+      "step": 0,
+      "start_tokens": 1666,
+      "latency_s": 584.3478229045868,
+      "ok": true,
+      "wallclock": 1787345788.5413537
+    },
+    {
+      "program_id": "prog-014",
+      "step": 2,
+      "start_tokens": 3500,
+      "latency_s": 9.550763368606567,
+      "ok": true,
+      "wallclock": 1787345788.7476287
+    },
+    {
+      "program_id": "prog-004",
+      "step": 10,
+      "start_tokens": 5666,
+      "latency_s": 8.032201766967773,
+      "ok": true,
+      "wallclock": 1787345788.980253
+    },
+    {
+      "program_id": "prog-023",
+      "step": 0,
+      "start_tokens": 6333,
+      "latency_s": 603.6170284748077,
+      "ok": false,
+      "wallclock": 1787345792.8096368
+    },
+    {
+      "program_id": "prog-024",
+      "step": 0,
+      "start_tokens": 4666,
+      "latency_s": 603.5324039459229,
+      "ok": false,
+      "wallclock": 1787345793.7256389
+    },
+    {
+      "program_id": "prog-025",
+      "step": 0,
+      "start_tokens": 4166,
+      "latency_s": 606.3911454677582,
+      "ok": false,
+      "wallclock": 1787345797.584593
+    },
+    {
+      "program_id": "prog-026",
+      "step": 0,
+      "start_tokens": 8000,
+      "latency_s": 605.3973891735077,
+      "ok": false,
+      "wallclock": 1787345797.5903418
+    },
+    {
+      "program_id": "prog-027",
+      "step": 0,
+      "start_tokens": 7000,
+      "latency_s": 604.4034430980682,
+      "ok": false,
+      "wallclock": 1787345797.595832
+    },
+    {
+      "program_id": "prog-018",
+      "step": 2,
+      "start_tokens": 3666,
+      "latency_s": 14.525081872940063,
+      "ok": true,
+      "wallclock": 1787345797.8404777
+    },
+    {
+      "program_id": "prog-013",
+      "step": 2,
+      "start_tokens": 4500,
+      "latency_s": 13.524640560150146,
+      "ok": true,
+      "wallclock": 1787345797.8576906
+    },
+    {
+      "program_id": "prog-029",
+      "step": 1,
+      "start_tokens": 1500,
+      "latency_s": 13.443110227584839,
+      "ok": true,
+      "wallclock": 1787345797.8593938
+    },
+    {
+      "program_id": "prog-032",
+      "step": 1,
+      "start_tokens": 2333,
+      "latency_s": 12.613103866577148,
+      "ok": true,
+      "wallclock": 1787345798.0455492
+    },
+    {
+      "program_id": "prog-028",
+      "step": 1,
+      "start_tokens": 1833,
+      "latency_s": 12.30636215209961,
+      "ok": true,
+      "wallclock": 1787345798.0585146
+    },
+    {
+      "program_id": "prog-007",
+      "step": 9,
+      "start_tokens": 3333,
+      "latency_s": 12.309461832046509,
+      "ok": true,
+      "wallclock": 1787345798.2944021
+    },
+    {
+      "program_id": "prog-033",
+      "step": 1,
+      "start_tokens": 2500,
+      "latency_s": 11.762691497802734,
+      "ok": true,
+      "wallclock": 1787345798.2998874
+    },
+    {
+      "program_id": "prog-034",
+      "step": 0,
+      "start_tokens": 2833,
+      "latency_s": 715.3268194198608,
+      "ok": false,
+      "wallclock": 1787345915.520371
+    },
+    {
+      "program_id": "prog-035",
+      "step": 0,
+      "start_tokens": 3833,
+      "latency_s": 714.3338429927826,
+      "ok": false,
+      "wallclock": 1787345915.5268388
+    },
+    {
+      "program_id": "prog-010",
+      "step": 1,
+      "start_tokens": 5000,
+      "latency_s": 136.5234591960907,
+      "ok": false,
+      "wallclock": 1787345915.5273619
+    },
+    {
+      "program_id": "prog-039",
+      "step": 0,
+      "start_tokens": 2666,
+      "latency_s": 710.3341639041901,
+      "ok": false,
+      "wallclock": 1787345915.5278976
+    },
+    {
+      "program_id": "prog-015",
+      "step": 1,
+      "start_tokens": 7166,
+      "latency_s": 133.23344802856445,
+      "ok": false,
+      "wallclock": 1787345915.5282483
+    },
+    {
+      "program_id": "prog-020",
+      "step": 1,
+      "start_tokens": 4833,
+      "latency_s": 128.41795349121094,
+      "ok": false,
+      "wallclock": 1787345915.528852
+    },
+    {
+      "program_id": "prog-009",
+      "step": 1,
+      "start_tokens": 6833,
+      "latency_s": 139.33252096176147,
+      "ok": false,
+      "wallclock": 1787345915.529338
+    },
+    {
+      "program_id": "prog-011",
+      "step": 1,
+      "start_tokens": 6166,
+      "latency_s": 136.61117434501648,
+      "ok": false,
+      "wallclock": 1787345915.5298944
+    },
+    {
+      "program_id": "prog-016",
+      "step": 1,
+      "start_tokens": 7333,
+      "latency_s": 132.2312090396881,
+      "ok": false,
+      "wallclock": 1787345915.5304325
+    },
+    {
+      "program_id": "prog-019",
+      "step": 1,
+      "start_tokens": 5166,
+      "latency_s": 127.46697330474854,
+      "ok": false,
+      "wallclock": 1787345915.5309901
+    },
+    {
+      "program_id": "prog-012",
+      "step": 1,
+      "start_tokens": 5333,
+      "latency_s": 134.3711018562317,
+      "ok": false,
+      "wallclock": 1787345915.531514
+    },
+    {
+      "program_id": "prog-030",
+      "step": 0,
+      "start_tokens": 7833,
+      "latency_s": 719.3383259773254,
+      "ok": false,
+      "wallclock": 1787345915.5320122
+    },
+    {
+      "program_id": "prog-036",
+      "step": 0,
+      "start_tokens": 4000,
+      "latency_s": 713.339519739151,
+      "ok": false,
+      "wallclock": 1787345915.5326095
+    },
+    {
+      "program_id": "prog-017",
+      "step": 1,
+      "start_tokens": 5833,
+      "latency_s": 130.015056848526,
+      "ok": false,
+      "wallclock": 1787345915.542786
+    },
+    {
+      "program_id": "prog-037",
+      "step": 0,
+      "start_tokens": 4333,
+      "latency_s": 712.3498306274414,
+      "ok": false,
+      "wallclock": 1787345915.5431585
+    },
+    {
+      "program_id": "prog-031",
+      "step": 0,
+      "start_tokens": 6000,
+      "latency_s": 718.351114988327,
+      "ok": false,
+      "wallclock": 1787345915.5434146
+    },
+    {
+      "program_id": "prog-021",
+      "step": 1,
+      "start_tokens": 6666,
+      "latency_s": 126.5367693901062,
+      "ok": false,
+      "wallclock": 1787345915.5529685
+    },
+    {
+      "program_id": "prog-006",
+      "step": 11,
+      "start_tokens": 6500,
+      "latency_s": 126.09676241874695,
+      "ok": false,
+      "wallclock": 1787345915.5535338
+    },
+    {
+      "program_id": "prog-038",
+      "step": 1,
+      "start_tokens": 1666,
+      "latency_s": 124.62331581115723,
+      "ok": false,
+      "wallclock": 1787345915.5540245
+    },
+    {
+      "program_id": "prog-014",
+      "step": 3,
+      "start_tokens": 3500,
+      "latency_s": 124.58140206336975,
+      "ok": false,
+      "wallclock": 1787345915.5543098
+    },
+    {
+      "program_id": "prog-022",
+      "step": 1,
+      "start_tokens": 7666,
+      "latency_s": 124.53558921813965,
+      "ok": false,
+      "wallclock": 1787345915.5547135
+    },
+    {
+      "program_id": "prog-004",
+      "step": 11,
+      "start_tokens": 5666,
+      "latency_s": 124.29171705245972,
+      "ok": false,
+      "wallclock": 1787345915.5552158
+    },
+    {
+      "program_id": "prog-008",
+      "step": 8,
+      "start_tokens": 2166,
+      "latency_s": 124.98946070671082,
+      "ok": false,
+      "wallclock": 1787345915.5556707
+    },
+    {
+      "program_id": "prog-029",
+      "step": 2,
+      "start_tokens": 1500,
+      "latency_s": 117.1429762840271,
+      "ok": false,
+      "wallclock": 1787345915.5560625
+    },
+    {
+      "program_id": "prog-024",
+      "step": 1,
+      "start_tokens": 4666,
+      "latency_s": 119.65015125274658,
+      "ok": false,
+      "wallclock": 1787345915.5563812
+    },
+    {
+      "program_id": "prog-023",
+      "step": 1,
+      "start_tokens": 6333,
+      "latency_s": 121.24859356880188,
+      "ok": false,
+      "wallclock": 1787345915.556803
+    },
+    {
+      "program_id": "prog-007",
+      "step": 10,
+      "start_tokens": 3333,
+      "latency_s": 116.74350142478943,
+      "ok": false,
+      "wallclock": 1787345915.5572553
+    },
+    {
+      "program_id": "prog-013",
+      "step": 3,
+      "start_tokens": 4500,
+      "latency_s": 117.03835535049438,
+      "ok": false,
+      "wallclock": 1787345915.557684
+    },
+    {
+      "program_id": "prog-018",
+      "step": 3,
+      "start_tokens": 3666,
+      "latency_s": 116.59707164764404,
+      "ok": false,
+      "wallclock": 1787345915.558121
+    },
+    {
+      "program_id": "prog-025",
+      "step": 1,
+      "start_tokens": 4166,
+      "latency_s": 116.54127883911133,
+      "ok": false,
+      "wallclock": 1787345915.5605156
+    },
+    {
+      "program_id": "prog-032",
+      "step": 2,
+      "start_tokens": 2333,
+      "latency_s": 115.62974429130554,
+      "ok": false,
+      "wallclock": 1787345915.5609422
+    },
+    {
+      "program_id": "prog-027",
+      "step": 1,
+      "start_tokens": 7000,
+      "latency_s": 116.33472180366516,
+      "ok": false,
+      "wallclock": 1787345915.5613158
+    },
+    {
+      "program_id": "prog-026",
+      "step": 1,
+      "start_tokens": 8000,
+      "latency_s": 115.22222876548767,
+      "ok": false,
+      "wallclock": 1787345915.5631104
+    },
+    {
+      "program_id": "prog-033",
+      "step": 2,
+      "start_tokens": 2500,
+      "latency_s": 114.9935314655304,
+      "ok": false,
+      "wallclock": 1787345915.5637445
+    },
+    {
+      "program_id": "prog-028",
+      "step": 2,
+      "start_tokens": 1833,
+      "latency_s": 115.53368139266968,
+      "ok": false,
+      "wallclock": 1787345915.564113
+    },
+    {
+      "program_id": "prog-010",
+      "step": 2,
+      "start_tokens": 5000,
+      "latency_s": 0.0015478134155273438,
+      "ok": false,
+      "wallclock": 1787345916.1085317
+    },
+    {
+      "program_id": "prog-034",
+      "step": 1,
+      "start_tokens": 2833,
+      "latency_s": 0.0014903545379638672,
+      "ok": false,
+      "wallclock": 1787345916.1707122
+    },
+    {
+      "program_id": "prog-014",
+      "step": 4,
+      "start_tokens": 3500,
+      "latency_s": 0.0014472007751464844,
+      "ok": false,
+      "wallclock": 1787345916.192629
+    },
+    {
+      "program_id": "prog-035",
+      "step": 1,
+      "start_tokens": 3833,
+      "latency_s": 0.0012564659118652344,
+      "ok": false,
+      "wallclock": 1787345916.197341
+    },
+    {
+      "program_id": "prog-008",
+      "step": 9,
+      "start_tokens": 2166,
+      "latency_s": 0.0013375282287597656,
+      "ok": false,
+      "wallclock": 1787345916.2090855
+    },
+    {
+      "program_id": "prog-026",
+      "step": 2,
+      "start_tokens": 8000,
+      "latency_s": 0.0028228759765625,
+      "ok": false,
+      "wallclock": 1787345916.2554605
+    },
+    {
+      "program_id": "prog-037",
+      "step": 1,
+      "start_tokens": 4333,
+      "latency_s": 0.0018317699432373047,
+      "ok": false,
+      "wallclock": 1787345916.2811947
+    },
+    {
+      "program_id": "prog-023",
+      "step": 2,
+      "start_tokens": 6333,
+      "latency_s": 0.0016925334930419922,
+      "ok": false,
+      "wallclock": 1787345916.3325372
+    },
+    {
+      "program_id": "prog-018",
+      "step": 4,
+      "start_tokens": 3666,
+      "latency_s": 0.001491546630859375,
+      "ok": false,
+      "wallclock": 1787345916.4106932
+    },
+    {
+      "program_id": "prog-025",
+      "step": 2,
+      "start_tokens": 4166,
+      "latency_s": 0.0015048980712890625,
+      "ok": false,
+      "wallclock": 1787345916.52187
+    },
+    {
+      "program_id": "prog-007",
+      "step": 11,
+      "start_tokens": 3333,
+      "latency_s": 0.0013871192932128906,
+      "ok": false,
+      "wallclock": 1787345916.538944
+    },
+    {
+      "program_id": "prog-030",
+      "step": 1,
+      "start_tokens": 7833,
+      "latency_s": 0.0019865036010742188,
+      "ok": false,
+      "wallclock": 1787345916.6427612
+    },
+    {
+      "program_id": "prog-020",
+      "step": 2,
+      "start_tokens": 4833,
+      "latency_s": 0.001505136489868164,
+      "ok": false,
+      "wallclock": 1787345916.727176
+    },
+    {
+      "program_id": "prog-035",
+      "step": 2,
+      "start_tokens": 3833,
+      "latency_s": 0.0012531280517578125,
+      "ok": false,
+      "wallclock": 1787345916.73597
+    },
+    {
+      "program_id": "prog-010",
+      "step": 3,
+      "start_tokens": 5000,
+      "latency_s": 0.0022618770599365234,
+      "ok": false,
+      "wallclock": 1787345916.8578186
+    },
+    {
+      "program_id": "prog-039",
+      "step": 1,
+      "start_tokens": 2666,
+      "latency_s": 0.0021970272064208984,
+      "ok": false,
+      "wallclock": 1787345916.8584025
+    },
+    {
+      "program_id": "prog-021",
+      "step": 2,
+      "start_tokens": 6666,
+      "latency_s": 0.001621246337890625,
+      "ok": false,
+      "wallclock": 1787345916.9414334
+    },
+    {
+      "program_id": "prog-008",
+      "step": 10,
+      "start_tokens": 2166,
+      "latency_s": 0.0013256072998046875,
+      "ok": false,
+      "wallclock": 1787345916.9442806
+    },
+    {
+      "program_id": "prog-017",
+      "step": 2,
+      "start_tokens": 5833,
+      "latency_s": 0.002008199691772461,
+      "ok": false,
+      "wallclock": 1787345917.0638802
+    },
+    {
+      "program_id": "prog-036",
+      "step": 1,
+      "start_tokens": 4000,
+      "latency_s": 0.0015559196472167969,
+      "ok": false,
+      "wallclock": 1787345917.217479
+    },
+    {
+      "program_id": "prog-032",
+      "step": 3,
+      "start_tokens": 2333,
+      "latency_s": 0.0011739730834960938,
+      "ok": false,
+      "wallclock": 1787345917.2190182
+    },
+    {
+      "program_id": "prog-020",
+      "step": 3,
+      "start_tokens": 4833,
+      "latency_s": 0.0012042522430419922,
+      "ok": false,
+      "wallclock": 1787345917.234598
+    },
+    {
+      "program_id": "prog-009",
+      "step": 2,
+      "start_tokens": 6833,
+      "latency_s": 0.0011582374572753906,
+      "ok": false,
+      "wallclock": 1787345917.2462964
+    },
+    {
+      "program_id": "prog-015",
+      "step": 2,
+      "start_tokens": 7166,
+      "latency_s": 0.0019538402557373047,
+      "ok": false,
+      "wallclock": 1787345917.3168616
+    },
+    {
+      "program_id": "prog-037",
+      "step": 2,
+      "start_tokens": 4333,
+      "latency_s": 0.0014493465423583984,
+      "ok": false,
+      "wallclock": 1787345917.3748965
+    },
+    {
+      "program_id": "prog-011",
+      "step": 2,
+      "start_tokens": 6166,
+      "latency_s": 0.0012090206146240234,
+      "ok": false,
+      "wallclock": 1787345917.3806257
+    },
+    {
+      "program_id": "prog-013",
+      "step": 4,
+      "start_tokens": 4500,
+      "latency_s": 0.001600027084350586,
+      "ok": false,
+      "wallclock": 1787345917.4016817
+    },
+    {
+      "program_id": "prog-012",
+      "step": 2,
+      "start_tokens": 5333,
+      "latency_s": 0.0014884471893310547,
+      "ok": false,
+      "wallclock": 1787345917.4758482
+    },
+    {
+      "program_id": "prog-030",
+      "step": 2,
+      "start_tokens": 7833,
+      "latency_s": 0.001598358154296875,
+      "ok": false,
+      "wallclock": 1787345917.5572152
+    },
+    {
+      "program_id": "prog-022",
+      "step": 2,
+      "start_tokens": 7666,
+      "latency_s": 0.0013265609741210938,
+      "ok": false,
+      "wallclock": 1787345917.6902113
+    },
+    {
+      "program_id": "prog-031",
+      "step": 1,
+      "start_tokens": 6000,
+      "latency_s": 0.0010669231414794922,
+      "ok": false,
+      "wallclock": 1787345917.6930056
+    },
+    {
+      "program_id": "prog-016",
+      "step": 2,
+      "start_tokens": 7333,
+      "latency_s": 0.0015878677368164062,
+      "ok": false,
+      "wallclock": 1787345917.8413239
+    },
+    {
+      "program_id": "prog-023",
+      "step": 3,
+      "start_tokens": 6333,
+      "latency_s": 0.001312255859375,
+      "ok": false,
+      "wallclock": 1787345917.8513558
+    },
+    {
+      "program_id": "prog-029",
+      "step": 3,
+      "start_tokens": 1500,
+      "latency_s": 0.0012583732604980469,
+      "ok": false,
+      "wallclock": 1787345917.8782384
+    },
+    {
+      "program_id": "prog-037",
+      "step": 3,
+      "start_tokens": 4333,
+      "latency_s": 0.002097606658935547,
+      "ok": false,
+      "wallclock": 1787345918.0258534
+    },
+    {
+      "program_id": "prog-014",
+      "step": 5,
+      "start_tokens": 3500,
+      "latency_s": 0.002369403839111328,
+      "ok": false,
+      "wallclock": 1787345918.0479555
+    },
+    {
+      "program_id": "prog-013",
+      "step": 5,
+      "start_tokens": 4500,
+      "latency_s": 0.0017197132110595703,
+      "ok": false,
+      "wallclock": 1787345918.057388
+    },
+    {
+      "program_id": "prog-024",
+      "step": 2,
+      "start_tokens": 4666,
+      "latency_s": 0.0015118122100830078,
+      "ok": false,
+      "wallclock": 1787345918.0605688
+    },
+    {
+      "program_id": "prog-033",
+      "step": 3,
+      "start_tokens": 2500,
+      "latency_s": 0.0018146038055419922,
+      "ok": false,
+      "wallclock": 1787345918.0870023
+    },
+    {
+      "program_id": "prog-018",
+      "step": 5,
+      "start_tokens": 3666,
+      "latency_s": 0.0018911361694335938,
+      "ok": false,
+      "wallclock": 1787345918.1174955
+    },
+    {
+      "program_id": "prog-021",
+      "step": 3,
+      "start_tokens": 6666,
+      "latency_s": 0.00199127197265625,
+      "ok": false,
+      "wallclock": 1787345918.157166
+    },
+    {
+      "program_id": "prog-030",
+      "step": 3,
+      "start_tokens": 7833,
+      "latency_s": 0.002023458480834961,
+      "ok": false,
+      "wallclock": 1787345918.1869538
+    },
+    {
+      "program_id": "prog-028",
+      "step": 3,
+      "start_tokens": 1833,
+      "latency_s": 0.002774477005004883,
+      "ok": false,
+      "wallclock": 1787345918.2076035
+    },
+    {
+      "program_id": "prog-035",
+      "step": 3,
+      "start_tokens": 3833,
+      "latency_s": 0.0026574134826660156,
+      "ok": false,
+      "wallclock": 1787345918.215723
+    },
+    {
+      "program_id": "prog-038",
+      "step": 2,
+      "start_tokens": 1666,
+      "latency_s": 0.002415180206298828,
+      "ok": false,
+      "wallclock": 1787345918.2163365
+    },
+    {
+      "program_id": "prog-009",
+      "step": 3,
+      "start_tokens": 6833,
+      "latency_s": 0.001544952392578125,
+      "ok": false,
+      "wallclock": 1787345918.2232268
+    },
+    {
+      "program_id": "prog-019",
+      "step": 2,
+      "start_tokens": 5166,
+      "latency_s": 0.0016045570373535156,
+      "ok": false,
+      "wallclock": 1787345918.2395272
+    },
+    {
+      "program_id": "prog-027",
+      "step": 2,
+      "start_tokens": 7000,
+      "latency_s": 0.0011599063873291016,
+      "ok": false,
+      "wallclock": 1787345918.249318
+    },
+    {
+      "program_id": "prog-034",
+      "step": 2,
+      "start_tokens": 2833,
+      "latency_s": 0.0017175674438476562,
+      "ok": false,
+      "wallclock": 1787345918.3044987
+    },
+    {
+      "program_id": "prog-015",
+      "step": 3,
+      "start_tokens": 7166,
+      "latency_s": 0.001695871353149414,
+      "ok": false,
+      "wallclock": 1787345918.3636427
+    },
+    {
+      "program_id": "prog-023",
+      "step": 4,
+      "start_tokens": 6333,
+      "latency_s": 0.0015366077423095703,
+      "ok": false,
+      "wallclock": 1787345918.495879
+    },
+    {
+      "program_id": "prog-026",
+      "step": 3,
+      "start_tokens": 8000,
+      "latency_s": 0.0015726089477539062,
+      "ok": false,
+      "wallclock": 1787345918.6432328
+    },
+    {
+      "program_id": "prog-014",
+      "step": 6,
+      "start_tokens": 3500,
+      "latency_s": 0.0015003681182861328,
+      "ok": false,
+      "wallclock": 1787345918.7223866
+    },
+    {
+      "program_id": "prog-013",
+      "step": 6,
+      "start_tokens": 4500,
+      "latency_s": 0.001184225082397461,
+      "ok": false,
+      "wallclock": 1787345918.7300541
+    },
+    {
+      "program_id": "prog-012",
+      "step": 3,
+      "start_tokens": 5333,
+      "latency_s": 0.0017521381378173828,
+      "ok": false,
+      "wallclock": 1787345918.7623544
+    },
+    {
+      "program_id": "prog-028",
+      "step": 4,
+      "start_tokens": 1833,
+      "latency_s": 0.0011951923370361328,
+      "ok": false,
+      "wallclock": 1787345918.8090441
+    },
+    {
+      "program_id": "prog-035",
+      "step": 4,
+      "start_tokens": 3833,
+      "latency_s": 0.001470327377319336,
+      "ok": false,
+      "wallclock": 1787345918.9230108
+    },
+    {
+      "program_id": "prog-020",
+      "step": 4,
+      "start_tokens": 4833,
+      "latency_s": 0.0013108253479003906,
+      "ok": false,
+      "wallclock": 1787345918.9538617
+    },
+    {
+      "program_id": "prog-025",
+      "step": 3,
+      "start_tokens": 4166,
+      "latency_s": 0.0014493465423583984,
+      "ok": false,
+      "wallclock": 1787345919.1860747
+    },
+    {
+      "program_id": "prog-008",
+      "step": 11,
+      "start_tokens": 2166,
+      "latency_s": 0.0012674331665039062,
+      "ok": false,
+      "wallclock": 1787345919.1877298
+    },
+    {
+      "program_id": "prog-039",
+      "step": 2,
+      "start_tokens": 2666,
+      "latency_s": 0.0017545223236083984,
+      "ok": false,
+      "wallclock": 1787345919.3234818
+    },
+    {
+      "program_id": "prog-032",
+      "step": 4,
+      "start_tokens": 2333,
+      "latency_s": 0.0013022422790527344,
+      "ok": false,
+      "wallclock": 1787345919.3761723
+    },
+    {
+      "program_id": "prog-022",
+      "step": 3,
+      "start_tokens": 7666,
+      "latency_s": 0.0012469291687011719,
+      "ok": false,
+      "wallclock": 1787345919.3847854
+    },
+    {
+      "program_id": "prog-017",
+      "step": 3,
+      "start_tokens": 5833,
+      "latency_s": 0.0011248588562011719,
+      "ok": false,
+      "wallclock": 1787345919.3924625
+    },
+    {
+      "program_id": "prog-027",
+      "step": 3,
+      "start_tokens": 7000,
+      "latency_s": 0.0015130043029785156,
+      "ok": false,
+      "wallclock": 1787345919.4044616
+    },
+    {
+      "program_id": "prog-035",
+      "step": 5,
+      "start_tokens": 3833,
+      "latency_s": 0.0014798641204833984,
+      "ok": false,
+      "wallclock": 1787345919.4486039
+    },
+    {
+      "program_id": "prog-026",
+      "step": 4,
+      "start_tokens": 8000,
+      "latency_s": 0.0017940998077392578,
+      "ok": false,
+      "wallclock": 1787345919.4729073
+    },
+    {
+      "program_id": "prog-019",
+      "step": 3,
+      "start_tokens": 5166,
+      "latency_s": 0.0014281272888183594,
+      "ok": false,
+      "wallclock": 1787345919.532977
+    },
+    {
+      "program_id": "prog-033",
+      "step": 4,
+      "start_tokens": 2500,
+      "latency_s": 0.0013582706451416016,
+      "ok": false,
+      "wallclock": 1787345919.5989463
+    },
+    {
+      "program_id": "prog-029",
+      "step": 4,
+      "start_tokens": 1500,
+      "latency_s": 0.002294301986694336,
+      "ok": false,
+      "wallclock": 1787345919.6507049
+    },
+    {
+      "program_id": "prog-015",
+      "step": 4,
+      "start_tokens": 7166,
+      "latency_s": 0.0017833709716796875,
+      "ok": false,
+      "wallclock": 1787345919.6514814
+    },
+    {
+      "program_id": "prog-023",
+      "step": 5,
+      "start_tokens": 6333,
+      "latency_s": 0.001291036605834961,
+      "ok": false,
+      "wallclock": 1787345919.6632643
+    },
+    {
+      "program_id": "prog-016",
+      "step": 3,
+      "start_tokens": 7333,
+      "latency_s": 0.001537322998046875,
+      "ok": false,
+      "wallclock": 1787345919.6722436
+    },
+    {
+      "program_id": "prog-010",
+      "step": 4,
+      "start_tokens": 5000,
+      "latency_s": 0.0010318756103515625,
+      "ok": false,
+      "wallclock": 1787345919.6757097
+    },
+    {
+      "program_id": "prog-036",
+      "step": 2,
+      "start_tokens": 4000,
+      "latency_s": 0.000949859619140625,
+      "ok": false,
+      "wallclock": 1787345919.67808
+    },
+    {
+      "program_id": "prog-011",
+      "step": 3,
+      "start_tokens": 6166,
+      "latency_s": 0.0011889934539794922,
+      "ok": false,
+      "wallclock": 1787345919.721637
+    },
+    {
+      "program_id": "prog-027",
+      "step": 4,
+      "start_tokens": 7000,
+      "latency_s": 0.00151824951171875,
+      "ok": false,
+      "wallclock": 1787345920.079472
+    },
+    {
+      "program_id": "prog-021",
+      "step": 4,
+      "start_tokens": 6666,
+      "latency_s": 0.001188516616821289,
+      "ok": false,
+      "wallclock": 1787345920.0833297
+    },
+    {
+      "program_id": "prog-030",
+      "step": 4,
+      "start_tokens": 7833,
+      "latency_s": 0.0029206275939941406,
+      "ok": false,
+      "wallclock": 1787345920.1398363
+    },
+    {
+      "program_id": "prog-009",
+      "step": 4,
+      "start_tokens": 6833,
+      "latency_s": 0.0026242733001708984,
+      "ok": false,
+      "wallclock": 1787345920.1405618
+    },
+    {
+      "program_id": "prog-022",
+      "step": 4,
+      "start_tokens": 7666,
+      "latency_s": 0.0015361309051513672,
+      "ok": false,
+      "wallclock": 1787345920.2186663
+    },
+    {
+      "program_id": "prog-038",
+      "step": 3,
+      "start_tokens": 1666,
+      "latency_s": 0.001383066177368164,
+      "ok": false,
+      "wallclock": 1787345920.3618155
+    },
+    {
+      "program_id": "prog-013",
+      "step": 7,
+      "start_tokens": 4500,
+      "latency_s": 0.0013325214385986328,
+      "ok": false,
+      "wallclock": 1787345920.375497
+    },
+    {
+      "program_id": "prog-034",
+      "step": 3,
+      "start_tokens": 2833,
+      "latency_s": 0.0014541149139404297,
+      "ok": false,
+      "wallclock": 1787345920.4825997
+    },
+    {
+      "program_id": "prog-031",
+      "step": 2,
+      "start_tokens": 6000,
+      "latency_s": 0.0016713142395019531,
+      "ok": false,
+      "wallclock": 1787345920.494753
+    },
+    {
+      "program_id": "prog-035",
+      "step": 6,
+      "start_tokens": 3833,
+      "latency_s": 0.0015256404876708984,
+      "ok": false,
+      "wallclock": 1787345920.562059
+    },
+    {
+      "program_id": "prog-037",
+      "step": 4,
+      "start_tokens": 4333,
+      "latency_s": 0.0020639896392822266,
+      "ok": false,
+      "wallclock": 1787345920.6580098
+    },
+    {
+      "program_id": "prog-026",
+      "step": 5,
+      "start_tokens": 8000,
+      "latency_s": 0.00156402587890625,
+      "ok": false,
+      "wallclock": 1787345920.688347
+    },
+    {
+      "program_id": "prog-024",
+      "step": 3,
+      "start_tokens": 4666,
+      "latency_s": 0.0013239383697509766,
+      "ok": false,
+      "wallclock": 1787345920.7172194
+    },
+    {
+      "program_id": "prog-017",
+      "step": 4,
+      "start_tokens": 5833,
+      "latency_s": 0.0015363693237304688,
+      "ok": false,
+      "wallclock": 1787345920.7672515
+    },
+    {
+      "program_id": "prog-014",
+      "step": 7,
+      "start_tokens": 3500,
+      "latency_s": 0.0019125938415527344,
+      "ok": false,
+      "wallclock": 1787345920.8387346
+    },
+    {
+      "program_id": "prog-027",
+      "step": 5,
+      "start_tokens": 7000,
+      "latency_s": 0.0012269020080566406,
+      "ok": false,
+      "wallclock": 1787345920.840402
+    },
+    {
+      "program_id": "prog-029",
+      "step": 5,
+      "start_tokens": 1500,
+      "latency_s": 0.0013802051544189453,
+      "ok": false,
+      "wallclock": 1787345920.9103117
+    },
+    {
+      "program_id": "prog-018",
+      "step": 6,
+      "start_tokens": 3666,
+      "latency_s": 0.0014934539794921875,
+      "ok": false,
+      "wallclock": 1787345920.9741945
+    },
+    {
+      "program_id": "prog-020",
+      "step": 5,
+      "start_tokens": 4833,
+      "latency_s": 0.0014307498931884766,
+      "ok": false,
+      "wallclock": 1787345921.0091708
+    },
+    {
+      "program_id": "prog-025",
+      "step": 4,
+      "start_tokens": 4166,
+      "latency_s": 0.0015573501586914062,
+      "ok": false,
+      "wallclock": 1787345921.0963104
+    },
+    {
+      "program_id": "prog-019",
+      "step": 4,
+      "start_tokens": 5166,
+      "latency_s": 0.0014243125915527344,
+      "ok": false,
+      "wallclock": 1787345921.1312726
+    },
+    {
+      "program_id": "prog-032",
+      "step": 5,
+      "start_tokens": 2333,
+      "latency_s": 0.0015759468078613281,
+      "ok": false,
+      "wallclock": 1787345921.1433198
+    },
+    {
+      "program_id": "prog-039",
+      "step": 3,
+      "start_tokens": 2666,
+      "latency_s": 0.001180410385131836,
+      "ok": false,
+      "wallclock": 1787345921.169894
+    },
+    {
+      "program_id": "prog-038",
+      "step": 4,
+      "start_tokens": 1666,
+      "latency_s": 0.0013778209686279297,
+      "ok": false,
+      "wallclock": 1787345921.2527568
+    },
+    {
+      "program_id": "prog-030",
+      "step": 5,
+      "start_tokens": 7833,
+      "latency_s": 0.0016009807586669922,
+      "ok": false,
+      "wallclock": 1787345921.3037944
+    },
+    {
+      "program_id": "prog-033",
+      "step": 5,
+      "start_tokens": 2500,
+      "latency_s": 0.0014317035675048828,
+      "ok": false,
+      "wallclock": 1787345921.4590282
+    },
+    {
+      "program_id": "prog-014",
+      "step": 8,
+      "start_tokens": 3500,
+      "latency_s": 0.0012583732604980469,
+      "ok": false,
+      "wallclock": 1787345921.4677687
+    },
+    {
+      "program_id": "prog-016",
+      "step": 4,
+      "start_tokens": 7333,
+      "latency_s": 0.0018742084503173828,
+      "ok": false,
+      "wallclock": 1787345921.4971817
+    },
+    {
+      "program_id": "prog-034",
+      "step": 4,
+      "start_tokens": 2833,
+      "latency_s": 0.0015728473663330078,
+      "ok": false,
+      "wallclock": 1787345921.5113306
+    },
+    {
+      "program_id": "prog-036",
+      "step": 3,
+      "start_tokens": 4000,
+      "latency_s": 0.0015261173248291016,
+      "ok": false,
+      "wallclock": 1787345921.567355
+    },
+    {
+      "program_id": "prog-013",
+      "step": 8,
+      "start_tokens": 4500,
+      "latency_s": 0.0013289451599121094,
+      "ok": false,
+      "wallclock": 1787345921.5831585
+    },
+    {
+      "program_id": "prog-018",
+      "step": 7,
+      "start_tokens": 3666,
+      "latency_s": 0.0020606517791748047,
+      "ok": false,
+      "wallclock": 1787345921.587688
+    },
+    {
+      "program_id": "prog-012",
+      "step": 4,
+      "start_tokens": 5333,
+      "latency_s": 0.0019905567169189453,
+      "ok": false,
+      "wallclock": 1787345921.5881078
+    },
+    {
+      "program_id": "prog-028",
+      "step": 5,
+      "start_tokens": 1833,
+      "latency_s": 0.001424551010131836,
+      "ok": false,
+      "wallclock": 1787345921.651066
+    },
+    {
+      "program_id": "prog-024",
+      "step": 4,
+      "start_tokens": 4666,
+      "latency_s": 0.0027043819427490234,
+      "ok": false,
+      "wallclock": 1787345921.8484414
+    },
+    {
+      "program_id": "prog-010",
+      "step": 5,
+      "start_tokens": 5000,
+      "latency_s": 0.002231121063232422,
+      "ok": false,
+      "wallclock": 1787345921.8489785
+    },
+    {
+      "program_id": "prog-031",
+      "step": 3,
+      "start_tokens": 6000,
+      "latency_s": 0.0011265277862548828,
+      "ok": false,
+      "wallclock": 1787345921.8545535
+    },
+    {
+      "program_id": "prog-025",
+      "step": 5,
+      "start_tokens": 4166,
+      "latency_s": 0.001531362533569336,
+      "ok": false,
+      "wallclock": 1787345921.9255855
+    },
+    {
+      "program_id": "prog-032",
+      "step": 6,
+      "start_tokens": 2333,
+      "latency_s": 0.0015230178833007812,
+      "ok": false,
+      "wallclock": 1787345922.0498104
+    },
+    {
+      "program_id": "prog-036",
+      "step": 4,
+      "start_tokens": 4000,
+      "latency_s": 0.0014684200286865234,
+      "ok": false,
+      "wallclock": 1787345922.1598482
+    },
+    {
+      "program_id": "prog-023",
+      "step": 6,
+      "start_tokens": 6333,
+      "latency_s": 0.0018534660339355469,
+      "ok": false,
+      "wallclock": 1787345922.1843224
+    },
+    {
+      "program_id": "prog-033",
+      "step": 6,
+      "start_tokens": 2500,
+      "latency_s": 0.0014429092407226562,
+      "ok": false,
+      "wallclock": 1787345922.24135
+    },
+    {
+      "program_id": "prog-028",
+      "step": 6,
+      "start_tokens": 1833,
+      "latency_s": 0.001416921615600586,
+      "ok": false,
+      "wallclock": 1787345922.2583425
+    },
+    {
+      "program_id": "prog-020",
+      "step": 6,
+      "start_tokens": 4833,
+      "latency_s": 0.0015468597412109375,
+      "ok": false,
+      "wallclock": 1787345922.345418
+    },
+    {
+      "program_id": "prog-034",
+      "step": 5,
+      "start_tokens": 2833,
+      "latency_s": 0.0013611316680908203,
+      "ok": false,
+      "wallclock": 1787345922.3863676
+    },
+    {
+      "program_id": "prog-026",
+      "step": 6,
+      "start_tokens": 8000,
+      "latency_s": 0.0016820430755615234,
+      "ok": false,
+      "wallclock": 1787345922.4546163
+    },
+    {
+      "program_id": "prog-025",
+      "step": 6,
+      "start_tokens": 4166,
+      "latency_s": 0.0018894672393798828,
+      "ok": false,
+      "wallclock": 1787345922.5291495
+    },
+    {
+      "program_id": "prog-011",
+      "step": 4,
+      "start_tokens": 6166,
+      "latency_s": 0.0014545917510986328,
+      "ok": false,
+      "wallclock": 1787345922.553286
+    },
+    {
+      "program_id": "prog-022",
+      "step": 5,
+      "start_tokens": 7666,
+      "latency_s": 0.001355886459350586,
+      "ok": false,
+      "wallclock": 1787345922.577169
+    },
+    {
+      "program_id": "prog-015",
+      "step": 5,
+      "start_tokens": 7166,
+      "latency_s": 0.0016264915466308594,
+      "ok": false,
+      "wallclock": 1787345922.6134398
+    },
+    {
+      "program_id": "prog-039",
+      "step": 4,
+      "start_tokens": 2666,
+      "latency_s": 0.00154876708984375,
+      "ok": false,
+      "wallclock": 1787345922.7767303
+    },
+    {
+      "program_id": "prog-021",
+      "step": 5,
+      "start_tokens": 6666,
+      "latency_s": 0.001249074935913086,
+      "ok": false,
+      "wallclock": 1787345922.7803924
+    },
+    {
+      "program_id": "prog-035",
+      "step": 7,
+      "start_tokens": 3833,
+      "latency_s": 0.0010776519775390625,
+      "ok": false,
+      "wallclock": 1787345922.7829201
+    },
+    {
+      "program_id": "prog-009",
+      "step": 5,
+      "start_tokens": 6833,
+      "latency_s": 0.0019729137420654297,
+      "ok": false,
+      "wallclock": 1787345922.8674443
+    },
+    {
+      "program_id": "prog-027",
+      "step": 6,
+      "start_tokens": 7000,
+      "latency_s": 0.0015094280242919922,
+      "ok": false,
+      "wallclock": 1787345922.929538
+    },
+    {
+      "program_id": "prog-013",
+      "step": 9,
+      "start_tokens": 4500,
+      "latency_s": 0.001491546630859375,
+      "ok": false,
+      "wallclock": 1787345923.0086381
+    },
+    {
+      "program_id": "prog-012",
+      "step": 5,
+      "start_tokens": 5333,
+      "latency_s": 0.0015277862548828125,
+      "ok": false,
+      "wallclock": 1787345923.164838
+    },
+    {
+      "program_id": "prog-030",
+      "step": 6,
+      "start_tokens": 7833,
+      "latency_s": 0.0015404224395751953,
+      "ok": false,
+      "wallclock": 1787345923.2090137
+    },
+    {
+      "program_id": "prog-024",
+      "step": 5,
+      "start_tokens": 4666,
+      "latency_s": 0.001453399658203125,
+      "ok": false,
+      "wallclock": 1787345923.264074
+    },
+    {
+      "program_id": "prog-037",
+      "step": 5,
+      "start_tokens": 4333,
+      "latency_s": 0.0017154216766357422,
+      "ok": false,
+      "wallclock": 1787345923.2933197
+    },
+    {
+      "program_id": "prog-032",
+      "step": 7,
+      "start_tokens": 2333,
+      "latency_s": 0.0017795562744140625,
+      "ok": false,
+      "wallclock": 1787345923.4467533
+    },
+    {
+      "program_id": "prog-018",
+      "step": 8,
+      "start_tokens": 3666,
+      "latency_s": 0.0014770030975341797,
+      "ok": false,
+      "wallclock": 1787345923.471926
+    },
+    {
+      "program_id": "prog-022",
+      "step": 6,
+      "start_tokens": 7666,
+      "latency_s": 0.0020449161529541016,
+      "ok": false,
+      "wallclock": 1787345923.4865754
+    },
+    {
+      "program_id": "prog-029",
+      "step": 6,
+      "start_tokens": 1500,
+      "latency_s": 0.002048492431640625,
+      "ok": false,
+      "wallclock": 1787345923.4871273
+    },
+    {
+      "program_id": "prog-038",
+      "step": 5,
+      "start_tokens": 1666,
+      "latency_s": 0.0013566017150878906,
+      "ok": false,
+      "wallclock": 1787345923.5188875
+    },
+    {
+      "program_id": "prog-017",
+      "step": 5,
+      "start_tokens": 5833,
+      "latency_s": 0.0016894340515136719,
+      "ok": false,
+      "wallclock": 1787345923.5400412
+    },
+    {
+      "program_id": "prog-033",
+      "step": 7,
+      "start_tokens": 2500,
+      "latency_s": 0.0015590190887451172,
+      "ok": false,
+      "wallclock": 1787345923.6282496
+    },
+    {
+      "program_id": "prog-011",
+      "step": 5,
+      "start_tokens": 6166,
+      "latency_s": 0.0014126300811767578,
+      "ok": false,
+      "wallclock": 1787345923.6472292
+    },
+    {
+      "program_id": "prog-039",
+      "step": 5,
+      "start_tokens": 2666,
+      "latency_s": 0.0015192031860351562,
+      "ok": false,
+      "wallclock": 1787345923.7225106
+    },
+    {
+      "program_id": "prog-016",
+      "step": 5,
+      "start_tokens": 7333,
+      "latency_s": 0.0012276172637939453,
+      "ok": false,
+      "wallclock": 1787345923.7273352
+    },
+    {
+      "program_id": "prog-035",
+      "step": 8,
+      "start_tokens": 3833,
+      "latency_s": 0.0011684894561767578,
+      "ok": false,
+      "wallclock": 1787345923.7331476
+    },
+    {
+      "program_id": "prog-019",
+      "step": 5,
+      "start_tokens": 5166,
+      "latency_s": 0.002926349639892578,
+      "ok": false,
+      "wallclock": 1787345924.0859628
+    },
+    {
+      "program_id": "prog-022",
+      "step": 7,
+      "start_tokens": 7666,
+      "latency_s": 0.002714395523071289,
+      "ok": false,
+      "wallclock": 1787345924.086569
+    },
+    {
+      "program_id": "prog-028",
+      "step": 7,
+      "start_tokens": 1833,
+      "latency_s": 0.0014734268188476562,
+      "ok": false,
+      "wallclock": 1787345924.1616323
+    },
+    {
+      "program_id": "prog-037",
+      "step": 6,
+      "start_tokens": 4333,
+      "latency_s": 0.0014808177947998047,
+      "ok": false,
+      "wallclock": 1787345924.1936004
+    },
+    {
+      "program_id": "prog-021",
+      "step": 6,
+      "start_tokens": 6666,
+      "latency_s": 0.001500844955444336,
+      "ok": false,
+      "wallclock": 1787345924.3147018
+    },
+    {
+      "program_id": "prog-014",
+      "step": 9,
+      "start_tokens": 3500,
+      "latency_s": 0.001519918441772461,
+      "ok": false,
+      "wallclock": 1787345924.3327477
+    },
+    {
+      "program_id": "prog-023",
+      "step": 7,
+      "start_tokens": 6333,
+      "latency_s": 0.001434326171875,
+      "ok": false,
+      "wallclock": 1787345924.3537252
+    },
+    {
+      "program_id": "prog-036",
+      "step": 5,
+      "start_tokens": 4000,
+      "latency_s": 0.0017666816711425781,
+      "ok": false,
+      "wallclock": 1787345924.3679695
+    },
+    {
+      "program_id": "prog-024",
+      "step": 6,
+      "start_tokens": 4666,
+      "latency_s": 0.0013470649719238281,
+      "ok": false,
+      "wallclock": 1787345924.3868866
+    },
+    {
+      "program_id": "prog-038",
+      "step": 6,
+      "start_tokens": 1666,
+      "latency_s": 0.0015211105346679688,
+      "ok": false,
+      "wallclock": 1787345924.5201302
+    },
+    {
+      "program_id": "prog-013",
+      "step": 10,
+      "start_tokens": 4500,
+      "latency_s": 0.0020940303802490234,
+      "ok": false,
+      "wallclock": 1787345924.5419018
+    },
+    {
+      "program_id": "prog-010",
+      "step": 6,
+      "start_tokens": 5000,
+      "latency_s": 0.002164602279663086,
+      "ok": false,
+      "wallclock": 1787345924.685041
+    },
+    {
+      "program_id": "prog-016",
+      "step": 6,
+      "start_tokens": 7333,
+      "latency_s": 0.0027306079864501953,
+      "ok": false,
+      "wallclock": 1787345924.788584
+    },
+    {
+      "program_id": "prog-031",
+      "step": 4,
+      "start_tokens": 6000,
+      "latency_s": 0.002859830856323242,
+      "ok": false,
+      "wallclock": 1787345924.7893655
+    },
+    {
+      "program_id": "prog-026",
+      "step": 7,
+      "start_tokens": 8000,
+      "latency_s": 0.0015366077423095703,
+      "ok": false,
+      "wallclock": 1787345924.8304827
+    },
+    {
+      "program_id": "prog-028",
+      "step": 8,
+      "start_tokens": 1833,
+      "latency_s": 0.0011780261993408203,
+      "ok": false,
+      "wallclock": 1787345924.83741
+    },
+    {
+      "program_id": "prog-018",
+      "step": 9,
+      "start_tokens": 3666,
+      "latency_s": 0.0015149116516113281,
+      "ok": false,
+      "wallclock": 1787345924.9314184
+    },
+    {
+      "program_id": "prog-033",
+      "step": 8,
+      "start_tokens": 2500,
+      "latency_s": 0.001583099365234375,
+      "ok": false,
+      "wallclock": 1787345925.0056438
+    },
+    {
+      "program_id": "prog-020",
+      "step": 7,
+      "start_tokens": 4833,
+      "latency_s": 0.0014700889587402344,
+      "ok": false,
+      "wallclock": 1787345925.034869
+    },
+    {
+      "program_id": "prog-038",
+      "step": 7,
+      "start_tokens": 1666,
+      "latency_s": 0.0015401840209960938,
+      "ok": false,
+      "wallclock": 1787345925.0921807
+    },
+    {
+      "program_id": "prog-015",
+      "step": 6,
+      "start_tokens": 7166,
+      "latency_s": 0.001878499984741211,
+      "ok": false,
+      "wallclock": 1787345925.1164916
+    },
+    {
+      "program_id": "prog-029",
+      "step": 7,
+      "start_tokens": 1500,
+      "latency_s": 0.0014162063598632812,
+      "ok": false,
+      "wallclock": 1787345925.1664312
+    },
+    {
+      "program_id": "prog-022",
+      "step": 8,
+      "start_tokens": 7666,
+      "latency_s": 0.001745462417602539,
+      "ok": false,
+      "wallclock": 1787345925.285714
+    },
+    {
+      "program_id": "prog-034",
+      "step": 6,
+      "start_tokens": 2833,
+      "latency_s": 0.0013966560363769531,
+      "ok": false,
+      "wallclock": 1787345925.3247576
+    },
+    {
+      "program_id": "prog-012",
+      "step": 6,
+      "start_tokens": 5333,
+      "latency_s": 0.0012218952178955078,
+      "ok": false,
+      "wallclock": 1787345925.341413
+    },
+    {
+      "program_id": "prog-025",
+      "step": 7,
+      "start_tokens": 4166,
+      "latency_s": 0.0011019706726074219,
+      "ok": false,
+      "wallclock": 1787345925.345938
+    },
+    {
+      "program_id": "prog-027",
+      "step": 7,
+      "start_tokens": 7000,
+      "latency_s": 0.0011208057403564453,
+      "ok": false,
+      "wallclock": 1787345925.387538
+    },
+    {
+      "program_id": "prog-026",
+      "step": 8,
+      "start_tokens": 8000,
+      "latency_s": 0.001893758773803711,
+      "ok": false,
+      "wallclock": 1787345925.4288857
+    },
+    {
+      "program_id": "prog-030",
+      "step": 7,
+      "start_tokens": 7833,
+      "latency_s": 0.0015790462493896484,
+      "ok": false,
+      "wallclock": 1787345925.5501611
+    },
+    {
+      "program_id": "prog-019",
+      "step": 6,
+      "start_tokens": 5166,
+      "latency_s": 0.0013773441314697266,
+      "ok": false,
+      "wallclock": 1787345925.5841553
+    },
+    {
+      "program_id": "prog-009",
+      "step": 6,
+      "start_tokens": 6833,
+      "latency_s": 0.0015435218811035156,
+      "ok": false,
+      "wallclock": 1787345925.6812956
+    },
+    {
+      "program_id": "prog-021",
+      "step": 7,
+      "start_tokens": 6666,
+      "latency_s": 0.0012443065643310547,
+      "ok": false,
+      "wallclock": 1787345925.6950476
+    },
+    {
+      "program_id": "prog-032",
+      "step": 8,
+      "start_tokens": 2333,
+      "latency_s": 0.0010890960693359375,
+      "ok": false,
+      "wallclock": 1787345925.7026396
+    },
+    {
+      "program_id": "prog-024",
+      "step": 7,
+      "start_tokens": 4666,
+      "latency_s": 0.0014369487762451172,
+      "ok": false,
+      "wallclock": 1787345925.7184656
+    },
+    {
+      "program_id": "prog-010",
+      "step": 7,
+      "start_tokens": 5000,
+      "latency_s": 0.001577138900756836,
+      "ok": false,
+      "wallclock": 1787345925.840564
+    },
+    {
+      "program_id": "prog-035",
+      "step": 9,
+      "start_tokens": 3833,
+      "latency_s": 0.0013699531555175781,
+      "ok": false,
+      "wallclock": 1787345925.8854523
+    },
+    {
+      "program_id": "prog-015",
+      "step": 7,
+      "start_tokens": 7166,
+      "latency_s": 0.0014996528625488281,
+      "ok": false,
+      "wallclock": 1787345925.9084496
+    },
+    {
+      "program_id": "prog-034",
+      "step": 7,
+      "start_tokens": 2833,
+      "latency_s": 0.0013670921325683594,
+      "ok": false,
+      "wallclock": 1787345925.9383025
+    },
+    {
+      "program_id": "prog-014",
+      "step": 10,
+      "start_tokens": 3500,
+      "latency_s": 0.0015287399291992188,
+      "ok": false,
+      "wallclock": 1787345926.109454
+    },
+    {
+      "program_id": "prog-011",
+      "step": 6,
+      "start_tokens": 6166,
+      "latency_s": 0.0020427703857421875,
+      "ok": false,
+      "wallclock": 1787345926.2020597
+    },
+    {
+      "program_id": "prog-022",
+      "step": 9,
+      "start_tokens": 7666,
+      "latency_s": 0.0015766620635986328,
+      "ok": false,
+      "wallclock": 1787345926.2644796
+    },
+    {
+      "program_id": "prog-018",
+      "step": 10,
+      "start_tokens": 3666,
+      "latency_s": 0.0013699531555175781,
+      "ok": false,
+      "wallclock": 1787345926.2976778
+    },
+    {
+      "program_id": "prog-017",
+      "step": 6,
+      "start_tokens": 5833,
+      "latency_s": 0.0015211105346679688,
+      "ok": false,
+      "wallclock": 1787345926.3389714
+    },
+    {
+      "program_id": "prog-039",
+      "step": 6,
+      "start_tokens": 2666,
+      "latency_s": 0.0014598369598388672,
+      "ok": false,
+      "wallclock": 1787345926.4030871
+    },
+    {
+      "program_id": "prog-023",
+      "step": 8,
+      "start_tokens": 6333,
+      "latency_s": 0.0015778541564941406,
+      "ok": false,
+      "wallclock": 1787345926.5554721
+    },
+    {
+      "program_id": "prog-020",
+      "step": 8,
+      "start_tokens": 4833,
+      "latency_s": 0.0028581619262695312,
+      "ok": false,
+      "wallclock": 1787345926.6311326
+    },
+    {
+      "program_id": "prog-037",
+      "step": 7,
+      "start_tokens": 4333,
+      "latency_s": 0.0029993057250976562,
+      "ok": false,
+      "wallclock": 1787345926.6318724
+    },
+    {
+      "program_id": "prog-009",
+      "step": 7,
+      "start_tokens": 6833,
+      "latency_s": 0.0013175010681152344,
+      "ok": false,
+      "wallclock": 1787345926.6757565
+    },
+    {
+      "program_id": "prog-015",
+      "step": 8,
+      "start_tokens": 7166,
+      "latency_s": 0.0013437271118164062,
+      "ok": false,
+      "wallclock": 1787345926.7227297
+    },
+    {
+      "program_id": "prog-016",
+      "step": 7,
+      "start_tokens": 7333,
+      "latency_s": 0.0014171600341796875,
+      "ok": false,
+      "wallclock": 1787345926.743853
+    },
+    {
+      "program_id": "prog-028",
+      "step": 9,
+      "start_tokens": 1833,
+      "latency_s": 0.0013790130615234375,
+      "ok": false,
+      "wallclock": 1787345926.8310063
+    },
+    {
+      "program_id": "prog-012",
+      "step": 7,
+      "start_tokens": 5333,
+      "latency_s": 0.0015683174133300781,
+      "ok": false,
+      "wallclock": 1787345926.934355
+    },
+    {
+      "program_id": "prog-036",
+      "step": 6,
+      "start_tokens": 4000,
+      "latency_s": 0.014309883117675781,
+      "ok": false,
+      "wallclock": 1787345926.992388
+    },
+    {
+      "program_id": "prog-025",
+      "step": 8,
+      "start_tokens": 4166,
+      "latency_s": 0.0015079975128173828,
+      "ok": false,
+      "wallclock": 1787345927.1486597
+    },
+    {
+      "program_id": "prog-013",
+      "step": 11,
+      "start_tokens": 4500,
+      "latency_s": 0.0039331912994384766,
+      "ok": false,
+      "wallclock": 1787345927.2394521
+    },
+    {
+      "program_id": "prog-021",
+      "step": 8,
+      "start_tokens": 6666,
+      "latency_s": 0.00408935546875,
+      "ok": false,
+      "wallclock": 1787345927.2784135
+    },
+    {
+      "program_id": "prog-039",
+      "step": 7,
+      "start_tokens": 2666,
+      "latency_s": 0.004191875457763672,
+      "ok": false,
+      "wallclock": 1787345927.3884363
+    },
+    {
+      "program_id": "prog-033",
+      "step": 9,
+      "start_tokens": 2500,
+      "latency_s": 0.0018324851989746094,
+      "ok": false,
+      "wallclock": 1787345927.4750323
+    },
+    {
+      "program_id": "prog-022",
+      "step": 10,
+      "start_tokens": 7666,
+      "latency_s": 0.001573801040649414,
+      "ok": false,
+      "wallclock": 1787345927.582487
+    },
+    {
+      "program_id": "prog-009",
+      "step": 8,
+      "start_tokens": 6833,
+      "latency_s": 0.0015053749084472656,
+      "ok": false,
+      "wallclock": 1787345927.6138668
+    },
+    {
+      "program_id": "prog-026",
+      "step": 9,
+      "start_tokens": 8000,
+      "latency_s": 0.0015342235565185547,
+      "ok": false,
+      "wallclock": 1787345927.6481707
+    },
+    {
+      "program_id": "prog-031",
+      "step": 5,
+      "start_tokens": 6000,
+      "latency_s": 0.0015532970428466797,
+      "ok": false,
+      "wallclock": 1787345927.7504423
+    },
+    {
+      "program_id": "prog-014",
+      "step": 11,
+      "start_tokens": 3500,
+      "latency_s": 0.001569509506225586,
+      "ok": false,
+      "wallclock": 1787345927.8797727
+    },
+    {
+      "program_id": "prog-010",
+      "step": 8,
+      "start_tokens": 5000,
+      "latency_s": 0.0016312599182128906,
+      "ok": false,
+      "wallclock": 1787345927.9010146
+    },
+    {
+      "program_id": "prog-027",
+      "step": 8,
+      "start_tokens": 7000,
+      "latency_s": 0.0011475086212158203,
+      "ok": false,
+      "wallclock": 1787345927.9056587
+    },
+    {
+      "program_id": "prog-029",
+      "step": 8,
+      "start_tokens": 1500,
+      "latency_s": 0.001068115234375,
+      "ok": false,
+      "wallclock": 1787345927.9171987
+    },
+    {
+      "program_id": "prog-019",
+      "step": 7,
+      "start_tokens": 5166,
+      "latency_s": 0.0012896060943603516,
+      "ok": false,
+      "wallclock": 1787345927.9288847
+    },
+    {
+      "program_id": "prog-036",
+      "step": 7,
+      "start_tokens": 4000,
+      "latency_s": 0.0014879703521728516,
+      "ok": false,
+      "wallclock": 1787345928.0200007
+    },
+    {
+      "program_id": "prog-035",
+      "step": 10,
+      "start_tokens": 3833,
+      "latency_s": 0.001455068588256836,
+      "ok": false,
+      "wallclock": 1787345928.046078
+    },
+    {
+      "program_id": "prog-038",
+      "step": 8,
+      "start_tokens": 1666,
+      "latency_s": 0.0015387535095214844,
+      "ok": false,
+      "wallclock": 1787345928.0552208
+    },
+    {
+      "program_id": "prog-020",
+      "step": 9,
+      "start_tokens": 4833,
+      "latency_s": 0.0012917518615722656,
+      "ok": false,
+      "wallclock": 1787345928.0820034
+    },
+    {
+      "program_id": "prog-012",
+      "step": 8,
+      "start_tokens": 5333,
+      "latency_s": 0.001508474349975586,
+      "ok": false,
+      "wallclock": 1787345928.197184
+    },
+    {
+      "program_id": "prog-017",
+      "step": 7,
+      "start_tokens": 5833,
+      "latency_s": 0.001537322998046875,
+      "ok": false,
+      "wallclock": 1787345928.2273188
+    },
+    {
+      "program_id": "prog-016",
+      "step": 8,
+      "start_tokens": 7333,
+      "latency_s": 0.0015807151794433594,
+      "ok": false,
+      "wallclock": 1787345928.2615383
+    },
+    {
+      "program_id": "prog-011",
+      "step": 7,
+      "start_tokens": 6166,
+      "latency_s": 0.0015654563903808594,
+      "ok": false,
+      "wallclock": 1787345928.3718395
+    },
+    {
+      "program_id": "prog-030",
+      "step": 8,
+      "start_tokens": 7833,
+      "latency_s": 0.0018992424011230469,
+      "ok": false,
+      "wallclock": 1787345928.4033625
+    },
+    {
+      "program_id": "prog-024",
+      "step": 8,
+      "start_tokens": 4666,
+      "latency_s": 0.0016214847564697266,
+      "ok": false,
+      "wallclock": 1787345928.522882
+    },
+    {
+      "program_id": "prog-018",
+      "step": 11,
+      "start_tokens": 3666,
+      "latency_s": 0.001417398452758789,
+      "ok": false,
+      "wallclock": 1787345928.5439384
+    },
+    {
+      "program_id": "prog-032",
+      "step": 9,
+      "start_tokens": 2333,
+      "latency_s": 0.0014371871948242188,
+      "ok": false,
+      "wallclock": 1787345928.5769632
+    },
+    {
+      "program_id": "prog-021",
+      "step": 9,
+      "start_tokens": 6666,
+      "latency_s": 0.0012607574462890625,
+      "ok": false,
+      "wallclock": 1787345928.586758
+    },
+    {
+      "program_id": "prog-015",
+      "step": 9,
+      "start_tokens": 7166,
+      "latency_s": 0.0016880035400390625,
+      "ok": false,
+      "wallclock": 1787345928.6489675
+    },
+    {
+      "program_id": "prog-019",
+      "step": 8,
+      "start_tokens": 5166,
+      "latency_s": 0.0017669200897216797,
+      "ok": false,
+      "wallclock": 1787345928.6653483
+    },
+    {
+      "program_id": "prog-034",
+      "step": 8,
+      "start_tokens": 2833,
+      "latency_s": 0.0013556480407714844,
+      "ok": false,
+      "wallclock": 1787345928.6912072
+    },
+    {
+      "program_id": "prog-023",
+      "step": 9,
+      "start_tokens": 6333,
+      "latency_s": 0.0013697147369384766,
+      "ok": false,
+      "wallclock": 1787345928.7201142
+    },
+    {
+      "program_id": "prog-017",
+      "step": 8,
+      "start_tokens": 5833,
+      "latency_s": 0.001661539077758789,
+      "ok": false,
+      "wallclock": 1787345928.8454535
+    },
+    {
+      "program_id": "prog-039",
+      "step": 8,
+      "start_tokens": 2666,
+      "latency_s": 0.0015246868133544922,
+      "ok": false,
+      "wallclock": 1787345928.9956684
+    },
+    {
+      "program_id": "prog-037",
+      "step": 8,
+      "start_tokens": 4333,
+      "latency_s": 0.0013921260833740234,
+      "ok": false,
+      "wallclock": 1787345929.0045485
+    },
+    {
+      "program_id": "prog-012",
+      "step": 9,
+      "start_tokens": 5333,
+      "latency_s": 0.0014982223510742188,
+      "ok": false,
+      "wallclock": 1787345929.0686467
+    },
+    {
+      "program_id": "prog-010",
+      "step": 9,
+      "start_tokens": 5000,
+      "latency_s": 0.002012014389038086,
+      "ok": false,
+      "wallclock": 1787345929.1132107
+    },
+    {
+      "program_id": "prog-035",
+      "step": 11,
+      "start_tokens": 3833,
+      "latency_s": 0.0014050006866455078,
+      "ok": false,
+      "wallclock": 1787345929.136198
+    },
+    {
+      "program_id": "prog-038",
+      "step": 9,
+      "start_tokens": 1666,
+      "latency_s": 0.0015790462493896484,
+      "ok": false,
+      "wallclock": 1787345929.333893
+    },
+    {
+      "program_id": "prog-022",
+      "step": 11,
+      "start_tokens": 7666,
+      "latency_s": 0.001438140869140625,
+      "ok": false,
+      "wallclock": 1787345929.3628352
+    },
+    {
+      "program_id": "prog-028",
+      "step": 10,
+      "start_tokens": 1833,
+      "latency_s": 0.0014405250549316406,
+      "ok": false,
+      "wallclock": 1787345929.4179978
+    },
+    {
+      "program_id": "prog-034",
+      "step": 9,
+      "start_tokens": 2833,
+      "latency_s": 0.0015435218811035156,
+      "ok": false,
+      "wallclock": 1787345929.5642176
+    },
+    {
+      "program_id": "prog-025",
+      "step": 9,
+      "start_tokens": 4166,
+      "latency_s": 0.00191497802734375,
+      "ok": false,
+      "wallclock": 1787345929.6166878
+    },
+    {
+      "program_id": "prog-033",
+      "step": 10,
+      "start_tokens": 2500,
+      "latency_s": 0.001556396484375,
+      "ok": false,
+      "wallclock": 1787345929.6667855
+    },
+    {
+      "program_id": "prog-029",
+      "step": 9,
+      "start_tokens": 1500,
+      "latency_s": 0.0016281604766845703,
+      "ok": false,
+      "wallclock": 1787345929.968338
+    },
+    {
+      "program_id": "prog-027",
+      "step": 9,
+      "start_tokens": 7000,
+      "latency_s": 0.001495361328125,
+      "ok": false,
+      "wallclock": 1787345930.068965
+    },
+    {
+      "program_id": "prog-031",
+      "step": 6,
+      "start_tokens": 6000,
+      "latency_s": 0.0013425350189208984,
+      "ok": false,
+      "wallclock": 1787345930.0928977
+    },
+    {
+      "program_id": "prog-009",
+      "step": 9,
+      "start_tokens": 6833,
+      "latency_s": 0.0015604496002197266,
+      "ok": false,
+      "wallclock": 1787345930.1010063
+    },
+    {
+      "program_id": "prog-015",
+      "step": 10,
+      "start_tokens": 7166,
+      "latency_s": 0.0011706352233886719,
+      "ok": false,
+      "wallclock": 1787345930.1107244
+    },
+    {
+      "program_id": "prog-010",
+      "step": 10,
+      "start_tokens": 5000,
+      "latency_s": 0.0024237632751464844,
+      "ok": false,
+      "wallclock": 1787345930.1637173
+    },
+    {
+      "program_id": "prog-024",
+      "step": 9,
+      "start_tokens": 4666,
+      "latency_s": 0.002183198928833008,
+      "ok": false,
+      "wallclock": 1787345930.1642296
+    },
+    {
+      "program_id": "prog-019",
+      "step": 9,
+      "start_tokens": 5166,
+      "latency_s": 0.0011522769927978516,
+      "ok": false,
+      "wallclock": 1787345930.166793
+    },
+    {
+      "program_id": "prog-011",
+      "step": 8,
+      "start_tokens": 6166,
+      "latency_s": 0.0018219947814941406,
+      "ok": false,
+      "wallclock": 1787345930.4030504
+    },
+    {
+      "program_id": "prog-025",
+      "step": 10,
+      "start_tokens": 4166,
+      "latency_s": 0.0017251968383789062,
+      "ok": false,
+      "wallclock": 1787345930.422517
+    },
+    {
+      "program_id": "prog-033",
+      "step": 11,
+      "start_tokens": 2500,
+      "latency_s": 0.0018086433410644531,
+      "ok": false,
+      "wallclock": 1787345930.5028512
+    },
+    {
+      "program_id": "prog-032",
+      "step": 10,
+      "start_tokens": 2333,
+      "latency_s": 0.00139617919921875,
+      "ok": false,
+      "wallclock": 1787345930.5188303
+    },
+    {
+      "program_id": "prog-026",
+      "step": 10,
+      "start_tokens": 8000,
+      "latency_s": 0.0014126300811767578,
+      "ok": false,
+      "wallclock": 1787345930.5498064
+    },
+    {
+      "program_id": "prog-020",
+      "step": 10,
+      "start_tokens": 4833,
+      "latency_s": 0.0014595985412597656,
+      "ok": false,
+      "wallclock": 1787345930.6009166
+    },
+    {
+      "program_id": "prog-030",
+      "step": 9,
+      "start_tokens": 7833,
+      "latency_s": 0.0016629695892333984,
+      "ok": false,
+      "wallclock": 1787345930.8274076
+    },
+    {
+      "program_id": "prog-021",
+      "step": 10,
+      "start_tokens": 6666,
+      "latency_s": 0.0016107559204101562,
+      "ok": false,
+      "wallclock": 1787345930.8856394
+    },
+    {
+      "program_id": "prog-036",
+      "step": 8,
+      "start_tokens": 4000,
+      "latency_s": 0.001607656478881836,
+      "ok": false,
+      "wallclock": 1787345930.9027965
+    },
+    {
+      "program_id": "prog-023",
+      "step": 10,
+      "start_tokens": 6333,
+      "latency_s": 0.0013840198516845703,
+      "ok": false,
+      "wallclock": 1787345930.9417524
+    },
+    {
+      "program_id": "prog-016",
+      "step": 9,
+      "start_tokens": 7333,
+      "latency_s": 0.0015981197357177734,
+      "ok": false,
+      "wallclock": 1787345931.2245994
+    },
+    {
+      "program_id": "prog-028",
+      "step": 11,
+      "start_tokens": 1833,
+      "latency_s": 0.0014405250549316406,
+      "ok": false,
+      "wallclock": 1787345931.31398
+    },
+    {
+      "program_id": "prog-009",
+      "step": 10,
+      "start_tokens": 6833,
+      "latency_s": 0.001898050308227539,
+      "ok": false,
+      "wallclock": 1787345931.397518
+    },
+    {
+      "program_id": "prog-032",
+      "step": 11,
+      "start_tokens": 2333,
+      "latency_s": 0.0014462471008300781,
+      "ok": false,
+      "wallclock": 1787345931.4195094
+    },
+    {
+      "program_id": "prog-012",
+      "step": 10,
+      "start_tokens": 5333,
+      "latency_s": 0.002044200897216797,
+      "ok": false,
+      "wallclock": 1787345931.5182097
+    },
+    {
+      "program_id": "prog-038",
+      "step": 10,
+      "start_tokens": 1666,
+      "latency_s": 0.0015032291412353516,
+      "ok": false,
+      "wallclock": 1787345931.5765588
+    },
+    {
+      "program_id": "prog-017",
+      "step": 9,
+      "start_tokens": 5833,
+      "latency_s": 0.0013186931610107422,
+      "ok": false,
+      "wallclock": 1787345931.5794613
+    },
+    {
+      "program_id": "prog-029",
+      "step": 10,
+      "start_tokens": 1500,
+      "latency_s": 0.0015213489532470703,
+      "ok": false,
+      "wallclock": 1787345931.6325433
+    },
+    {
+      "program_id": "prog-039",
+      "step": 9,
+      "start_tokens": 2666,
+      "latency_s": 0.002136707305908203,
+      "ok": false,
+      "wallclock": 1787345931.649915
+    },
+    {
+      "program_id": "prog-037",
+      "step": 9,
+      "start_tokens": 4333,
+      "latency_s": 0.0013663768768310547,
+      "ok": false,
+      "wallclock": 1787345931.7208748
+    },
+    {
+      "program_id": "prog-010",
+      "step": 11,
+      "start_tokens": 5000,
+      "latency_s": 0.001321554183959961,
+      "ok": false,
+      "wallclock": 1787345931.7728102
+    },
+    {
+      "program_id": "prog-027",
+      "step": 10,
+      "start_tokens": 7000,
+      "latency_s": 0.0015392303466796875,
+      "ok": false,
+      "wallclock": 1787345931.8999605
+    },
+    {
+      "program_id": "prog-011",
+      "step": 9,
+      "start_tokens": 6166,
+      "latency_s": 0.001556396484375,
+      "ok": false,
+      "wallclock": 1787345931.9741693
+    },
+    {
+      "program_id": "prog-031",
+      "step": 7,
+      "start_tokens": 6000,
+      "latency_s": 0.0012671947479248047,
+      "ok": false,
+      "wallclock": 1787345931.9929364
+    },
+    {
+      "program_id": "prog-036",
+      "step": 9,
+      "start_tokens": 4000,
+      "latency_s": 0.0019690990447998047,
+      "ok": false,
+      "wallclock": 1787345932.1005285
+    },
+    {
+      "program_id": "prog-020",
+      "step": 11,
+      "start_tokens": 4833,
+      "latency_s": 0.001531362533569336,
+      "ok": false,
+      "wallclock": 1787345932.2289972
+    },
+    {
+      "program_id": "prog-029",
+      "step": 11,
+      "start_tokens": 1500,
+      "latency_s": 0.0016980171203613281,
+      "ok": false,
+      "wallclock": 1787345932.3363435
+    },
+    {
+      "program_id": "prog-034",
+      "step": 10,
+      "start_tokens": 2833,
+      "latency_s": 0.0013413429260253906,
+      "ok": false,
+      "wallclock": 1787345932.360228
+    },
+    {
+      "program_id": "prog-015",
+      "step": 11,
+      "start_tokens": 7166,
+      "latency_s": 0.0018918514251708984,
+      "ok": false,
+      "wallclock": 1787345932.502006
+    },
+    {
+      "program_id": "prog-039",
+      "step": 10,
+      "start_tokens": 2666,
+      "latency_s": 0.0014486312866210938,
+      "ok": false,
+      "wallclock": 1787345932.5290716
+    },
+    {
+      "program_id": "prog-012",
+      "step": 11,
+      "start_tokens": 5333,
+      "latency_s": 0.001556396484375,
+      "ok": false,
+      "wallclock": 1787345932.60723
+    },
+    {
+      "program_id": "prog-024",
+      "step": 10,
+      "start_tokens": 4666,
+      "latency_s": 0.001468658447265625,
+      "ok": false,
+      "wallclock": 1787345932.7037077
+    },
+    {
+      "program_id": "prog-019",
+      "step": 10,
+      "start_tokens": 5166,
+      "latency_s": 0.0013244152069091797,
+      "ok": false,
+      "wallclock": 1787345932.8992426
+    },
+    {
+      "program_id": "prog-038",
+      "step": 11,
+      "start_tokens": 1666,
+      "latency_s": 0.0015919208526611328,
+      "ok": false,
+      "wallclock": 1787345932.9183407
+    },
+    {
+      "program_id": "prog-027",
+      "step": 11,
+      "start_tokens": 7000,
+      "latency_s": 0.0024967193603515625,
+      "ok": false,
+      "wallclock": 1787345932.9384875
+    },
+    {
+      "program_id": "prog-016",
+      "step": 10,
+      "start_tokens": 7333,
+      "latency_s": 0.0025413036346435547,
+      "ok": false,
+      "wallclock": 1787345932.9393356
+    },
+    {
+      "program_id": "prog-009",
+      "step": 11,
+      "start_tokens": 6833,
+      "latency_s": 0.00145721435546875,
+      "ok": false,
+      "wallclock": 1787345932.999381
+    },
+    {
+      "program_id": "prog-037",
+      "step": 10,
+      "start_tokens": 4333,
+      "latency_s": 0.0015110969543457031,
+      "ok": false,
+      "wallclock": 1787345933.1811624
+    },
+    {
+      "program_id": "prog-025",
+      "step": 11,
+      "start_tokens": 4166,
+      "latency_s": 0.001739501953125,
+      "ok": false,
+      "wallclock": 1787345933.193591
+    },
+    {
+      "program_id": "prog-026",
+      "step": 11,
+      "start_tokens": 8000,
+      "latency_s": 0.0012979507446289062,
+      "ok": false,
+      "wallclock": 1787345933.205539
+    },
+    {
+      "program_id": "prog-030",
+      "step": 10,
+      "start_tokens": 7833,
+      "latency_s": 0.0012183189392089844,
+      "ok": false,
+      "wallclock": 1787345933.2094305
+    },
+    {
+      "program_id": "prog-031",
+      "step": 8,
+      "start_tokens": 6000,
+      "latency_s": 0.0015711784362792969,
+      "ok": false,
+      "wallclock": 1787345933.3227348
+    },
+    {
+      "program_id": "prog-023",
+      "step": 11,
+      "start_tokens": 6333,
+      "latency_s": 0.0014493465423583984,
+      "ok": false,
+      "wallclock": 1787345933.3879883
+    },
+    {
+      "program_id": "prog-021",
+      "step": 11,
+      "start_tokens": 6666,
+      "latency_s": 0.0015668869018554688,
+      "ok": false,
+      "wallclock": 1787345933.4883416
+    },
+    {
+      "program_id": "prog-011",
+      "step": 10,
+      "start_tokens": 6166,
+      "latency_s": 0.0018639564514160156,
+      "ok": false,
+      "wallclock": 1787345933.5139115
+    },
+    {
+      "program_id": "prog-036",
+      "step": 10,
+      "start_tokens": 4000,
+      "latency_s": 0.0015769004821777344,
+      "ok": false,
+      "wallclock": 1787345933.7679083
+    },
+    {
+      "program_id": "prog-034",
+      "step": 11,
+      "start_tokens": 2833,
+      "latency_s": 0.0015804767608642578,
+      "ok": false,
+      "wallclock": 1787345933.836319
+    },
+    {
+      "program_id": "prog-016",
+      "step": 11,
+      "start_tokens": 7333,
+      "latency_s": 0.0015282630920410156,
+      "ok": false,
+      "wallclock": 1787345934.18989
+    },
+    {
+      "program_id": "prog-017",
+      "step": 10,
+      "start_tokens": 5833,
+      "latency_s": 0.002173185348510742,
+      "ok": false,
+      "wallclock": 1787345934.3158596
+    },
+    {
+      "program_id": "prog-011",
+      "step": 11,
+      "start_tokens": 6166,
+      "latency_s": 0.0018665790557861328,
+      "ok": false,
+      "wallclock": 1787345934.6990519
+    },
+    {
+      "program_id": "prog-019",
+      "step": 11,
+      "start_tokens": 5166,
+      "latency_s": 0.0015478134155273438,
+      "ok": false,
+      "wallclock": 1787345934.8414462
+    },
+    {
+      "program_id": "prog-039",
+      "step": 11,
+      "start_tokens": 2666,
+      "latency_s": 0.0015482902526855469,
+      "ok": false,
+      "wallclock": 1787345935.396364
+    },
+    {
+      "program_id": "prog-024",
+      "step": 11,
+      "start_tokens": 4666,
+      "latency_s": 0.0016841888427734375,
+      "ok": false,
+      "wallclock": 1787345935.4086149
+    },
+    {
+      "program_id": "prog-036",
+      "step": 11,
+      "start_tokens": 4000,
+      "latency_s": 0.0015306472778320312,
+      "ok": false,
+      "wallclock": 1787345935.4849207
+    },
+    {
+      "program_id": "prog-030",
+      "step": 11,
+      "start_tokens": 7833,
+      "latency_s": 0.002094268798828125,
+      "ok": false,
+      "wallclock": 1787345935.5497015
+    },
+    {
+      "program_id": "prog-031",
+      "step": 9,
+      "start_tokens": 6000,
+      "latency_s": 0.0014753341674804688,
+      "ok": false,
+      "wallclock": 1787345935.8264832
+    },
+    {
+      "program_id": "prog-037",
+      "step": 11,
+      "start_tokens": 4333,
+      "latency_s": 0.0015125274658203125,
+      "ok": false,
+      "wallclock": 1787345935.912578
+    },
+    {
+      "program_id": "prog-017",
+      "step": 11,
+      "start_tokens": 5833,
+      "latency_s": 0.2578096389770508,
+      "ok": true,
+      "wallclock": 1787345937.0702674
+    },
+    {
+      "program_id": "prog-031",
+      "step": 10,
+      "start_tokens": 6000,
+      "latency_s": 0.2536916732788086,
+      "ok": true,
+      "wallclock": 1787345938.0612848
+    },
+    {
+      "program_id": "prog-031",
+      "step": 11,
+      "start_tokens": 6000,
+      "latency_s": 0.23251652717590332,
+      "ok": true,
+      "wallclock": 1787345939.8667967
+    }
+  ]
+}
