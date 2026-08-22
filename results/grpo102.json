@@ -1,0 +1,5536 @@
+{
+  "config": {
+    "n_groups": 8,
+    "group_size": 8,
+    "n_steps": 8,
+    "min_start_tokens": 1500,
+    "max_start_tokens": 8000,
+    "within_group_jitter": 0.05,
+    "growth_tokens": 400,
+    "tool_time_min": 4.0,
+    "tool_time_max": 12.0,
+    "max_tokens": 64,
+    "stagger_s": 0.2,
+    "seed": 102,
+    "out": "results/grpo102.json"
+  },
+  "group_base_tokens": [
+    4285,
+    1500,
+    7071,
+    2428,
+    8000,
+    5214,
+    6142,
+    3357
+  ],
+  "elapsed_s": 513.3453199863434,
+  "trajectories": [
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "finish_wallclock": 1787424803.4711237,
+      "duration_s": 70.19338130950928
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "finish_wallclock": 1787424801.1750867,
+      "duration_s": 67.69036102294922
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "finish_wallclock": 1787424796.8835106,
+      "duration_s": 63.19884157180786
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "finish_wallclock": 1787424822.2541976,
+      "duration_s": 88.3698799610138
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "finish_wallclock": 1787424792.3400793,
+      "duration_s": 58.256186723709106
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "finish_wallclock": 1787424807.196248,
+      "duration_s": 72.91165542602539
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "finish_wallclock": 1787424798.779042,
+      "duration_s": 64.29423213005066
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "finish_wallclock": 1787424803.6838338,
+      "duration_s": 68.99840426445007
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "finish_wallclock": 1787424818.9582932,
+      "duration_s": 84.0741639137268
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "finish_wallclock": 1787424845.8416884,
+      "duration_s": 110.75624775886536
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "finish_wallclock": 1787424859.281422,
+      "duration_s": 123.99675393104553
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "finish_wallclock": 1787424844.3753939,
+      "duration_s": 108.89166831970215
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "finish_wallclock": 1787424834.403465,
+      "duration_s": 98.71888828277588
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "finish_wallclock": 1787424839.2546344,
+      "duration_s": 103.36994552612305
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "finish_wallclock": 1787424842.8897429,
+      "duration_s": 106.80493474006653
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "finish_wallclock": 1787424837.8769457,
+      "duration_s": 101.59195852279663
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "finish_wallclock": 1787424807.3269565,
+      "duration_s": 70.84288907051086
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "finish_wallclock": 1787425096.529236,
+      "duration_s": 359.84503841400146
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "finish_wallclock": 1787425113.6779435,
+      "duration_s": 376.79379630088806
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "finish_wallclock": 1787425115.4165924,
+      "duration_s": 378.3322892189026
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "finish_wallclock": 1787425143.027347,
+      "duration_s": 405.74241375923157
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "finish_wallclock": 1787425154.6775157,
+      "duration_s": 417.1934494972229
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "finish_wallclock": 1787425171.8138933,
+      "duration_s": 434.12899684906006
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "finish_wallclock": 1787425107.4083955,
+      "duration_s": 369.5236530303955
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "finish_wallclock": 1787424897.2796078,
+      "duration_s": 159.19522094726562
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "finish_wallclock": 1787424866.4549742,
+      "duration_s": 128.17018580436707
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "finish_wallclock": 1787424893.2195354,
+      "duration_s": 154.73547267913818
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "finish_wallclock": 1787424875.571187,
+      "duration_s": 136.88648009300232
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "finish_wallclock": 1787424883.091488,
+      "duration_s": 144.2073564529419
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "finish_wallclock": 1787424881.1601396,
+      "duration_s": 142.07565569877625
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "finish_wallclock": 1787424871.5745938,
+      "duration_s": 132.29083395004272
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "finish_wallclock": 1787424880.7043045,
+      "duration_s": 141.21969985961914
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "finish_wallclock": 1787425165.0361536,
+      "duration_s": 425.3508286476135
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "finish_wallclock": 1787425175.0819814,
+      "duration_s": 435.1978681087494
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "finish_wallclock": 1787425236.6706176,
+      "duration_s": 496.58554100990295
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "finish_wallclock": 1787425238.4048917,
+      "duration_s": 498.120765209198
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "finish_wallclock": 1787425185.4110906,
+      "duration_s": 444.9265892505646
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "finish_wallclock": 1787425226.433414,
+      "duration_s": 485.74846839904785
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "finish_wallclock": 1787425193.1951776,
+      "duration_s": 452.3105101585388
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "finish_wallclock": 1787425246.5581594,
+      "duration_s": 505.47364711761475
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "finish_wallclock": 1787425026.9263215,
+      "duration_s": 285.642107963562
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "finish_wallclock": 1787425002.3651452,
+      "duration_s": 260.88026690483093
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "finish_wallclock": 1787424958.3206902,
+      "duration_s": 216.63615441322327
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "finish_wallclock": 1787424944.8683047,
+      "duration_s": 202.98414421081543
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "finish_wallclock": 1787425012.9135392,
+      "duration_s": 270.829181432724
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "finish_wallclock": 1787424952.2762809,
+      "duration_s": 209.99226641654968
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "finish_wallclock": 1787424955.6879656,
+      "duration_s": 213.20353174209595
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "finish_wallclock": 1787425014.733266,
+      "duration_s": 272.0491724014282
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "finish_wallclock": 1787425081.937356,
+      "duration_s": 339.05188488960266
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "finish_wallclock": 1787425016.9595778,
+      "duration_s": 273.8740599155426
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "finish_wallclock": 1787425092.7056038,
+      "duration_s": 349.42088437080383
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "finish_wallclock": 1787425033.4785361,
+      "duration_s": 289.99406266212463
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "finish_wallclock": 1787425088.4320714,
+      "duration_s": 344.7475690841675
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "finish_wallclock": 1787425034.7053924,
+      "duration_s": 290.8204641342163
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "finish_wallclock": 1787425028.1415212,
+      "duration_s": 284.05604434013367
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "finish_wallclock": 1787425093.6884203,
+      "duration_s": 349.4036343097687
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "finish_wallclock": 1787424926.5177493,
+      "duration_s": 182.03347253799438
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "finish_wallclock": 1787424931.837024,
+      "duration_s": 187.15211272239685
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "finish_wallclock": 1787424978.2816322,
+      "duration_s": 233.3975863456726
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "finish_wallclock": 1787424945.8170974,
+      "duration_s": 200.73209810256958
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "finish_wallclock": 1787424931.5751183,
+      "duration_s": 186.2904257774353
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "finish_wallclock": 1787424881.6244092,
+      "duration_s": 136.1402223110199
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "finish_wallclock": 1787424912.703539,
+      "duration_s": 167.0187864303589
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "finish_wallclock": 1787424963.6060493,
+      "duration_s": 217.7216591835022
+    }
+  ],
+  "events": [
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "member": 0,
+      "step": 0,
+      "start_tokens": 4235,
+      "latency_s": 0.555971622467041,
+      "ok": true,
+      "wallclock": 1787424733.8337157
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "member": 1,
+      "step": 0,
+      "start_tokens": 4335,
+      "latency_s": 0.5644910335540771,
+      "ok": true,
+      "wallclock": 1787424734.049219
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "member": 2,
+      "step": 0,
+      "start_tokens": 4313,
+      "latency_s": 0.5872783660888672,
+      "ok": true,
+      "wallclock": 1787424734.2719483
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "member": 3,
+      "step": 0,
+      "start_tokens": 4089,
+      "latency_s": 0.5729756355285645,
+      "ok": true,
+      "wallclock": 1787424734.4572942
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "member": 4,
+      "step": 0,
+      "start_tokens": 4297,
+      "latency_s": 0.5868773460388184,
+      "ok": true,
+      "wallclock": 1787424734.6707714
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "member": 5,
+      "step": 0,
+      "start_tokens": 4336,
+      "latency_s": 0.5919802188873291,
+      "ok": true,
+      "wallclock": 1787424734.876574
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "member": 6,
+      "step": 0,
+      "start_tokens": 4293,
+      "latency_s": 0.5810275077819824,
+      "ok": true,
+      "wallclock": 1787424735.0658393
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "member": 7,
+      "step": 0,
+      "start_tokens": 4447,
+      "latency_s": 0.5715570449829102,
+      "ok": true,
+      "wallclock": 1787424735.2569873
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "member": 0,
+      "step": 0,
+      "start_tokens": 1535,
+      "latency_s": 0.5182437896728516,
+      "ok": true,
+      "wallclock": 1787424735.4023738
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "member": 1,
+      "step": 0,
+      "start_tokens": 1481,
+      "latency_s": 0.48576784133911133,
+      "ok": true,
+      "wallclock": 1787424735.57121
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "member": 2,
+      "step": 0,
+      "start_tokens": 1459,
+      "latency_s": 0.46061158180236816,
+      "ok": true,
+      "wallclock": 1787424735.7452805
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "member": 3,
+      "step": 0,
+      "start_tokens": 1444,
+      "latency_s": 0.45560264587402344,
+      "ok": true,
+      "wallclock": 1787424735.9393294
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "member": 4,
+      "step": 0,
+      "start_tokens": 1546,
+      "latency_s": 0.45694732666015625,
+      "ok": true,
+      "wallclock": 1787424736.1415248
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "member": 5,
+      "step": 0,
+      "start_tokens": 1528,
+      "latency_s": 0.4578285217285156,
+      "ok": true,
+      "wallclock": 1787424736.3425193
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "member": 6,
+      "step": 0,
+      "start_tokens": 1516,
+      "latency_s": 0.46588683128356934,
+      "ok": true,
+      "wallclock": 1787424736.5506966
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "member": 7,
+      "step": 0,
+      "start_tokens": 1491,
+      "latency_s": 0.5245120525360107,
+      "ok": true,
+      "wallclock": 1787424736.8095002
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "member": 0,
+      "step": 0,
+      "start_tokens": 7071,
+      "latency_s": 0.588493824005127,
+      "ok": true,
+      "wallclock": 1787424737.0725622
+    },
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "member": 0,
+      "step": 1,
+      "start_tokens": 4235,
+      "latency_s": 0.5265681743621826,
+      "ok": true,
+      "wallclock": 1787424739.548103
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "member": 2,
+      "step": 1,
+      "start_tokens": 4313,
+      "latency_s": 0.5369348526000977,
+      "ok": true,
+      "wallclock": 1787424740.1675882
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "member": 0,
+      "step": 1,
+      "start_tokens": 1535,
+      "latency_s": 0.5235357284545898,
+      "ok": true,
+      "wallclock": 1787424740.2725008
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "member": 5,
+      "step": 1,
+      "start_tokens": 4336,
+      "latency_s": 0.5773003101348877,
+      "ok": true,
+      "wallclock": 1787424742.5300674
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "member": 0,
+      "step": 1,
+      "start_tokens": 7071,
+      "latency_s": 0.610975980758667,
+      "ok": true,
+      "wallclock": 1787424742.708643
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "member": 7,
+      "step": 1,
+      "start_tokens": 1491,
+      "latency_s": 0.49247217178344727,
+      "ok": true,
+      "wallclock": 1787424743.1170785
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "member": 1,
+      "step": 1,
+      "start_tokens": 4335,
+      "latency_s": 0.5349276065826416,
+      "ok": true,
+      "wallclock": 1787424743.5128758
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "member": 4,
+      "step": 1,
+      "start_tokens": 4297,
+      "latency_s": 0.614267110824585,
+      "ok": true,
+      "wallclock": 1787424744.1486468
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "member": 6,
+      "step": 1,
+      "start_tokens": 1516,
+      "latency_s": 0.6166548728942871,
+      "ok": true,
+      "wallclock": 1787424744.1855583
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "member": 7,
+      "step": 1,
+      "start_tokens": 4447,
+      "latency_s": 0.6577582359313965,
+      "ok": true,
+      "wallclock": 1787424744.4459858
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "member": 1,
+      "step": 1,
+      "start_tokens": 1481,
+      "latency_s": 0.6503641605377197,
+      "ok": true,
+      "wallclock": 1787424744.462897
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "member": 6,
+      "step": 1,
+      "start_tokens": 4293,
+      "latency_s": 0.6398165225982666,
+      "ok": true,
+      "wallclock": 1787424744.6474059
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "member": 3,
+      "step": 1,
+      "start_tokens": 4089,
+      "latency_s": 0.6004581451416016,
+      "ok": true,
+      "wallclock": 1787424744.7595544
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "member": 5,
+      "step": 1,
+      "start_tokens": 1528,
+      "latency_s": 0.4432942867279053,
+      "ok": true,
+      "wallclock": 1787424746.6692646
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "member": 4,
+      "step": 1,
+      "start_tokens": 1546,
+      "latency_s": 0.4425656795501709,
+      "ok": true,
+      "wallclock": 1787424747.6205542
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "member": 7,
+      "step": 2,
+      "start_tokens": 1491,
+      "latency_s": 0.4879300594329834,
+      "ok": true,
+      "wallclock": 1787424749.3840458
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "member": 0,
+      "step": 2,
+      "start_tokens": 1535,
+      "latency_s": 0.5642123222351074,
+      "ok": true,
+      "wallclock": 1787424749.711994
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "member": 4,
+      "step": 2,
+      "start_tokens": 4297,
+      "latency_s": 0.6337156295776367,
+      "ok": true,
+      "wallclock": 1787424749.9456744
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "member": 3,
+      "step": 2,
+      "start_tokens": 4089,
+      "latency_s": 0.6600089073181152,
+      "ok": true,
+      "wallclock": 1787424750.156494
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "member": 2,
+      "step": 2,
+      "start_tokens": 4313,
+      "latency_s": 0.6651432514190674,
+      "ok": true,
+      "wallclock": 1787424750.3525875
+    },
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "member": 0,
+      "step": 2,
+      "start_tokens": 4235,
+      "latency_s": 0.6505026817321777,
+      "ok": true,
+      "wallclock": 1787424750.6817534
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "member": 5,
+      "step": 2,
+      "start_tokens": 4336,
+      "latency_s": 0.6297600269317627,
+      "ok": true,
+      "wallclock": 1787424750.6946995
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "member": 6,
+      "step": 2,
+      "start_tokens": 4293,
+      "latency_s": 0.6195838451385498,
+      "ok": true,
+      "wallclock": 1787424751.2408056
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "member": 0,
+      "step": 2,
+      "start_tokens": 7071,
+      "latency_s": 0.6236362457275391,
+      "ok": true,
+      "wallclock": 1787424751.34198
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "member": 1,
+      "step": 2,
+      "start_tokens": 4335,
+      "latency_s": 0.5305523872375488,
+      "ok": true,
+      "wallclock": 1787424752.2894964
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "member": 6,
+      "step": 2,
+      "start_tokens": 1516,
+      "latency_s": 0.5110127925872803,
+      "ok": true,
+      "wallclock": 1787424753.666998
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "member": 5,
+      "step": 2,
+      "start_tokens": 1528,
+      "latency_s": 0.552797794342041,
+      "ok": true,
+      "wallclock": 1787424753.8881721
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "member": 7,
+      "step": 2,
+      "start_tokens": 4447,
+      "latency_s": 0.5721354484558105,
+      "ok": true,
+      "wallclock": 1787424754.0608084
+    },
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "member": 0,
+      "step": 3,
+      "start_tokens": 4235,
+      "latency_s": 0.5682218074798584,
+      "ok": true,
+      "wallclock": 1787424756.5894089
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "member": 5,
+      "step": 3,
+      "start_tokens": 4336,
+      "latency_s": 0.5660574436187744,
+      "ok": true,
+      "wallclock": 1787424756.9210403
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "member": 3,
+      "step": 3,
+      "start_tokens": 4089,
+      "latency_s": 0.5929763317108154,
+      "ok": true,
+      "wallclock": 1787424757.9381123
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "member": 4,
+      "step": 3,
+      "start_tokens": 4297,
+      "latency_s": 0.588629961013794,
+      "ok": true,
+      "wallclock": 1787424757.9841404
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "member": 0,
+      "step": 3,
+      "start_tokens": 1535,
+      "latency_s": 0.6064610481262207,
+      "ok": true,
+      "wallclock": 1787424760.3017359
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "member": 1,
+      "step": 3,
+      "start_tokens": 4335,
+      "latency_s": 0.6273703575134277,
+      "ok": true,
+      "wallclock": 1787424760.3807273
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "member": 6,
+      "step": 3,
+      "start_tokens": 4293,
+      "latency_s": 0.6316149234771729,
+      "ok": true,
+      "wallclock": 1787424760.5835927
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "member": 0,
+      "step": 3,
+      "start_tokens": 7071,
+      "latency_s": 0.6066992282867432,
+      "ok": true,
+      "wallclock": 1787424761.0022023
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "member": 5,
+      "step": 3,
+      "start_tokens": 1528,
+      "latency_s": 0.5258338451385498,
+      "ok": true,
+      "wallclock": 1787424761.9410374
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "member": 2,
+      "step": 3,
+      "start_tokens": 4313,
+      "latency_s": 0.5630297660827637,
+      "ok": true,
+      "wallclock": 1787424762.1777003
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "member": 7,
+      "step": 3,
+      "start_tokens": 4447,
+      "latency_s": 0.5474491119384766,
+      "ok": true,
+      "wallclock": 1787424763.9594347
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "member": 4,
+      "step": 4,
+      "start_tokens": 4297,
+      "latency_s": 0.5518326759338379,
+      "ok": true,
+      "wallclock": 1787424766.299454
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "member": 3,
+      "step": 4,
+      "start_tokens": 4089,
+      "latency_s": 0.563873291015625,
+      "ok": true,
+      "wallclock": 1787424767.617506
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "member": 5,
+      "step": 4,
+      "start_tokens": 4336,
+      "latency_s": 0.6538143157958984,
+      "ok": true,
+      "wallclock": 1787424768.1765316
+    },
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "member": 0,
+      "step": 4,
+      "start_tokens": 4235,
+      "latency_s": 0.6565206050872803,
+      "ok": true,
+      "wallclock": 1787424768.3575501
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "member": 1,
+      "step": 4,
+      "start_tokens": 4335,
+      "latency_s": 0.6235647201538086,
+      "ok": true,
+      "wallclock": 1787424768.5829923
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "member": 2,
+      "step": 4,
+      "start_tokens": 4313,
+      "latency_s": 0.5931739807128906,
+      "ok": true,
+      "wallclock": 1787424769.8981547
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "member": 6,
+      "step": 4,
+      "start_tokens": 4293,
+      "latency_s": 0.5889968872070312,
+      "ok": true,
+      "wallclock": 1787424770.1789594
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "member": 0,
+      "step": 4,
+      "start_tokens": 1535,
+      "latency_s": 0.5910429954528809,
+      "ok": true,
+      "wallclock": 1787424772.475749
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "member": 0,
+      "step": 4,
+      "start_tokens": 7071,
+      "latency_s": 0.617271900177002,
+      "ok": true,
+      "wallclock": 1787424772.568331
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "member": 7,
+      "step": 4,
+      "start_tokens": 4447,
+      "latency_s": 0.5549116134643555,
+      "ok": true,
+      "wallclock": 1787424774.460876
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "member": 4,
+      "step": 5,
+      "start_tokens": 4297,
+      "latency_s": 0.5639493465423584,
+      "ok": true,
+      "wallclock": 1787424775.6668847
+    },
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "member": 0,
+      "step": 5,
+      "start_tokens": 4235,
+      "latency_s": 0.56113600730896,
+      "ok": true,
+      "wallclock": 1787424777.1891236
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "member": 5,
+      "step": 5,
+      "start_tokens": 4336,
+      "latency_s": 0.6353368759155273,
+      "ok": true,
+      "wallclock": 1787424777.7983515
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "member": 6,
+      "step": 5,
+      "start_tokens": 4293,
+      "latency_s": 0.619213342666626,
+      "ok": true,
+      "wallclock": 1787424777.9871585
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "member": 2,
+      "step": 5,
+      "start_tokens": 4313,
+      "latency_s": 0.5639903545379639,
+      "ok": true,
+      "wallclock": 1787424778.6847236
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "member": 3,
+      "step": 5,
+      "start_tokens": 4089,
+      "latency_s": 0.5556635856628418,
+      "ok": true,
+      "wallclock": 1787424779.4941316
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "member": 7,
+      "step": 5,
+      "start_tokens": 4447,
+      "latency_s": 0.6101269721984863,
+      "ok": true,
+      "wallclock": 1787424780.4481044
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "member": 4,
+      "step": 6,
+      "start_tokens": 4297,
+      "latency_s": 0.6711306571960449,
+      "ok": true,
+      "wallclock": 1787424780.9183986
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "member": 1,
+      "step": 5,
+      "start_tokens": 4335,
+      "latency_s": 0.6481409072875977,
+      "ok": true,
+      "wallclock": 1787424781.0241058
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "member": 0,
+      "step": 5,
+      "start_tokens": 7071,
+      "latency_s": 0.5775876045227051,
+      "ok": true,
+      "wallclock": 1787424784.7000763
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "member": 2,
+      "step": 6,
+      "start_tokens": 4313,
+      "latency_s": 0.6213324069976807,
+      "ok": true,
+      "wallclock": 1787424785.3448918
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "member": 6,
+      "step": 6,
+      "start_tokens": 4293,
+      "latency_s": 0.6203961372375488,
+      "ok": true,
+      "wallclock": 1787424785.6848269
+    },
+    {
+      "program_id": "g00t4",
+      "group": 0,
+      "member": 4,
+      "step": 7,
+      "start_tokens": 4297,
+      "latency_s": 0.5658574104309082,
+      "ok": true,
+      "wallclock": 1787424787.191058
+    },
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "member": 0,
+      "step": 6,
+      "start_tokens": 4235,
+      "latency_s": 0.5751080513000488,
+      "ok": true,
+      "wallclock": 1787424788.6306212
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "member": 1,
+      "step": 6,
+      "start_tokens": 4335,
+      "latency_s": 0.6517364978790283,
+      "ok": true,
+      "wallclock": 1787424789.2591443
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "member": 3,
+      "step": 1,
+      "start_tokens": 1444,
+      "latency_s": 45.36991214752197,
+      "ok": true,
+      "wallclock": 1787424789.4663785
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "member": 5,
+      "step": 6,
+      "start_tokens": 4336,
+      "latency_s": 0.6463930606842041,
+      "ok": true,
+      "wallclock": 1787424789.5077531
+    },
+    {
+      "program_id": "g00t2",
+      "group": 0,
+      "member": 2,
+      "step": 7,
+      "start_tokens": 4313,
+      "latency_s": 0.5636112689971924,
+      "ok": true,
+      "wallclock": 1787424791.6773858
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "member": 7,
+      "step": 6,
+      "start_tokens": 4447,
+      "latency_s": 0.5766117572784424,
+      "ok": true,
+      "wallclock": 1787424792.546689
+    },
+    {
+      "program_id": "g00t6",
+      "group": 0,
+      "member": 6,
+      "step": 7,
+      "start_tokens": 4293,
+      "latency_s": 0.5642843246459961,
+      "ok": true,
+      "wallclock": 1787424793.5684764
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "member": 4,
+      "step": 2,
+      "start_tokens": 1546,
+      "latency_s": 37.3359055519104,
+      "ok": true,
+      "wallclock": 1787424794.4585361
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "member": 1,
+      "step": 2,
+      "start_tokens": 1481,
+      "latency_s": 40.644081830978394,
+      "ok": true,
+      "wallclock": 1787424794.4704986
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "member": 2,
+      "step": 1,
+      "start_tokens": 1459,
+      "latency_s": 49.76803135871887,
+      "ok": true,
+      "wallclock": 1787424794.4709885
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "member": 0,
+      "step": 6,
+      "start_tokens": 7071,
+      "latency_s": 0.6626787185668945,
+      "ok": true,
+      "wallclock": 1787424794.6652107
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "member": 3,
+      "step": 2,
+      "start_tokens": 1444,
+      "latency_s": 0.6197419166564941,
+      "ok": true,
+      "wallclock": 1787424794.7324812
+    },
+    {
+      "program_id": "g00t1",
+      "group": 0,
+      "member": 1,
+      "step": 7,
+      "start_tokens": 4335,
+      "latency_s": 0.5657753944396973,
+      "ok": true,
+      "wallclock": 1787424795.665747
+    },
+    {
+      "program_id": "g00t0",
+      "group": 0,
+      "member": 0,
+      "step": 7,
+      "start_tokens": 4235,
+      "latency_s": 0.6172475814819336,
+      "ok": true,
+      "wallclock": 1787424797.0872915
+    },
+    {
+      "program_id": "g00t5",
+      "group": 0,
+      "member": 5,
+      "step": 7,
+      "start_tokens": 4336,
+      "latency_s": 0.6234641075134277,
+      "ok": true,
+      "wallclock": 1787424797.2454302
+    },
+    {
+      "program_id": "g00t7",
+      "group": 0,
+      "member": 7,
+      "step": 7,
+      "start_tokens": 4447,
+      "latency_s": 0.5687947273254395,
+      "ok": true,
+      "wallclock": 1787424798.0671713
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "member": 0,
+      "step": 5,
+      "start_tokens": 1535,
+      "latency_s": 15.483335256576538,
+      "ok": true,
+      "wallclock": 1787424799.464397
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "member": 5,
+      "step": 4,
+      "start_tokens": 1528,
+      "latency_s": 28.06639051437378,
+      "ok": true,
+      "wallclock": 1787424799.4753435
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "member": 6,
+      "step": 3,
+      "start_tokens": 1516,
+      "latency_s": 37.34398674964905,
+      "ok": true,
+      "wallclock": 1787424799.4764836
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "member": 7,
+      "step": 3,
+      "start_tokens": 1491,
+      "latency_s": 42.016637563705444,
+      "ok": true,
+      "wallclock": 1787424799.4805253
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "member": 3,
+      "step": 3,
+      "start_tokens": 1444,
+      "latency_s": 0.48237156867980957,
+      "ok": true,
+      "wallclock": 1787424801.1624825
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "member": 1,
+      "step": 3,
+      "start_tokens": 1481,
+      "latency_s": 0.48043274879455566,
+      "ok": true,
+      "wallclock": 1787424801.4948773
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "member": 4,
+      "step": 3,
+      "start_tokens": 1546,
+      "latency_s": 0.5419187545776367,
+      "ok": true,
+      "wallclock": 1787424802.343367
+    },
+    {
+      "program_id": "g02t0",
+      "group": 2,
+      "member": 0,
+      "step": 7,
+      "start_tokens": 7071,
+      "latency_s": 0.5982224941253662,
+      "ok": true,
+      "wallclock": 1787424802.5793135
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "member": 3,
+      "step": 6,
+      "start_tokens": 4089,
+      "latency_s": 15.555510520935059,
+      "ok": true,
+      "wallclock": 1787424804.5264616
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "member": 3,
+      "step": 0,
+      "start_tokens": 2430,
+      "latency_s": 65.85111331939697,
+      "ok": true,
+      "wallclock": 1787424804.5358212
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "member": 1,
+      "step": 0,
+      "start_tokens": 2387,
+      "latency_s": 66.25180721282959,
+      "ok": true,
+      "wallclock": 1787424804.5365965
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "member": 0,
+      "step": 0,
+      "start_tokens": 2328,
+      "latency_s": 66.45979142189026,
+      "ok": true,
+      "wallclock": 1787424804.5441794
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "member": 5,
+      "step": 0,
+      "start_tokens": 2411,
+      "latency_s": 65.46109962463379,
+      "ok": true,
+      "wallclock": 1787424804.5455844
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "member": 6,
+      "step": 0,
+      "start_tokens": 2403,
+      "latency_s": 65.26197528839111,
+      "ok": true,
+      "wallclock": 1787424804.5457368
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "member": 2,
+      "step": 2,
+      "start_tokens": 1459,
+      "latency_s": 0.5409002304077148,
+      "ok": true,
+      "wallclock": 1787424804.839535
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "member": 7,
+      "step": 4,
+      "start_tokens": 1491,
+      "latency_s": 0.5452909469604492,
+      "ok": true,
+      "wallclock": 1787424807.727488
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "member": 0,
+      "step": 6,
+      "start_tokens": 1535,
+      "latency_s": 0.5541126728057861,
+      "ok": true,
+      "wallclock": 1787424807.741405
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "member": 4,
+      "step": 4,
+      "start_tokens": 1546,
+      "latency_s": 0.4817476272583008,
+      "ok": true,
+      "wallclock": 1787424808.6407762
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "member": 5,
+      "step": 0,
+      "start_tokens": 3213,
+      "latency_s": 63.92226028442383,
+      "ok": true,
+      "wallclock": 1787424809.4064484
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "member": 7,
+      "step": 0,
+      "start_tokens": 2526,
+      "latency_s": 69.93126058578491,
+      "ok": true,
+      "wallclock": 1787424809.4158666
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "member": 4,
+      "step": 0,
+      "start_tokens": 2488,
+      "latency_s": 70.53259944915771,
+      "ok": true,
+      "wallclock": 1787424809.4167323
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "member": 2,
+      "step": 0,
+      "start_tokens": 2473,
+      "latency_s": 70.93459177017212,
+      "ok": true,
+      "wallclock": 1787424809.4186556
+    },
+    {
+      "program_id": "g00t3",
+      "group": 0,
+      "member": 3,
+      "step": 7,
+      "start_tokens": 4089,
+      "latency_s": 0.6828250885009766,
+      "ok": true,
+      "wallclock": 1787424810.5712752
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "member": 5,
+      "step": 5,
+      "start_tokens": 1528,
+      "latency_s": 0.6650528907775879,
+      "ok": true,
+      "wallclock": 1787424810.5949564
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "member": 6,
+      "step": 4,
+      "start_tokens": 1516,
+      "latency_s": 0.6326131820678711,
+      "ok": true,
+      "wallclock": 1787424810.7480676
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "member": 1,
+      "step": 4,
+      "start_tokens": 1481,
+      "latency_s": 0.4921858310699463,
+      "ok": true,
+      "wallclock": 1787424811.1265953
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "member": 1,
+      "step": 1,
+      "start_tokens": 2387,
+      "latency_s": 0.5415840148925781,
+      "ok": true,
+      "wallclock": 1787424812.1965847
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "member": 7,
+      "step": 5,
+      "start_tokens": 1491,
+      "latency_s": 0.5635457038879395,
+      "ok": true,
+      "wallclock": 1787424812.353066
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "member": 3,
+      "step": 4,
+      "start_tokens": 1444,
+      "latency_s": 0.5442943572998047,
+      "ok": true,
+      "wallclock": 1787424812.4491327
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "member": 2,
+      "step": 3,
+      "start_tokens": 1459,
+      "latency_s": 0.4604611396789551,
+      "ok": true,
+      "wallclock": 1787424813.0550892
+    },
+    {
+      "program_id": "g01t0",
+      "group": 1,
+      "member": 0,
+      "step": 7,
+      "start_tokens": 1535,
+      "latency_s": 0.5167419910430908,
+      "ok": true,
+      "wallclock": 1787424814.4700522
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "member": 4,
+      "step": 5,
+      "start_tokens": 1546,
+      "latency_s": 0.5147027969360352,
+      "ok": true,
+      "wallclock": 1787424814.9076505
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "member": 3,
+      "step": 1,
+      "start_tokens": 2430,
+      "latency_s": 0.48178863525390625,
+      "ok": true,
+      "wallclock": 1787424815.3396971
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "member": 6,
+      "step": 1,
+      "start_tokens": 2403,
+      "latency_s": 0.47437262535095215,
+      "ok": true,
+      "wallclock": 1787424816.3760507
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "member": 5,
+      "step": 1,
+      "start_tokens": 2411,
+      "latency_s": 0.481320858001709,
+      "ok": true,
+      "wallclock": 1787424816.7677386
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "member": 1,
+      "step": 2,
+      "start_tokens": 2387,
+      "latency_s": 0.551192045211792,
+      "ok": true,
+      "wallclock": 1787424818.942894
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "member": 6,
+      "step": 5,
+      "start_tokens": 1516,
+      "latency_s": 0.5912494659423828,
+      "ok": true,
+      "wallclock": 1787424819.1383905
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "member": 5,
+      "step": 1,
+      "start_tokens": 3213,
+      "latency_s": 0.5849347114562988,
+      "ok": true,
+      "wallclock": 1787424819.1848347
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "member": 7,
+      "step": 1,
+      "start_tokens": 2526,
+      "latency_s": 0.50640869140625,
+      "ok": true,
+      "wallclock": 1787424819.5389152
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "member": 5,
+      "step": 6,
+      "start_tokens": 1528,
+      "latency_s": 0.5055532455444336,
+      "ok": true,
+      "wallclock": 1787424820.2059972
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "member": 4,
+      "step": 6,
+      "start_tokens": 1546,
+      "latency_s": 0.5206146240234375,
+      "ok": true,
+      "wallclock": 1787424820.9373655
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "member": 4,
+      "step": 1,
+      "start_tokens": 2488,
+      "latency_s": 0.4901466369628906,
+      "ok": true,
+      "wallclock": 1787424821.281427
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "member": 6,
+      "step": 2,
+      "start_tokens": 2403,
+      "latency_s": 0.5006189346313477,
+      "ok": true,
+      "wallclock": 1787424822.0145986
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "member": 1,
+      "step": 5,
+      "start_tokens": 1481,
+      "latency_s": 0.5167109966278076,
+      "ok": true,
+      "wallclock": 1787424822.338271
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "member": 3,
+      "step": 5,
+      "start_tokens": 1444,
+      "latency_s": 0.5318396091461182,
+      "ok": true,
+      "wallclock": 1787424822.8022163
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "member": 7,
+      "step": 6,
+      "start_tokens": 1491,
+      "latency_s": 0.5284039974212646,
+      "ok": true,
+      "wallclock": 1787424823.1103256
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "member": 2,
+      "step": 1,
+      "start_tokens": 2473,
+      "latency_s": 5.373650312423706,
+      "ok": true,
+      "wallclock": 1787424824.4345658
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "member": 0,
+      "step": 1,
+      "start_tokens": 2328,
+      "latency_s": 9.195174217224121,
+      "ok": true,
+      "wallclock": 1787424824.4405563
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "member": 2,
+      "step": 4,
+      "start_tokens": 1459,
+      "latency_s": 0.5521056652069092,
+      "ok": true,
+      "wallclock": 1787424824.5430582
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "member": 5,
+      "step": 2,
+      "start_tokens": 2411,
+      "latency_s": 0.509737491607666,
+      "ok": true,
+      "wallclock": 1787424824.8882453
+    },
+    {
+      "program_id": "g01t4",
+      "group": 1,
+      "member": 4,
+      "step": 7,
+      "start_tokens": 1546,
+      "latency_s": 0.5082316398620605,
+      "ok": true,
+      "wallclock": 1787424826.5229664
+    },
+    {
+      "program_id": "g01t5",
+      "group": 1,
+      "member": 5,
+      "step": 7,
+      "start_tokens": 1528,
+      "latency_s": 0.68393874168396,
+      "ok": true,
+      "wallclock": 1787424827.6227431
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "member": 3,
+      "step": 2,
+      "start_tokens": 2430,
+      "latency_s": 0.6917715072631836,
+      "ok": true,
+      "wallclock": 1787424827.6312633
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "member": 6,
+      "step": 6,
+      "start_tokens": 1516,
+      "latency_s": 0.6784651279449463,
+      "ok": true,
+      "wallclock": 1787424827.6743248
+    },
+    {
+      "program_id": "g01t7",
+      "group": 1,
+      "member": 7,
+      "step": 7,
+      "start_tokens": 1491,
+      "latency_s": 0.6516268253326416,
+      "ok": true,
+      "wallclock": 1787424827.8350594
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "member": 1,
+      "step": 3,
+      "start_tokens": 2387,
+      "latency_s": 0.5598535537719727,
+      "ok": true,
+      "wallclock": 1787424828.3176258
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "member": 3,
+      "step": 6,
+      "start_tokens": 1444,
+      "latency_s": 0.5671858787536621,
+      "ok": true,
+      "wallclock": 1787424828.476737
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "member": 1,
+      "step": 6,
+      "start_tokens": 1481,
+      "latency_s": 0.5189211368560791,
+      "ok": true,
+      "wallclock": 1787424828.8479779
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "member": 6,
+      "step": 3,
+      "start_tokens": 2403,
+      "latency_s": 0.49146199226379395,
+      "ok": true,
+      "wallclock": 1787424830.136665
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "member": 5,
+      "step": 2,
+      "start_tokens": 3213,
+      "latency_s": 0.506594181060791,
+      "ok": true,
+      "wallclock": 1787424830.7267942
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "member": 7,
+      "step": 2,
+      "start_tokens": 2526,
+      "latency_s": 0.4859476089477539,
+      "ok": true,
+      "wallclock": 1787424831.669605
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "member": 3,
+      "step": 3,
+      "start_tokens": 2430,
+      "latency_s": 0.5007436275482178,
+      "ok": true,
+      "wallclock": 1787424832.667254
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "member": 4,
+      "step": 2,
+      "start_tokens": 2488,
+      "latency_s": 0.5926547050476074,
+      "ok": true,
+      "wallclock": 1787424833.1906037
+    },
+    {
+      "program_id": "g01t3",
+      "group": 1,
+      "member": 3,
+      "step": 7,
+      "start_tokens": 1444,
+      "latency_s": 0.6212449073791504,
+      "ok": true,
+      "wallclock": 1787424833.3469527
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "member": 2,
+      "step": 5,
+      "start_tokens": 1459,
+      "latency_s": 0.6090693473815918,
+      "ok": true,
+      "wallclock": 1787424833.603477
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "member": 2,
+      "step": 2,
+      "start_tokens": 2473,
+      "latency_s": 0.5760180950164795,
+      "ok": true,
+      "wallclock": 1787424833.6729667
+    },
+    {
+      "program_id": "g01t1",
+      "group": 1,
+      "member": 1,
+      "step": 7,
+      "start_tokens": 1481,
+      "latency_s": 0.5060791969299316,
+      "ok": true,
+      "wallclock": 1787424837.4084349
+    },
+    {
+      "program_id": "g01t6",
+      "group": 1,
+      "member": 6,
+      "step": 7,
+      "start_tokens": 1516,
+      "latency_s": 0.5068314075469971,
+      "ok": true,
+      "wallclock": 1787424838.246957
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "member": 6,
+      "step": 4,
+      "start_tokens": 2403,
+      "latency_s": 0.5669183731079102,
+      "ok": true,
+      "wallclock": 1787424839.1556406
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "member": 3,
+      "step": 4,
+      "start_tokens": 2430,
+      "latency_s": 0.6155099868774414,
+      "ok": true,
+      "wallclock": 1787424839.4669707
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "member": 5,
+      "step": 3,
+      "start_tokens": 2411,
+      "latency_s": 3.239814281463623,
+      "ok": true,
+      "wallclock": 1787424839.5253005
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "member": 0,
+      "step": 2,
+      "start_tokens": 2328,
+      "latency_s": 8.844419956207275,
+      "ok": true,
+      "wallclock": 1787424839.5334074
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "member": 7,
+      "step": 3,
+      "start_tokens": 2526,
+      "latency_s": 0.5788064002990723,
+      "ok": true,
+      "wallclock": 1787424840.0187557
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "member": 5,
+      "step": 3,
+      "start_tokens": 3213,
+      "latency_s": 0.578559160232544,
+      "ok": true,
+      "wallclock": 1787424840.0921674
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "member": 1,
+      "step": 4,
+      "start_tokens": 2387,
+      "latency_s": 0.5232136249542236,
+      "ok": true,
+      "wallclock": 1787424840.5121825
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "member": 2,
+      "step": 6,
+      "start_tokens": 1459,
+      "latency_s": 0.4974639415740967,
+      "ok": true,
+      "wallclock": 1787424843.7124588
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "member": 1,
+      "step": 0,
+      "start_tokens": 3322,
+      "latency_s": 99.76400780677795,
+      "ok": true,
+      "wallclock": 1787424844.4489205
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "member": 4,
+      "step": 0,
+      "start_tokens": 3246,
+      "latency_s": 99.17881155014038,
+      "ok": true,
+      "wallclock": 1787424844.4635053
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "member": 3,
+      "step": 5,
+      "start_tokens": 2430,
+      "latency_s": 0.582012414932251,
+      "ok": true,
+      "wallclock": 1787424844.888989
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "member": 4,
+      "step": 3,
+      "start_tokens": 2488,
+      "latency_s": 0.5536632537841797,
+      "ok": true,
+      "wallclock": 1787424844.9682302
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "member": 1,
+      "step": 5,
+      "start_tokens": 2387,
+      "latency_s": 0.5787677764892578,
+      "ok": true,
+      "wallclock": 1787424845.6316113
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "member": 5,
+      "step": 4,
+      "start_tokens": 3213,
+      "latency_s": 0.6364264488220215,
+      "ok": true,
+      "wallclock": 1787424845.949528
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "member": 2,
+      "step": 3,
+      "start_tokens": 2473,
+      "latency_s": 0.6258277893066406,
+      "ok": true,
+      "wallclock": 1787424845.973748
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "member": 7,
+      "step": 4,
+      "start_tokens": 2526,
+      "latency_s": 0.5600178241729736,
+      "ok": true,
+      "wallclock": 1787424846.235146
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "member": 6,
+      "step": 5,
+      "start_tokens": 2403,
+      "latency_s": 0.6227672100067139,
+      "ok": true,
+      "wallclock": 1787424849.3338192
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "member": 0,
+      "step": 3,
+      "start_tokens": 2328,
+      "latency_s": 0.6193580627441406,
+      "ok": true,
+      "wallclock": 1787424849.3427227
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "member": 6,
+      "step": 0,
+      "start_tokens": 3477,
+      "latency_s": 103.87195587158203,
+      "ok": true,
+      "wallclock": 1787424849.556709
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "member": 0,
+      "step": 0,
+      "start_tokens": 3366,
+      "latency_s": 105.08421850204468,
+      "ok": true,
+      "wallclock": 1787424849.5684965
+    },
+    {
+      "program_id": "g01t2",
+      "group": 1,
+      "member": 2,
+      "step": 7,
+      "start_tokens": 1459,
+      "latency_s": 0.6238460540771484,
+      "ok": true,
+      "wallclock": 1787424849.7526772
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "member": 5,
+      "step": 4,
+      "start_tokens": 2411,
+      "latency_s": 0.5376760959625244,
+      "ok": true,
+      "wallclock": 1787424850.0710216
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "member": 4,
+      "step": 4,
+      "start_tokens": 2488,
+      "latency_s": 0.5401241779327393,
+      "ok": true,
+      "wallclock": 1787424850.5854383
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "member": 4,
+      "step": 1,
+      "start_tokens": 3246,
+      "latency_s": 0.5281200408935547,
+      "ok": true,
+      "wallclock": 1787424850.8159335
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "member": 1,
+      "step": 6,
+      "start_tokens": 2387,
+      "latency_s": 0.5190567970275879,
+      "ok": true,
+      "wallclock": 1787424852.8628685
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "member": 2,
+      "step": 4,
+      "start_tokens": 2473,
+      "latency_s": 0.5059688091278076,
+      "ok": true,
+      "wallclock": 1787424853.347839
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "member": 5,
+      "step": 5,
+      "start_tokens": 3213,
+      "latency_s": 0.5322785377502441,
+      "ok": true,
+      "wallclock": 1787424854.2609777
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "member": 0,
+      "step": 1,
+      "start_tokens": 3366,
+      "latency_s": 0.4920380115509033,
+      "ok": true,
+      "wallclock": 1787424854.934628
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "member": 6,
+      "step": 1,
+      "start_tokens": 3477,
+      "latency_s": 0.5625660419464111,
+      "ok": true,
+      "wallclock": 1787424855.7619002
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "member": 6,
+      "step": 6,
+      "start_tokens": 2403,
+      "latency_s": 0.5661473274230957,
+      "ok": true,
+      "wallclock": 1787424855.822219
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "member": 3,
+      "step": 6,
+      "start_tokens": 2430,
+      "latency_s": 0.5201730728149414,
+      "ok": true,
+      "wallclock": 1787424856.4820037
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "member": 5,
+      "step": 5,
+      "start_tokens": 2411,
+      "latency_s": 0.5224990844726562,
+      "ok": true,
+      "wallclock": 1787424857.3082616
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "member": 0,
+      "step": 4,
+      "start_tokens": 2328,
+      "latency_s": 0.5482771396636963,
+      "ok": true,
+      "wallclock": 1787424857.7607586
+    },
+    {
+      "program_id": "g03t1",
+      "group": 3,
+      "member": 1,
+      "step": 7,
+      "start_tokens": 2387,
+      "latency_s": 0.6404602527618408,
+      "ok": true,
+      "wallclock": 1787424858.215591
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "member": 2,
+      "step": 5,
+      "start_tokens": 2473,
+      "latency_s": 0.6324598789215088,
+      "ok": true,
+      "wallclock": 1787424858.4176712
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "member": 7,
+      "step": 5,
+      "start_tokens": 2526,
+      "latency_s": 0.6138331890106201,
+      "ok": true,
+      "wallclock": 1787424858.5644743
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "member": 4,
+      "step": 5,
+      "start_tokens": 2488,
+      "latency_s": 0.5354976654052734,
+      "ok": true,
+      "wallclock": 1787424859.0186908
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "member": 6,
+      "step": 2,
+      "start_tokens": 3477,
+      "latency_s": 0.5074648857116699,
+      "ok": true,
+      "wallclock": 1787424860.4186573
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "member": 7,
+      "step": 6,
+      "start_tokens": 2526,
+      "latency_s": 0.5462441444396973,
+      "ok": true,
+      "wallclock": 1787424863.561216
+    },
+    {
+      "program_id": "g03t6",
+      "group": 3,
+      "member": 6,
+      "step": 7,
+      "start_tokens": 2403,
+      "latency_s": 0.6039433479309082,
+      "ok": true,
+      "wallclock": 1787424864.0456893
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "member": 5,
+      "step": 6,
+      "start_tokens": 3213,
+      "latency_s": 0.6193430423736572,
+      "ok": true,
+      "wallclock": 1787424864.3811464
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "member": 1,
+      "step": 1,
+      "start_tokens": 3322,
+      "latency_s": 8.249870777130127,
+      "ok": true,
+      "wallclock": 1787424864.5244117
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "member": 4,
+      "step": 6,
+      "start_tokens": 2488,
+      "latency_s": 0.5710501670837402,
+      "ok": true,
+      "wallclock": 1787424867.366533
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "member": 0,
+      "step": 2,
+      "start_tokens": 3366,
+      "latency_s": 0.5683627128601074,
+      "ok": true,
+      "wallclock": 1787424867.454306
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "member": 5,
+      "step": 6,
+      "start_tokens": 2411,
+      "latency_s": 0.5284678936004639,
+      "ok": true,
+      "wallclock": 1787424868.5026689
+    },
+    {
+      "program_id": "g03t3",
+      "group": 3,
+      "member": 3,
+      "step": 7,
+      "start_tokens": 2430,
+      "latency_s": 0.5455472469329834,
+      "ok": true,
+      "wallclock": 1787424868.986552
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "member": 4,
+      "step": 2,
+      "start_tokens": 3246,
+      "latency_s": 9.116286754608154,
+      "ok": true,
+      "wallclock": 1787424869.4757843
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "member": 0,
+      "step": 5,
+      "start_tokens": 2328,
+      "latency_s": 0.5192084312438965,
+      "ok": true,
+      "wallclock": 1787424870.195679
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "member": 2,
+      "step": 6,
+      "start_tokens": 2473,
+      "latency_s": 0.527214527130127,
+      "ok": true,
+      "wallclock": 1787424870.7201743
+    },
+    {
+      "program_id": "g03t7",
+      "group": 3,
+      "member": 7,
+      "step": 7,
+      "start_tokens": 2526,
+      "latency_s": 0.5559892654418945,
+      "ok": true,
+      "wallclock": 1787424871.2439618
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "member": 6,
+      "step": 3,
+      "start_tokens": 3477,
+      "latency_s": 0.5562891960144043,
+      "ok": true,
+      "wallclock": 1787424871.7594018
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "member": 1,
+      "step": 2,
+      "start_tokens": 3322,
+      "latency_s": 0.5570619106292725,
+      "ok": true,
+      "wallclock": 1787424872.120709
+    },
+    {
+      "program_id": "g07t5",
+      "group": 7,
+      "member": 5,
+      "step": 7,
+      "start_tokens": 3213,
+      "latency_s": 0.5755496025085449,
+      "ok": true,
+      "wallclock": 1787424872.550503
+    },
+    {
+      "program_id": "g03t5",
+      "group": 3,
+      "member": 5,
+      "step": 7,
+      "start_tokens": 2411,
+      "latency_s": 0.5347206592559814,
+      "ok": true,
+      "wallclock": 1787424874.8864276
+    },
+    {
+      "program_id": "g03t4",
+      "group": 3,
+      "member": 4,
+      "step": 7,
+      "start_tokens": 2488,
+      "latency_s": 0.5315818786621094,
+      "ok": true,
+      "wallclock": 1787424878.406223
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "member": 2,
+      "step": 0,
+      "start_tokens": 3503,
+      "latency_s": 134.6548399925232,
+      "ok": true,
+      "wallclock": 1787424879.538887
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "member": 7,
+      "step": 0,
+      "start_tokens": 3485,
+      "latency_s": 133.66230273246765,
+      "ok": true,
+      "wallclock": 1787424879.5466938
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "member": 0,
+      "step": 3,
+      "start_tokens": 3366,
+      "latency_s": 0.5480732917785645,
+      "ok": true,
+      "wallclock": 1787424879.7870812
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "member": 4,
+      "step": 3,
+      "start_tokens": 3246,
+      "latency_s": 0.5601379871368408,
+      "ok": true,
+      "wallclock": 1787424880.4676864
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "member": 0,
+      "step": 6,
+      "start_tokens": 2328,
+      "latency_s": 0.5541286468505859,
+      "ok": true,
+      "wallclock": 1787424880.703145
+    },
+    {
+      "program_id": "g03t2",
+      "group": 3,
+      "member": 2,
+      "step": 7,
+      "start_tokens": 2473,
+      "latency_s": 0.5332915782928467,
+      "ok": true,
+      "wallclock": 1787424881.7686718
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "member": 1,
+      "step": 3,
+      "start_tokens": 3322,
+      "latency_s": 0.5548863410949707,
+      "ok": true,
+      "wallclock": 1787424883.437183
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "member": 6,
+      "step": 4,
+      "start_tokens": 3477,
+      "latency_s": 0.5638461112976074,
+      "ok": true,
+      "wallclock": 1787424883.643623
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "member": 6,
+      "step": 0,
+      "start_tokens": 5279,
+      "latency_s": 142.19465136528015,
+      "ok": true,
+      "wallclock": 1787424884.679086
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "member": 3,
+      "step": 0,
+      "start_tokens": 5198,
+      "latency_s": 142.80328583717346,
+      "ok": true,
+      "wallclock": 1787424884.6874475
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "member": 3,
+      "step": 0,
+      "start_tokens": 3506,
+      "latency_s": 139.61152052879333,
+      "ok": true,
+      "wallclock": 1787424884.696521
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "member": 5,
+      "step": 0,
+      "start_tokens": 5186,
+      "latency_s": 142.4136381149292,
+      "ok": true,
+      "wallclock": 1787424884.6976535
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "member": 4,
+      "step": 4,
+      "start_tokens": 3246,
+      "latency_s": 0.5200092792510986,
+      "ok": true,
+      "wallclock": 1787424887.111263
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "member": 6,
+      "step": 5,
+      "start_tokens": 3477,
+      "latency_s": 0.5384097099304199,
+      "ok": true,
+      "wallclock": 1787424888.371964
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "member": 1,
+      "step": 4,
+      "start_tokens": 3322,
+      "latency_s": 0.5303490161895752,
+      "ok": true,
+      "wallclock": 1787424889.6233342
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "member": 6,
+      "step": 1,
+      "start_tokens": 5279,
+      "latency_s": 0.6413438320159912,
+      "ok": true,
+      "wallclock": 1787424890.7143238
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "member": 7,
+      "step": 1,
+      "start_tokens": 3485,
+      "latency_s": 0.7459406852722168,
+      "ok": true,
+      "wallclock": 1787424891.158403
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "member": 2,
+      "step": 1,
+      "start_tokens": 3503,
+      "latency_s": 0.7486453056335449,
+      "ok": true,
+      "wallclock": 1787424891.1689737
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "member": 3,
+      "step": 1,
+      "start_tokens": 5198,
+      "latency_s": 0.7396805286407471,
+      "ok": true,
+      "wallclock": 1787424891.178954
+    },
+    {
+      "program_id": "g03t0",
+      "group": 3,
+      "member": 0,
+      "step": 7,
+      "start_tokens": 2328,
+      "latency_s": 0.701422929763794,
+      "ok": true,
+      "wallclock": 1787424891.31364
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "member": 0,
+      "step": 4,
+      "start_tokens": 3366,
+      "latency_s": 0.6229491233825684,
+      "ok": true,
+      "wallclock": 1787424891.544103
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "member": 3,
+      "step": 1,
+      "start_tokens": 3506,
+      "latency_s": 0.4958927631378174,
+      "ok": true,
+      "wallclock": 1787424894.634514
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "member": 5,
+      "step": 1,
+      "start_tokens": 5186,
+      "latency_s": 0.5535244941711426,
+      "ok": true,
+      "wallclock": 1787424895.8225253
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "member": 4,
+      "step": 5,
+      "start_tokens": 3246,
+      "latency_s": 0.5822594165802002,
+      "ok": true,
+      "wallclock": 1787424898.2452207
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "member": 6,
+      "step": 6,
+      "start_tokens": 3477,
+      "latency_s": 0.5910227298736572,
+      "ok": true,
+      "wallclock": 1787424898.476492
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "member": 7,
+      "step": 2,
+      "start_tokens": 3485,
+      "latency_s": 0.524921178817749,
+      "ok": true,
+      "wallclock": 1787424899.199899
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "member": 2,
+      "step": 0,
+      "start_tokens": 5286,
+      "latency_s": 157.88080978393555,
+      "ok": true,
+      "wallclock": 1787424899.5653465
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "member": 3,
+      "step": 2,
+      "start_tokens": 3506,
+      "latency_s": 0.5536270141601562,
+      "ok": true,
+      "wallclock": 1787424900.5536056
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "member": 0,
+      "step": 5,
+      "start_tokens": 3366,
+      "latency_s": 0.5612423419952393,
+      "ok": true,
+      "wallclock": 1787424900.788527
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "member": 3,
+      "step": 2,
+      "start_tokens": 5198,
+      "latency_s": 0.5717260837554932,
+      "ok": true,
+      "wallclock": 1787424901.505001
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "member": 1,
+      "step": 5,
+      "start_tokens": 3322,
+      "latency_s": 0.5464084148406982,
+      "ok": true,
+      "wallclock": 1787424901.9984365
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "member": 6,
+      "step": 2,
+      "start_tokens": 5279,
+      "latency_s": 0.7037563323974609,
+      "ok": true,
+      "wallclock": 1787424903.1980834
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "member": 2,
+      "step": 2,
+      "start_tokens": 3503,
+      "latency_s": 0.7037227153778076,
+      "ok": true,
+      "wallclock": 1787424903.2455404
+    },
+    {
+      "program_id": "g07t6",
+      "group": 7,
+      "member": 6,
+      "step": 7,
+      "start_tokens": 3477,
+      "latency_s": 0.7075273990631104,
+      "ok": true,
+      "wallclock": 1787424903.2638721
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "member": 5,
+      "step": 2,
+      "start_tokens": 5186,
+      "latency_s": 0.6147127151489258,
+      "ok": true,
+      "wallclock": 1787424903.6374764
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "member": 0,
+      "step": 6,
+      "start_tokens": 3366,
+      "latency_s": 0.548621654510498,
+      "ok": true,
+      "wallclock": 1787424905.8565822
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "member": 3,
+      "step": 3,
+      "start_tokens": 3506,
+      "latency_s": 0.5622973442077637,
+      "ok": true,
+      "wallclock": 1787424907.3814294
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "member": 2,
+      "step": 1,
+      "start_tokens": 5286,
+      "latency_s": 0.5754153728485107,
+      "ok": true,
+      "wallclock": 1787424907.627204
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "member": 6,
+      "step": 3,
+      "start_tokens": 5279,
+      "latency_s": 0.6013224124908447,
+      "ok": true,
+      "wallclock": 1787424908.58147
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "member": 5,
+      "step": 3,
+      "start_tokens": 5186,
+      "latency_s": 0.6720795631408691,
+      "ok": true,
+      "wallclock": 1787424908.9481013
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "member": 1,
+      "step": 6,
+      "start_tokens": 3322,
+      "latency_s": 0.6650528907775879,
+      "ok": true,
+      "wallclock": 1787424909.3332217
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "member": 4,
+      "step": 6,
+      "start_tokens": 3246,
+      "latency_s": 0.6475682258605957,
+      "ok": true,
+      "wallclock": 1787424909.3976443
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "member": 3,
+      "step": 3,
+      "start_tokens": 5198,
+      "latency_s": 0.566075325012207,
+      "ok": true,
+      "wallclock": 1787424910.2587967
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "member": 3,
+      "step": 4,
+      "start_tokens": 3506,
+      "latency_s": 0.5406992435455322,
+      "ok": true,
+      "wallclock": 1787424912.5905886
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "member": 7,
+      "step": 3,
+      "start_tokens": 3485,
+      "latency_s": 7.068628549575806,
+      "ok": true,
+      "wallclock": 1787424914.561676
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "member": 2,
+      "step": 2,
+      "start_tokens": 5286,
+      "latency_s": 0.6177628040313721,
+      "ok": true,
+      "wallclock": 1787424916.0128067
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "member": 6,
+      "step": 4,
+      "start_tokens": 5279,
+      "latency_s": 0.6219668388366699,
+      "ok": true,
+      "wallclock": 1787424916.13862
+    },
+    {
+      "program_id": "g07t0",
+      "group": 7,
+      "member": 0,
+      "step": 7,
+      "start_tokens": 3366,
+      "latency_s": 0.5830066204071045,
+      "ok": true,
+      "wallclock": 1787424916.722207
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "member": 3,
+      "step": 4,
+      "start_tokens": 5198,
+      "latency_s": 0.5941779613494873,
+      "ok": true,
+      "wallclock": 1787424917.2096484
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "member": 3,
+      "step": 5,
+      "start_tokens": 3506,
+      "latency_s": 0.6220002174377441,
+      "ok": true,
+      "wallclock": 1787424919.810994
+    },
+    {
+      "program_id": "g07t4",
+      "group": 7,
+      "member": 4,
+      "step": 7,
+      "start_tokens": 3246,
+      "latency_s": 0.6372342109680176,
+      "ok": true,
+      "wallclock": 1787424919.934349
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "member": 5,
+      "step": 4,
+      "start_tokens": 5186,
+      "latency_s": 0.604794979095459,
+      "ok": true,
+      "wallclock": 1787424920.414316
+    },
+    {
+      "program_id": "g07t1",
+      "group": 7,
+      "member": 1,
+      "step": 7,
+      "start_tokens": 3322,
+      "latency_s": 0.5684530735015869,
+      "ok": true,
+      "wallclock": 1787424921.0453653
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "member": 3,
+      "step": 5,
+      "start_tokens": 5198,
+      "latency_s": 0.5671029090881348,
+      "ok": true,
+      "wallclock": 1787424923.3134432
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "member": 2,
+      "step": 3,
+      "start_tokens": 5286,
+      "latency_s": 0.5791864395141602,
+      "ok": true,
+      "wallclock": 1787424924.6721563
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "member": 7,
+      "step": 4,
+      "start_tokens": 3485,
+      "latency_s": 0.6210026741027832,
+      "ok": true,
+      "wallclock": 1787424925.7824318
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "member": 6,
+      "step": 5,
+      "start_tokens": 5279,
+      "latency_s": 0.618610143661499,
+      "ok": true,
+      "wallclock": 1787424925.8403285
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "member": 3,
+      "step": 6,
+      "start_tokens": 3506,
+      "latency_s": 0.6099584102630615,
+      "ok": true,
+      "wallclock": 1787424927.5002224
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "member": 5,
+      "step": 5,
+      "start_tokens": 5186,
+      "latency_s": 0.6272287368774414,
+      "ok": true,
+      "wallclock": 1787424927.699966
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "member": 3,
+      "step": 6,
+      "start_tokens": 5198,
+      "latency_s": 0.6313450336456299,
+      "ok": true,
+      "wallclock": 1787424929.1847112
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "member": 2,
+      "step": 4,
+      "start_tokens": 5286,
+      "latency_s": 0.6635375022888184,
+      "ok": true,
+      "wallclock": 1787424929.450471
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "member": 2,
+      "step": 3,
+      "start_tokens": 3503,
+      "latency_s": 19.22130036354065,
+      "ok": true,
+      "wallclock": 1787424929.6799138
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "member": 6,
+      "step": 6,
+      "start_tokens": 5279,
+      "latency_s": 0.5843777656555176,
+      "ok": true,
+      "wallclock": 1787424932.6908345
+    },
+    {
+      "program_id": "g05t3",
+      "group": 5,
+      "member": 3,
+      "step": 7,
+      "start_tokens": 5198,
+      "latency_s": 0.608773946762085,
+      "ok": true,
+      "wallclock": 1787424934.1067762
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "member": 7,
+      "step": 5,
+      "start_tokens": 3485,
+      "latency_s": 0.6509943008422852,
+      "ok": true,
+      "wallclock": 1787424934.4546065
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "member": 7,
+      "step": 0,
+      "start_tokens": 5406,
+      "latency_s": 192.03902578353882,
+      "ok": true,
+      "wallclock": 1787424934.7231207
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "member": 1,
+      "step": 0,
+      "start_tokens": 5383,
+      "latency_s": 193.2451412677765,
+      "ok": true,
+      "wallclock": 1787424934.7300203
+    },
+    {
+      "program_id": "g07t3",
+      "group": 7,
+      "member": 3,
+      "step": 7,
+      "start_tokens": 3506,
+      "latency_s": 0.5895366668701172,
+      "ok": true,
+      "wallclock": 1787424936.858722
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "member": 2,
+      "step": 4,
+      "start_tokens": 3503,
+      "latency_s": 0.5597038269042969,
+      "ok": true,
+      "wallclock": 1787424937.2304688
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "member": 2,
+      "step": 5,
+      "start_tokens": 5286,
+      "latency_s": 0.5879206657409668,
+      "ok": true,
+      "wallclock": 1787424938.034108
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "member": 5,
+      "step": 6,
+      "start_tokens": 5186,
+      "latency_s": 0.5897476673126221,
+      "ok": true,
+      "wallclock": 1787424938.4518795
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "member": 1,
+      "step": 1,
+      "start_tokens": 5383,
+      "latency_s": 0.5488057136535645,
+      "ok": true,
+      "wallclock": 1787424942.0571897
+    },
+    {
+      "program_id": "g05t6",
+      "group": 5,
+      "member": 6,
+      "step": 7,
+      "start_tokens": 5279,
+      "latency_s": 0.5710997581481934,
+      "ok": true,
+      "wallclock": 1787424944.5127006
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "member": 7,
+      "step": 1,
+      "start_tokens": 5406,
+      "latency_s": 0.6361241340637207,
+      "ok": true,
+      "wallclock": 1787424945.2937796
+    },
+    {
+      "program_id": "g05t5",
+      "group": 5,
+      "member": 5,
+      "step": 7,
+      "start_tokens": 5186,
+      "latency_s": 0.6516308784484863,
+      "ok": true,
+      "wallclock": 1787424945.4246016
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "member": 2,
+      "step": 6,
+      "start_tokens": 5286,
+      "latency_s": 0.6737918853759766,
+      "ok": true,
+      "wallclock": 1787424945.6533346
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "member": 7,
+      "step": 6,
+      "start_tokens": 3485,
+      "latency_s": 0.6483564376831055,
+      "ok": true,
+      "wallclock": 1787424946.180593
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "member": 2,
+      "step": 5,
+      "start_tokens": 3503,
+      "latency_s": 0.6353774070739746,
+      "ok": true,
+      "wallclock": 1787424946.2198672
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "member": 4,
+      "step": 0,
+      "start_tokens": 5447,
+      "latency_s": 207.62405109405518,
+      "ok": true,
+      "wallclock": 1787424949.7084098
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "member": 0,
+      "step": 0,
+      "start_tokens": 5416,
+      "latency_s": 208.4312882423401,
+      "ok": true,
+      "wallclock": 1787424949.7155027
+    },
+    {
+      "program_id": "g05t2",
+      "group": 5,
+      "member": 2,
+      "step": 7,
+      "start_tokens": 5286,
+      "latency_s": 0.6438157558441162,
+      "ok": true,
+      "wallclock": 1787424951.5651891
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "member": 7,
+      "step": 2,
+      "start_tokens": 5406,
+      "latency_s": 0.6692094802856445,
+      "ok": true,
+      "wallclock": 1787424951.8992352
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "member": 1,
+      "step": 2,
+      "start_tokens": 5383,
+      "latency_s": 0.6666314601898193,
+      "ok": true,
+      "wallclock": 1787424951.9149668
+    },
+    {
+      "program_id": "g07t7",
+      "group": 7,
+      "member": 7,
+      "step": 7,
+      "start_tokens": 3485,
+      "latency_s": 0.6230106353759766,
+      "ok": true,
+      "wallclock": 1787424953.7279973
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "member": 2,
+      "step": 6,
+      "start_tokens": 3503,
+      "latency_s": 0.6061742305755615,
+      "ok": true,
+      "wallclock": 1787424953.9355893
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "member": 1,
+      "step": 0,
+      "start_tokens": 6074,
+      "latency_s": 211.64516377449036,
+      "ok": true,
+      "wallclock": 1787424954.7306824
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "member": 4,
+      "step": 1,
+      "start_tokens": 5447,
+      "latency_s": 0.5926864147186279,
+      "ok": true,
+      "wallclock": 1787424955.051299
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "member": 1,
+      "step": 3,
+      "start_tokens": 5383,
+      "latency_s": 0.5689876079559326,
+      "ok": true,
+      "wallclock": 1787424958.4292808
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "member": 0,
+      "step": 1,
+      "start_tokens": 5416,
+      "latency_s": 0.6056256294250488,
+      "ok": true,
+      "wallclock": 1787424959.4839454
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "member": 3,
+      "step": 0,
+      "start_tokens": 6203,
+      "latency_s": 216.30281376838684,
+      "ok": true,
+      "wallclock": 1787424959.7872896
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "member": 6,
+      "step": 0,
+      "start_tokens": 6162,
+      "latency_s": 215.71673822402954,
+      "ok": true,
+      "wallclock": 1787424959.802216
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "member": 1,
+      "step": 1,
+      "start_tokens": 6074,
+      "latency_s": 0.5761470794677734,
+      "ok": true,
+      "wallclock": 1787424960.6614182
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "member": 4,
+      "step": 2,
+      "start_tokens": 5447,
+      "latency_s": 0.6073610782623291,
+      "ok": true,
+      "wallclock": 1787424962.623347
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "member": 7,
+      "step": 3,
+      "start_tokens": 5406,
+      "latency_s": 0.6005854606628418,
+      "ok": true,
+      "wallclock": 1787424962.9544957
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "member": 5,
+      "step": 0,
+      "start_tokens": 6217,
+      "latency_s": 220.83403635025024,
+      "ok": true,
+      "wallclock": 1787424964.718966
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "member": 6,
+      "step": 1,
+      "start_tokens": 6162,
+      "latency_s": 0.5791311264038086,
+      "ok": true,
+      "wallclock": 1787424965.6110108
+    },
+    {
+      "program_id": "g07t2",
+      "group": 7,
+      "member": 2,
+      "step": 7,
+      "start_tokens": 3503,
+      "latency_s": 0.5607023239135742,
+      "ok": true,
+      "wallclock": 1787424966.3344402
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "member": 3,
+      "step": 1,
+      "start_tokens": 6203,
+      "latency_s": 0.6071863174438477,
+      "ok": true,
+      "wallclock": 1787424967.0252588
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "member": 0,
+      "step": 2,
+      "start_tokens": 5416,
+      "latency_s": 0.5970747470855713,
+      "ok": true,
+      "wallclock": 1787424967.3097985
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "member": 4,
+      "step": 3,
+      "start_tokens": 5447,
+      "latency_s": 0.5707697868347168,
+      "ok": true,
+      "wallclock": 1787424969.8040478
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "member": 1,
+      "step": 4,
+      "start_tokens": 5383,
+      "latency_s": 0.5659334659576416,
+      "ok": true,
+      "wallclock": 1787424970.7678883
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "member": 6,
+      "step": 2,
+      "start_tokens": 6162,
+      "latency_s": 0.6107962131500244,
+      "ok": true,
+      "wallclock": 1787424971.6615381
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "member": 1,
+      "step": 2,
+      "start_tokens": 6074,
+      "latency_s": 0.6155829429626465,
+      "ok": true,
+      "wallclock": 1787424971.9119656
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "member": 5,
+      "step": 1,
+      "start_tokens": 6217,
+      "latency_s": 0.586780309677124,
+      "ok": true,
+      "wallclock": 1787424973.7717588
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "member": 7,
+      "step": 4,
+      "start_tokens": 5406,
+      "latency_s": 0.5658078193664551,
+      "ok": true,
+      "wallclock": 1787424974.5563855
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "member": 1,
+      "step": 3,
+      "start_tokens": 6074,
+      "latency_s": 0.5699410438537598,
+      "ok": true,
+      "wallclock": 1787424978.061205
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "member": 3,
+      "step": 2,
+      "start_tokens": 6203,
+      "latency_s": 0.5918304920196533,
+      "ok": true,
+      "wallclock": 1787424978.822763
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "member": 4,
+      "step": 4,
+      "start_tokens": 5447,
+      "latency_s": 0.5896947383880615,
+      "ok": true,
+      "wallclock": 1787424979.2057884
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "member": 0,
+      "step": 3,
+      "start_tokens": 5416,
+      "latency_s": 2.477775812149048,
+      "ok": true,
+      "wallclock": 1787424979.7814288
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "member": 5,
+      "step": 2,
+      "start_tokens": 6217,
+      "latency_s": 0.5765471458435059,
+      "ok": true,
+      "wallclock": 1787424980.2805176
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "member": 1,
+      "step": 5,
+      "start_tokens": 5383,
+      "latency_s": 0.5819103717803955,
+      "ok": true,
+      "wallclock": 1787424981.3817916
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "member": 6,
+      "step": 3,
+      "start_tokens": 6162,
+      "latency_s": 0.5685060024261475,
+      "ok": true,
+      "wallclock": 1787424983.8145466
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "member": 7,
+      "step": 5,
+      "start_tokens": 5406,
+      "latency_s": 0.5752148628234863,
+      "ok": true,
+      "wallclock": 1787424985.2321687
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "member": 1,
+      "step": 4,
+      "start_tokens": 6074,
+      "latency_s": 0.6117799282073975,
+      "ok": true,
+      "wallclock": 1787424986.0145671
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "member": 5,
+      "step": 3,
+      "start_tokens": 6217,
+      "latency_s": 0.6123900413513184,
+      "ok": true,
+      "wallclock": 1787424986.1717482
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "member": 0,
+      "step": 4,
+      "start_tokens": 5416,
+      "latency_s": 0.5608334541320801,
+      "ok": true,
+      "wallclock": 1787424988.516914
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "member": 4,
+      "step": 5,
+      "start_tokens": 5447,
+      "latency_s": 0.5792191028594971,
+      "ok": true,
+      "wallclock": 1787424990.4590528
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "member": 1,
+      "step": 6,
+      "start_tokens": 5383,
+      "latency_s": 0.613100528717041,
+      "ok": true,
+      "wallclock": 1787424990.8917365
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "member": 3,
+      "step": 3,
+      "start_tokens": 6203,
+      "latency_s": 0.5945556163787842,
+      "ok": true,
+      "wallclock": 1787424991.2993891
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "member": 6,
+      "step": 4,
+      "start_tokens": 6162,
+      "latency_s": 0.5618786811828613,
+      "ok": true,
+      "wallclock": 1787424993.191113
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "member": 7,
+      "step": 6,
+      "start_tokens": 5406,
+      "latency_s": 0.608818531036377,
+      "ok": true,
+      "wallclock": 1787424994.4843857
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "member": 5,
+      "step": 4,
+      "start_tokens": 6217,
+      "latency_s": 0.623755931854248,
+      "ok": true,
+      "wallclock": 1787424994.6166975
+    },
+    {
+      "program_id": "g05t1",
+      "group": 5,
+      "member": 1,
+      "step": 7,
+      "start_tokens": 5383,
+      "latency_s": 0.6187906265258789,
+      "ok": true,
+      "wallclock": 1787424996.796797
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "member": 1,
+      "step": 5,
+      "start_tokens": 6074,
+      "latency_s": 0.6241128444671631,
+      "ok": true,
+      "wallclock": 1787424996.8715272
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "member": 6,
+      "step": 5,
+      "start_tokens": 6162,
+      "latency_s": 0.5610833168029785,
+      "ok": true,
+      "wallclock": 1787424999.105915
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "member": 4,
+      "step": 6,
+      "start_tokens": 5447,
+      "latency_s": 0.5784158706665039,
+      "ok": true,
+      "wallclock": 1787424999.8002284
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "member": 0,
+      "step": 5,
+      "start_tokens": 5416,
+      "latency_s": 0.5880355834960938,
+      "ok": true,
+      "wallclock": 1787425000.2477386
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "member": 3,
+      "step": 4,
+      "start_tokens": 6203,
+      "latency_s": 0.5599558353424072,
+      "ok": true,
+      "wallclock": 1787425002.4289393
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "member": 1,
+      "step": 6,
+      "start_tokens": 6074,
+      "latency_s": 0.5697121620178223,
+      "ok": true,
+      "wallclock": 1787425003.0522416
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "member": 0,
+      "step": 0,
+      "start_tokens": 6254,
+      "latency_s": 261.9046063423157,
+      "ok": true,
+      "wallclock": 1787425004.7900784
+    },
+    {
+      "program_id": "g05t7",
+      "group": 5,
+      "member": 7,
+      "step": 7,
+      "start_tokens": 5406,
+      "latency_s": 0.5886180400848389,
+      "ok": true,
+      "wallclock": 1787425006.3201919
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "member": 5,
+      "step": 5,
+      "start_tokens": 6217,
+      "latency_s": 0.591794490814209,
+      "ok": true,
+      "wallclock": 1787425006.6260238
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "member": 0,
+      "step": 6,
+      "start_tokens": 5416,
+      "latency_s": 0.5991525650024414,
+      "ok": true,
+      "wallclock": 1787425007.846137
+    },
+    {
+      "program_id": "g05t4",
+      "group": 5,
+      "member": 4,
+      "step": 7,
+      "start_tokens": 5447,
+      "latency_s": 0.6046466827392578,
+      "ok": true,
+      "wallclock": 1787425008.061278
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "member": 6,
+      "step": 6,
+      "start_tokens": 6162,
+      "latency_s": 0.5602805614471436,
+      "ok": true,
+      "wallclock": 1787425009.2867544
+    },
+    {
+      "program_id": "g06t1",
+      "group": 6,
+      "member": 1,
+      "step": 7,
+      "start_tokens": 6074,
+      "latency_s": 0.6278998851776123,
+      "ok": true,
+      "wallclock": 1787425010.3649201
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "member": 0,
+      "step": 1,
+      "start_tokens": 6254,
+      "latency_s": 0.637768030166626,
+      "ok": true,
+      "wallclock": 1787425010.4732447
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "member": 3,
+      "step": 5,
+      "start_tokens": 6203,
+      "latency_s": 0.5618844032287598,
+      "ok": true,
+      "wallclock": 1787425013.0014446
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "member": 2,
+      "step": 0,
+      "start_tokens": 6291,
+      "latency_s": 271.5292863845825,
+      "ok": true,
+      "wallclock": 1787425014.8140075
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "member": 5,
+      "step": 6,
+      "start_tokens": 6217,
+      "latency_s": 0.563511848449707,
+      "ok": true,
+      "wallclock": 1787425018.2097807
+    },
+    {
+      "program_id": "g06t6",
+      "group": 6,
+      "member": 6,
+      "step": 7,
+      "start_tokens": 6162,
+      "latency_s": 0.7563588619232178,
+      "ok": true,
+      "wallclock": 1787425020.012999
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "member": 7,
+      "step": 0,
+      "start_tokens": 6433,
+      "latency_s": 275.7721438407898,
+      "ok": true,
+      "wallclock": 1787425020.0569313
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "member": 4,
+      "step": 0,
+      "start_tokens": 6396,
+      "latency_s": 276.3918743133545,
+      "ok": true,
+      "wallclock": 1787425020.0763779
+    },
+    {
+      "program_id": "g05t0",
+      "group": 5,
+      "member": 0,
+      "step": 7,
+      "start_tokens": 5416,
+      "latency_s": 0.7595138549804688,
+      "ok": true,
+      "wallclock": 1787425020.2861483
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "member": 2,
+      "step": 1,
+      "start_tokens": 6291,
+      "latency_s": 0.7443077564239502,
+      "ok": true,
+      "wallclock": 1787425020.3802614
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "member": 3,
+      "step": 6,
+      "start_tokens": 6203,
+      "latency_s": 0.6127321720123291,
+      "ok": true,
+      "wallclock": 1787425020.7370207
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "member": 0,
+      "step": 2,
+      "start_tokens": 6254,
+      "latency_s": 0.5641224384307861,
+      "ok": true,
+      "wallclock": 1787425022.80833
+    },
+    {
+      "program_id": "g06t5",
+      "group": 6,
+      "member": 5,
+      "step": 7,
+      "start_tokens": 6217,
+      "latency_s": 0.5647878646850586,
+      "ok": true,
+      "wallclock": 1787425025.423869
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "member": 7,
+      "step": 1,
+      "start_tokens": 6433,
+      "latency_s": 0.5757770538330078,
+      "ok": true,
+      "wallclock": 1787425026.0403078
+    },
+    {
+      "program_id": "g06t3",
+      "group": 6,
+      "member": 3,
+      "step": 7,
+      "start_tokens": 6203,
+      "latency_s": 0.5616261959075928,
+      "ok": true,
+      "wallclock": 1787425027.1600792
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "member": 1,
+      "step": 0,
+      "start_tokens": 6874,
+      "latency_s": 293.25130677223206,
+      "ok": true,
+      "wallclock": 1787425029.9355056
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "member": 3,
+      "step": 0,
+      "start_tokens": 6820,
+      "latency_s": 292.8586404323578,
+      "ok": true,
+      "wallclock": 1787425029.9429445
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "member": 4,
+      "step": 1,
+      "start_tokens": 6396,
+      "latency_s": 0.6315205097198486,
+      "ok": true,
+      "wallclock": 1787425030.8683035
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "member": 2,
+      "step": 2,
+      "start_tokens": 6291,
+      "latency_s": 0.640923023223877,
+      "ok": true,
+      "wallclock": 1787425030.9602153
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "member": 0,
+      "step": 3,
+      "start_tokens": 6254,
+      "latency_s": 0.6047821044921875,
+      "ok": true,
+      "wallclock": 1787425031.3437417
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "member": 7,
+      "step": 2,
+      "start_tokens": 6433,
+      "latency_s": 0.5689711570739746,
+      "ok": true,
+      "wallclock": 1787425032.2649355
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "member": 7,
+      "step": 0,
+      "start_tokens": 6891,
+      "latency_s": 296.9877200126648,
+      "ok": true,
+      "wallclock": 1787425034.8724637
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "member": 3,
+      "step": 1,
+      "start_tokens": 6820,
+      "latency_s": 0.5806210041046143,
+      "ok": true,
+      "wallclock": 1787425037.6811533
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "member": 4,
+      "step": 2,
+      "start_tokens": 6396,
+      "latency_s": 0.5745253562927246,
+      "ok": true,
+      "wallclock": 1787425038.232485
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "member": 2,
+      "step": 0,
+      "start_tokens": 7092,
+      "latency_s": 303.0095520019531,
+      "ok": true,
+      "wallclock": 1787425039.8937016
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "member": 2,
+      "step": 3,
+      "start_tokens": 6291,
+      "latency_s": 0.5670812129974365,
+      "ok": true,
+      "wallclock": 1787425040.4716263
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "member": 1,
+      "step": 1,
+      "start_tokens": 6874,
+      "latency_s": 0.6053574085235596,
+      "ok": true,
+      "wallclock": 1787425041.2599254
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "member": 0,
+      "step": 4,
+      "start_tokens": 6254,
+      "latency_s": 0.6082708835601807,
+      "ok": true,
+      "wallclock": 1787425041.4835665
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "member": 7,
+      "step": 3,
+      "start_tokens": 6433,
+      "latency_s": 0.6223690509796143,
+      "ok": true,
+      "wallclock": 1787425043.8033345
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "member": 7,
+      "step": 1,
+      "start_tokens": 6891,
+      "latency_s": 0.6197531223297119,
+      "ok": true,
+      "wallclock": 1787425044.013524
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "member": 3,
+      "step": 2,
+      "start_tokens": 6820,
+      "latency_s": 0.5892493724822998,
+      "ok": true,
+      "wallclock": 1787425049.1089842
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "member": 7,
+      "step": 2,
+      "start_tokens": 6891,
+      "latency_s": 0.601834774017334,
+      "ok": true,
+      "wallclock": 1787425049.4682934
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "member": 4,
+      "step": 3,
+      "start_tokens": 6396,
+      "latency_s": 0.5956311225891113,
+      "ok": true,
+      "wallclock": 1787425049.973401
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "member": 1,
+      "step": 2,
+      "start_tokens": 6874,
+      "latency_s": 0.66914963722229,
+      "ok": true,
+      "wallclock": 1787425051.4861212
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "member": 7,
+      "step": 4,
+      "start_tokens": 6433,
+      "latency_s": 0.6926827430725098,
+      "ok": true,
+      "wallclock": 1787425051.6087997
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "member": 0,
+      "step": 5,
+      "start_tokens": 6254,
+      "latency_s": 0.7051866054534912,
+      "ok": true,
+      "wallclock": 1787425051.7583368
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "member": 2,
+      "step": 1,
+      "start_tokens": 7092,
+      "latency_s": 0.6768152713775635,
+      "ok": true,
+      "wallclock": 1787425051.9864168
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "member": 2,
+      "step": 4,
+      "start_tokens": 6291,
+      "latency_s": 0.5930309295654297,
+      "ok": true,
+      "wallclock": 1787425052.4209774
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "member": 4,
+      "step": 4,
+      "start_tokens": 6396,
+      "latency_s": 0.6504170894622803,
+      "ok": true,
+      "wallclock": 1787425057.3310099
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "member": 7,
+      "step": 3,
+      "start_tokens": 6891,
+      "latency_s": 0.6671979427337646,
+      "ok": true,
+      "wallclock": 1787425057.4514115
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "member": 2,
+      "step": 2,
+      "start_tokens": 7092,
+      "latency_s": 0.660527229309082,
+      "ok": true,
+      "wallclock": 1787425057.5614042
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "member": 1,
+      "step": 3,
+      "start_tokens": 6874,
+      "latency_s": 0.5695087909698486,
+      "ok": true,
+      "wallclock": 1787425060.4506364
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "member": 3,
+      "step": 3,
+      "start_tokens": 6820,
+      "latency_s": 0.5782337188720703,
+      "ok": true,
+      "wallclock": 1787425061.0685296
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "member": 7,
+      "step": 5,
+      "start_tokens": 6433,
+      "latency_s": 0.5680568218231201,
+      "ok": true,
+      "wallclock": 1787425062.2257698
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "member": 0,
+      "step": 6,
+      "start_tokens": 6254,
+      "latency_s": 0.5898149013519287,
+      "ok": true,
+      "wallclock": 1787425062.988378
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "member": 2,
+      "step": 5,
+      "start_tokens": 6291,
+      "latency_s": 0.6045072078704834,
+      "ok": true,
+      "wallclock": 1787425063.2977595
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "member": 4,
+      "step": 5,
+      "start_tokens": 6396,
+      "latency_s": 0.6618850231170654,
+      "ok": true,
+      "wallclock": 1787425069.5281048
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "member": 1,
+      "step": 4,
+      "start_tokens": 6874,
+      "latency_s": 0.7166645526885986,
+      "ok": true,
+      "wallclock": 1787425069.74359
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "member": 2,
+      "step": 3,
+      "start_tokens": 7092,
+      "latency_s": 0.7202885150909424,
+      "ok": true,
+      "wallclock": 1787425069.819836
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "member": 7,
+      "step": 4,
+      "start_tokens": 6891,
+      "latency_s": 0.684525728225708,
+      "ok": true,
+      "wallclock": 1787425069.9633522
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "member": 7,
+      "step": 6,
+      "start_tokens": 6433,
+      "latency_s": 0.5755159854888916,
+      "ok": true,
+      "wallclock": 1787425071.5285149
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "member": 3,
+      "step": 4,
+      "start_tokens": 6820,
+      "latency_s": 0.5761959552764893,
+      "ok": true,
+      "wallclock": 1787425072.7599847
+    },
+    {
+      "program_id": "g06t0",
+      "group": 6,
+      "member": 0,
+      "step": 7,
+      "start_tokens": 6254,
+      "latency_s": 0.5624024868011475,
+      "ok": true,
+      "wallclock": 1787425074.3419564
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "member": 1,
+      "step": 5,
+      "start_tokens": 6874,
+      "latency_s": 0.577204704284668,
+      "ok": true,
+      "wallclock": 1787425075.3110957
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "member": 2,
+      "step": 6,
+      "start_tokens": 6291,
+      "latency_s": 0.5848093032836914,
+      "ok": true,
+      "wallclock": 1787425075.802433
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "member": 4,
+      "step": 6,
+      "start_tokens": 6396,
+      "latency_s": 0.5669727325439453,
+      "ok": true,
+      "wallclock": 1787425077.0966668
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "member": 2,
+      "step": 4,
+      "start_tokens": 7092,
+      "latency_s": 0.5844681262969971,
+      "ok": true,
+      "wallclock": 1787425080.4094565
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "member": 1,
+      "step": 6,
+      "start_tokens": 6874,
+      "latency_s": 0.6325473785400391,
+      "ok": true,
+      "wallclock": 1787425080.9425385
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "member": 3,
+      "step": 5,
+      "start_tokens": 6820,
+      "latency_s": 0.6325562000274658,
+      "ok": true,
+      "wallclock": 1787425081.0936556
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "member": 7,
+      "step": 5,
+      "start_tokens": 6891,
+      "latency_s": 0.5692281723022461,
+      "ok": true,
+      "wallclock": 1787425082.0377975
+    },
+    {
+      "program_id": "g06t7",
+      "group": 6,
+      "member": 7,
+      "step": 7,
+      "start_tokens": 6433,
+      "latency_s": 0.573988676071167,
+      "ok": true,
+      "wallclock": 1787425083.3401437
+    },
+    {
+      "program_id": "g06t4",
+      "group": 6,
+      "member": 4,
+      "step": 7,
+      "start_tokens": 6396,
+      "latency_s": 0.5922946929931641,
+      "ok": true,
+      "wallclock": 1787425083.865278
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "member": 4,
+      "step": 0,
+      "start_tokens": 7156,
+      "latency_s": 347.6957232952118,
+      "ok": true,
+      "wallclock": 1787425084.9806578
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "member": 2,
+      "step": 5,
+      "start_tokens": 7092,
+      "latency_s": 0.5949208736419678,
+      "ok": true,
+      "wallclock": 1787425085.981571
+    },
+    {
+      "program_id": "g02t1",
+      "group": 2,
+      "member": 1,
+      "step": 7,
+      "start_tokens": 6874,
+      "latency_s": 0.5944907665252686,
+      "ok": true,
+      "wallclock": 1787425086.351438
+    },
+    {
+      "program_id": "g06t2",
+      "group": 6,
+      "member": 2,
+      "step": 7,
+      "start_tokens": 6291,
+      "latency_s": 0.5636129379272461,
+      "ok": true,
+      "wallclock": 1787425087.1808138
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "member": 7,
+      "step": 6,
+      "start_tokens": 6891,
+      "latency_s": 0.6384880542755127,
+      "ok": true,
+      "wallclock": 1787425090.0031412
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "member": 5,
+      "step": 0,
+      "start_tokens": 7163,
+      "latency_s": 352.5604739189148,
+      "ok": true,
+      "wallclock": 1787425090.0445414
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "member": 3,
+      "step": 6,
+      "start_tokens": 6820,
+      "latency_s": 0.5943033695220947,
+      "ok": true,
+      "wallclock": 1787425093.1381326
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "member": 4,
+      "step": 1,
+      "start_tokens": 7156,
+      "latency_s": 0.6020338535308838,
+      "ok": true,
+      "wallclock": 1787425093.4348922
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "member": 6,
+      "step": 0,
+      "start_tokens": 7191,
+      "latency_s": 357.3127210140228,
+      "ok": true,
+      "wallclock": 1787425094.9976182
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "member": 2,
+      "step": 6,
+      "start_tokens": 7092,
+      "latency_s": 0.5760016441345215,
+      "ok": true,
+      "wallclock": 1787425096.5271673
+    },
+    {
+      "program_id": "g02t7",
+      "group": 2,
+      "member": 7,
+      "step": 7,
+      "start_tokens": 6891,
+      "latency_s": 0.5912775993347168,
+      "ok": true,
+      "wallclock": 1787425098.4450111
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "member": 4,
+      "step": 2,
+      "start_tokens": 7156,
+      "latency_s": 0.6043572425842285,
+      "ok": true,
+      "wallclock": 1787425098.79282
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "member": 0,
+      "step": 0,
+      "start_tokens": 7733,
+      "latency_s": 360.35080909729004,
+      "ok": true,
+      "wallclock": 1787425100.0361352
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "member": 5,
+      "step": 1,
+      "start_tokens": 7163,
+      "latency_s": 0.5829071998596191,
+      "ok": true,
+      "wallclock": 1787425101.1314044
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "member": 6,
+      "step": 1,
+      "start_tokens": 7191,
+      "latency_s": 0.5786101818084717,
+      "ok": true,
+      "wallclock": 1787425104.2786102
+    },
+    {
+      "program_id": "g02t3",
+      "group": 2,
+      "member": 3,
+      "step": 7,
+      "start_tokens": 6820,
+      "latency_s": 0.577467679977417,
+      "ok": true,
+      "wallclock": 1787425105.0250273
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "member": 0,
+      "step": 1,
+      "start_tokens": 7733,
+      "latency_s": 0.594031572341919,
+      "ok": true,
+      "wallclock": 1787425107.0121987
+    },
+    {
+      "program_id": "g02t2",
+      "group": 2,
+      "member": 2,
+      "step": 7,
+      "start_tokens": 7092,
+      "latency_s": 0.575925350189209,
+      "ok": true,
+      "wallclock": 1787425108.222687
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "member": 6,
+      "step": 2,
+      "start_tokens": 7191,
+      "latency_s": 0.5778312683105469,
+      "ok": true,
+      "wallclock": 1787425108.96961
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "member": 5,
+      "step": 2,
+      "start_tokens": 7163,
+      "latency_s": 0.6744637489318848,
+      "ok": true,
+      "wallclock": 1787425109.7468066
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "member": 4,
+      "step": 3,
+      "start_tokens": 7156,
+      "latency_s": 0.6902666091918945,
+      "ok": true,
+      "wallclock": 1787425109.7660584
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "member": 1,
+      "step": 0,
+      "start_tokens": 7765,
+      "latency_s": 370.216295003891,
+      "ok": true,
+      "wallclock": 1787425110.1004095
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "member": 4,
+      "step": 4,
+      "start_tokens": 7156,
+      "latency_s": 0.6185524463653564,
+      "ok": true,
+      "wallclock": 1787425114.654991
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "member": 4,
+      "step": 0,
+      "start_tokens": 7946,
+      "latency_s": 374.60231137275696,
+      "ok": true,
+      "wallclock": 1787425115.086815
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "member": 5,
+      "step": 3,
+      "start_tokens": 7163,
+      "latency_s": 0.6357271671295166,
+      "ok": true,
+      "wallclock": 1787425116.0745192
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "member": 0,
+      "step": 2,
+      "start_tokens": 7733,
+      "latency_s": 0.6429505348205566,
+      "ok": true,
+      "wallclock": 1787425116.1611288
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "member": 4,
+      "step": 5,
+      "start_tokens": 7156,
+      "latency_s": 0.6344313621520996,
+      "ok": true,
+      "wallclock": 1787425119.9324205
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "member": 6,
+      "step": 0,
+      "start_tokens": 7952,
+      "latency_s": 379.2524139881134,
+      "ok": true,
+      "wallclock": 1787425120.1370823
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "member": 1,
+      "step": 1,
+      "start_tokens": 7765,
+      "latency_s": 0.6450448036193848,
+      "ok": true,
+      "wallclock": 1787425120.5444825
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "member": 0,
+      "step": 3,
+      "start_tokens": 7733,
+      "latency_s": 0.6634469032287598,
+      "ok": true,
+      "wallclock": 1787425121.0083191
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "member": 6,
+      "step": 3,
+      "start_tokens": 7191,
+      "latency_s": 0.6515512466430664,
+      "ok": true,
+      "wallclock": 1787425121.1519442
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "member": 5,
+      "step": 4,
+      "start_tokens": 7163,
+      "latency_s": 0.5798578262329102,
+      "ok": true,
+      "wallclock": 1787425121.7484226
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "member": 4,
+      "step": 1,
+      "start_tokens": 7946,
+      "latency_s": 0.611731767654419,
+      "ok": true,
+      "wallclock": 1787425124.971342
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "member": 5,
+      "step": 5,
+      "start_tokens": 7163,
+      "latency_s": 0.5961544513702393,
+      "ok": true,
+      "wallclock": 1787425127.7561216
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "member": 6,
+      "step": 1,
+      "start_tokens": 7952,
+      "latency_s": 0.6200635433197021,
+      "ok": true,
+      "wallclock": 1787425129.6660347
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "member": 1,
+      "step": 2,
+      "start_tokens": 7765,
+      "latency_s": 0.6526510715484619,
+      "ok": true,
+      "wallclock": 1787425130.4754186
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "member": 4,
+      "step": 6,
+      "start_tokens": 7156,
+      "latency_s": 0.6725034713745117,
+      "ok": true,
+      "wallclock": 1787425130.4996061
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "member": 0,
+      "step": 4,
+      "start_tokens": 7733,
+      "latency_s": 0.6338520050048828,
+      "ok": true,
+      "wallclock": 1787425131.3134966
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "member": 6,
+      "step": 4,
+      "start_tokens": 7191,
+      "latency_s": 0.6335196495056152,
+      "ok": true,
+      "wallclock": 1787425131.5244966
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "member": 4,
+      "step": 2,
+      "start_tokens": 7946,
+      "latency_s": 0.5971052646636963,
+      "ok": true,
+      "wallclock": 1787425132.9650702
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "member": 5,
+      "step": 6,
+      "start_tokens": 7163,
+      "latency_s": 0.5775120258331299,
+      "ok": true,
+      "wallclock": 1787425137.0757222
+    },
+    {
+      "program_id": "g02t4",
+      "group": 2,
+      "member": 4,
+      "step": 7,
+      "start_tokens": 7156,
+      "latency_s": 0.5744330883026123,
+      "ok": true,
+      "wallclock": 1787425138.9781194
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "member": 4,
+      "step": 3,
+      "start_tokens": 7946,
+      "latency_s": 0.6104919910430908,
+      "ok": true,
+      "wallclock": 1787425139.5760128
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "member": 1,
+      "step": 3,
+      "start_tokens": 7765,
+      "latency_s": 0.5963683128356934,
+      "ok": true,
+      "wallclock": 1787425140.2382758
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "member": 6,
+      "step": 2,
+      "start_tokens": 7952,
+      "latency_s": 0.6053075790405273,
+      "ok": true,
+      "wallclock": 1787425141.2023213
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "member": 0,
+      "step": 5,
+      "start_tokens": 7733,
+      "latency_s": 0.6096246242523193,
+      "ok": true,
+      "wallclock": 1787425142.4816287
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "member": 6,
+      "step": 5,
+      "start_tokens": 7191,
+      "latency_s": 0.6463961601257324,
+      "ok": true,
+      "wallclock": 1787425142.9271176
+    },
+    {
+      "program_id": "g02t5",
+      "group": 2,
+      "member": 5,
+      "step": 7,
+      "start_tokens": 7163,
+      "latency_s": 0.6225292682647705,
+      "ok": true,
+      "wallclock": 1787425143.1669018
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "member": 5,
+      "step": 0,
+      "start_tokens": 8046,
+      "latency_s": 404.43517446517944,
+      "ok": true,
+      "wallclock": 1787425145.1201224
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "member": 1,
+      "step": 4,
+      "start_tokens": 7765,
+      "latency_s": 0.5945487022399902,
+      "ok": true,
+      "wallclock": 1787425146.5291574
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "member": 6,
+      "step": 3,
+      "start_tokens": 7952,
+      "latency_s": 0.6001803874969482,
+      "ok": true,
+      "wallclock": 1787425150.4327843
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "member": 4,
+      "step": 4,
+      "start_tokens": 7946,
+      "latency_s": 0.6616528034210205,
+      "ok": true,
+      "wallclock": 1787425151.2152247
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "member": 0,
+      "step": 6,
+      "start_tokens": 7733,
+      "latency_s": 0.6635262966156006,
+      "ok": true,
+      "wallclock": 1787425151.3535051
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "member": 1,
+      "step": 5,
+      "start_tokens": 7765,
+      "latency_s": 0.6212766170501709,
+      "ok": true,
+      "wallclock": 1787425152.528991
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "member": 6,
+      "step": 6,
+      "start_tokens": 7191,
+      "latency_s": 0.6264748573303223,
+      "ok": true,
+      "wallclock": 1787425152.818601
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "member": 5,
+      "step": 1,
+      "start_tokens": 8046,
+      "latency_s": 0.6180431842803955,
+      "ok": true,
+      "wallclock": 1787425154.9955404
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "member": 4,
+      "step": 5,
+      "start_tokens": 7946,
+      "latency_s": 0.5980310440063477,
+      "ok": true,
+      "wallclock": 1787425157.2981956
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "member": 6,
+      "step": 4,
+      "start_tokens": 7952,
+      "latency_s": 0.6036782264709473,
+      "ok": true,
+      "wallclock": 1787425158.4841137
+    },
+    {
+      "program_id": "g04t0",
+      "group": 4,
+      "member": 0,
+      "step": 7,
+      "start_tokens": 7733,
+      "latency_s": 0.6044373512268066,
+      "ok": true,
+      "wallclock": 1787425159.0183828
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "member": 2,
+      "step": 0,
+      "start_tokens": 8071,
+      "latency_s": 420.06826162338257,
+      "ok": true,
+      "wallclock": 1787425160.15334
+    },
+    {
+      "program_id": "g02t6",
+      "group": 2,
+      "member": 6,
+      "step": 7,
+      "start_tokens": 7191,
+      "latency_s": 0.6065590381622314,
+      "ok": true,
+      "wallclock": 1787425162.6425393
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "member": 1,
+      "step": 6,
+      "start_tokens": 7765,
+      "latency_s": 0.6165730953216553,
+      "ok": true,
+      "wallclock": 1787425163.071364
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "member": 5,
+      "step": 2,
+      "start_tokens": 8046,
+      "latency_s": 0.6151611804962158,
+      "ok": true,
+      "wallclock": 1787425164.6411092
+    },
+    {
+      "program_id": "g04t1",
+      "group": 4,
+      "member": 1,
+      "step": 7,
+      "start_tokens": 7765,
+      "latency_s": 0.5934004783630371,
+      "ok": true,
+      "wallclock": 1787425167.8849893
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "member": 4,
+      "step": 6,
+      "start_tokens": 7946,
+      "latency_s": 0.5990598201751709,
+      "ok": true,
+      "wallclock": 1787425168.8040416
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "member": 3,
+      "step": 0,
+      "start_tokens": 8105,
+      "latency_s": 429.93422412872314,
+      "ok": true,
+      "wallclock": 1787425170.218353
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "member": 2,
+      "step": 1,
+      "start_tokens": 8071,
+      "latency_s": 0.652606725692749,
+      "ok": true,
+      "wallclock": 1787425170.4205568
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "member": 6,
+      "step": 5,
+      "start_tokens": 7952,
+      "latency_s": 0.6159589290618896,
+      "ok": true,
+      "wallclock": 1787425171.0842094
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "member": 7,
+      "step": 0,
+      "start_tokens": 8134,
+      "latency_s": 434.1105673313141,
+      "ok": true,
+      "wallclock": 1787425175.1950803
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "member": 6,
+      "step": 6,
+      "start_tokens": 7952,
+      "latency_s": 0.6667625904083252,
+      "ok": true,
+      "wallclock": 1787425176.6963236
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "member": 3,
+      "step": 1,
+      "start_tokens": 8105,
+      "latency_s": 0.7108132839202881,
+      "ok": true,
+      "wallclock": 1787425176.7660122
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "member": 5,
+      "step": 3,
+      "start_tokens": 8046,
+      "latency_s": 0.6326050758361816,
+      "ok": true,
+      "wallclock": 1787425177.2101657
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "member": 2,
+      "step": 2,
+      "start_tokens": 8071,
+      "latency_s": 0.6243414878845215,
+      "ok": true,
+      "wallclock": 1787425178.4340243
+    },
+    {
+      "program_id": "g04t4",
+      "group": 4,
+      "member": 4,
+      "step": 7,
+      "start_tokens": 7946,
+      "latency_s": 0.6315412521362305,
+      "ok": true,
+      "wallclock": 1787425178.821975
+    },
+    {
+      "program_id": "g04t6",
+      "group": 4,
+      "member": 6,
+      "step": 7,
+      "start_tokens": 7952,
+      "latency_s": 0.6286120414733887,
+      "ok": true,
+      "wallclock": 1787425181.663489
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "member": 3,
+      "step": 2,
+      "start_tokens": 8105,
+      "latency_s": 0.6337575912475586,
+      "ok": true,
+      "wallclock": 1787425181.9817438
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "member": 7,
+      "step": 1,
+      "start_tokens": 8134,
+      "latency_s": 0.7080042362213135,
+      "ok": true,
+      "wallclock": 1787425187.6499758
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "member": 5,
+      "step": 4,
+      "start_tokens": 8046,
+      "latency_s": 0.7331926822662354,
+      "ok": true,
+      "wallclock": 1787425187.7576754
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "member": 2,
+      "step": 3,
+      "start_tokens": 8071,
+      "latency_s": 0.728020429611206,
+      "ok": true,
+      "wallclock": 1787425187.774981
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "member": 3,
+      "step": 3,
+      "start_tokens": 8105,
+      "latency_s": 0.6015591621398926,
+      "ok": true,
+      "wallclock": 1787425192.1790054
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "member": 7,
+      "step": 2,
+      "start_tokens": 8134,
+      "latency_s": 0.6123542785644531,
+      "ok": true,
+      "wallclock": 1787425195.8567207
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "member": 5,
+      "step": 5,
+      "start_tokens": 8046,
+      "latency_s": 0.6004457473754883,
+      "ok": true,
+      "wallclock": 1787425198.0544002
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "member": 2,
+      "step": 4,
+      "start_tokens": 8071,
+      "latency_s": 0.6176979541778564,
+      "ok": true,
+      "wallclock": 1787425199.8896766
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "member": 7,
+      "step": 3,
+      "start_tokens": 8134,
+      "latency_s": 0.6258120536804199,
+      "ok": true,
+      "wallclock": 1787425203.3990493
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "member": 3,
+      "step": 4,
+      "start_tokens": 8105,
+      "latency_s": 0.6366937160491943,
+      "ok": true,
+      "wallclock": 1787425203.7959268
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "member": 2,
+      "step": 5,
+      "start_tokens": 8071,
+      "latency_s": 0.6014552116394043,
+      "ok": true,
+      "wallclock": 1787425206.2584143
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "member": 5,
+      "step": 6,
+      "start_tokens": 8046,
+      "latency_s": 0.6081409454345703,
+      "ok": true,
+      "wallclock": 1787425208.8601248
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "member": 7,
+      "step": 4,
+      "start_tokens": 8134,
+      "latency_s": 0.606964111328125,
+      "ok": true,
+      "wallclock": 1787425211.09696
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "member": 3,
+      "step": 5,
+      "start_tokens": 8105,
+      "latency_s": 0.6522035598754883,
+      "ok": true,
+      "wallclock": 1787425216.3973851
+    },
+    {
+      "program_id": "g04t5",
+      "group": 4,
+      "member": 5,
+      "step": 7,
+      "start_tokens": 8046,
+      "latency_s": 0.7042675018310547,
+      "ok": true,
+      "wallclock": 1787425216.7722197
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "member": 2,
+      "step": 6,
+      "start_tokens": 8071,
+      "latency_s": 0.6942405700683594,
+      "ok": true,
+      "wallclock": 1787425216.8339722
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "member": 7,
+      "step": 5,
+      "start_tokens": 8134,
+      "latency_s": 0.6080760955810547,
+      "ok": true,
+      "wallclock": 1787425220.057416
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "member": 3,
+      "step": 6,
+      "start_tokens": 8105,
+      "latency_s": 0.6014888286590576,
+      "ok": true,
+      "wallclock": 1787425224.500452
+    },
+    {
+      "program_id": "g04t2",
+      "group": 4,
+      "member": 2,
+      "step": 7,
+      "start_tokens": 8071,
+      "latency_s": 0.614290714263916,
+      "ok": true,
+      "wallclock": 1787425225.6290631
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "member": 7,
+      "step": 6,
+      "start_tokens": 8134,
+      "latency_s": 0.5997495651245117,
+      "ok": true,
+      "wallclock": 1787425228.2835455
+    },
+    {
+      "program_id": "g04t3",
+      "group": 4,
+      "member": 3,
+      "step": 7,
+      "start_tokens": 8105,
+      "latency_s": 0.6006078720092773,
+      "ok": true,
+      "wallclock": 1787425232.4600954
+    },
+    {
+      "program_id": "g04t7",
+      "group": 4,
+      "member": 7,
+      "step": 7,
+      "start_tokens": 8134,
+      "latency_s": 0.6002602577209473,
+      "ok": true,
+      "wallclock": 1787425239.3707156
+    }
+  ]
+}
