@@ -85,6 +85,23 @@ def is_live(evs, t):
     return start <= t <= end
 
 
+def is_acting(evs, t):
+    """ThunderAgent only evicts programs in ACTING state -- between the END of
+    one request and the START of the next. A paused program shows up as a long
+    ACTING gap, which is correct: it IS pause-eligible.
+
+    Ranking a victim against all LIVE programs (including REASONING ones, which
+    are NOT eviction candidates) scrambles ranks into a fake uniform
+    distribution. That was a bug in the first version of this script."""
+    for i, e in enumerate(evs):
+        if i + 1 >= len(evs):
+            continue
+        done = e["wallclock"] + e["latency_s"]
+        if done <= t < evs[i + 1]["wallclock"]:
+            return True
+    return False
+
+
 def estimate_size(evs, t, per_step_growth):
     return evs[0]["start_tokens"] + steps_done_before(evs, t) * per_step_growth
 
@@ -130,8 +147,9 @@ def main():
     ranks, n_live_list, was_smallest, detail = [], [], 0, []
     for ev in pauses:
         t = ev["t"]
+        # Eligible set = ACTING programs only (see is_acting docstring)
         live = [(pid, estimate_size(evs, t, growth))
-                for pid, evs in by_prog.items() if is_live(evs, t)]
+                for pid, evs in by_prog.items() if is_acting(evs, t)]
         if len(live) < 2 or ev["pid"] not in dict(live):
             continue
         live.sort(key=lambda x: x[1])
@@ -152,15 +170,15 @@ def main():
     pct = ranks / np.maximum(n_live - 1, 1)
 
     print(f"\nReconstructed {len(ranks)} eviction decisions")
-    print(f"  Mean live programs at eviction : {n_live.mean():.1f}")
-    print(f"  Victim was the SMALLEST live   : {was_smallest}/{len(ranks)} "
+    print(f"  Mean ACTING (eligible) at eviction: {n_live.mean():.1f}")
+    print(f"  Victim was SMALLEST eligible   : {was_smallest}/{len(ranks)} "
           f"({was_smallest/len(ranks)*100:.0f}%)")
     print(f"  Victim in smallest QUARTILE    : {(pct <= 0.25).sum()}/{len(ranks)} "
           f"({(pct<=0.25).mean()*100:.0f}%)")
     print(f"  Mean victim percentile         : {pct.mean()*100:.1f}% "
           f"(size-blind eviction would give ~50%)")
 
-    print(f"\n  Victim rank histogram (0 = smallest live program):")
+    print(f"\n  Victim rank histogram (0 = smallest ACTING program):")
     for r in range(0, min(8, int(ranks.max()) + 1)):
         c = int((ranks == r).sum())
         if c:
