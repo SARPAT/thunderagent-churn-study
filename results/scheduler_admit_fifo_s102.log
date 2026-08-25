@@ -1,0 +1,1663 @@
+1787661846.599799689 nohup: ignoring input
+1787661847.212405274 🚀 Router mode: tr
+1787661847.214990176 📊 Profiling enabled - CSV output: /tmp/thunderagent_profiles/step_profiles.csv
+1787661847.217066416 📈 Metrics monitoring enabled - interval: 5.0s
+1787661847.219056372 ⏱️  Scheduler interval: 5.0s
+1787661847.220909952 ⚖️  Acting token weight: 1.0
+1787661847.256368936 INFO:     Started server process [45277]
+1787661847.258549069 INFO:     Waiting for application startup.
+1787661847.260574092 INFO:ThunderAgent.scheduler.router:Started router with 1 backend(s): ['http://localhost:8000']
+1787661847.277737020 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661847.280346094 INFO:ThunderAgent.backend.vllm_metrics:Fetched cache config for http://localhost:8000: block_size=16, num_gpu_blocks=2985, total_capacity=47760
+1787661847.294294769 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661847.296343679 INFO:ThunderAgent.backend.vllm_metrics:Fetched cache config for http://localhost:8000: block_size=16, num_gpu_blocks=2985, total_capacity=47760
+1787661847.298327733 INFO:ThunderAgent.backend.vllm_metrics:Started metrics monitoring for http://localhost:8000 (interval: 5.0s, kv_capacity: 47760 tokens)
+1787661847.300227542 INFO:ThunderAgent.scheduler.router:Started scheduler loop (interval=5.0s)
+1787661847.302228179 INFO:     Application startup complete.
+1787661847.304234174 INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+1787661847.306060520 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661852.303265055 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661852.312524572 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661852.613308439 INFO:     127.0.0.1:56930 - "GET /health HTTP/1.1" 200 OK
+1787661853.424726095 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661853.426978133 INFO:     127.0.0.1:56934 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661853.656518618 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661853.658773346 INFO:     127.0.0.1:56948 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661853.857711898 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661853.859932534 INFO:     127.0.0.1:56950 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661854.060460512 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661854.062588501 INFO:     127.0.0.1:56934 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661854.264341452 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661854.266597399 INFO:     127.0.0.1:56948 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661854.458565447 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661854.460721707 INFO:     127.0.0.1:56950 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661854.663276113 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661854.665463287 INFO:     127.0.0.1:56934 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661854.846372177 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661854.848504295 INFO:     127.0.0.1:56948 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661854.998004999 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661855.000291065 INFO:     127.0.0.1:56950 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661855.167428362 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661855.169740628 INFO:     127.0.0.1:56934 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661855.341481021 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661855.343657012 INFO:     127.0.0.1:56948 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661855.541577773 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661855.543770768 INFO:     127.0.0.1:56950 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661855.735894949 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661855.738315006 INFO:     127.0.0.1:56934 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661855.944689873 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661855.947139583 INFO:     127.0.0.1:56948 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661856.151570788 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661856.153688496 INFO:     127.0.0.1:56950 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661856.409065632 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661856.411396607 INFO:     127.0.0.1:56934 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661856.679363886 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661856.681695578 INFO:     127.0.0.1:56948 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661857.310979749 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661857.313937483 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 6 new programs
+1787661857.323680328 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661859.129743881 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661859.131957913 INFO:     127.0.0.1:62370 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661859.749585453 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661859.751775689 INFO:     127.0.0.1:62370 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661859.859928997 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661859.862066550 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661862.104261914 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661862.106317920 INFO:     127.0.0.1:62496 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661862.306408829 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661862.308522063 INFO:     127.0.0.1:62504 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661862.323048937 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661862.325684845 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=16 list=g01t3:1259,g01t2:1272,g01t1:1290,g01t6:1319,g01t5:1328,g01t4:1343,g01t0:1660,g00t3:3426,g00t6:3593,g00t4:3596,g00t1:3627,g00t7:3718,g00t0:3871,g00t2:3935,g00t5:3954,g02t0:5868
+1787661862.328159638 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=16 chosen=g01t3 tokens=1259 prior_evictions=0 baseline=g01t3
+1787661862.330944202 INFO:ThunderAgent.scheduler.router:Paused program g01t3 from http://localhost:8000 (tokens=1259)
+1787661862.333404560 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t3 (tokens=1259)
+1787661862.335668139 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661862.337968365 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661862.721478088 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661862.723805038 INFO:     127.0.0.1:62542 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661863.116056976 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661863.118286120 INFO:     127.0.0.1:62558 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661863.738754104 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661863.740933271 INFO:     127.0.0.1:62606 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661863.784304711 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661863.786501655 INFO:     127.0.0.1:62618 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661864.036706391 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661864.039046730 INFO:     127.0.0.1:62628 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661864.053010589 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661864.055147329 INFO:     127.0.0.1:62630 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661864.236055753 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661864.238421612 INFO:     127.0.0.1:54240 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661864.354260969 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661864.356481393 INFO:     127.0.0.1:54274 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661864.753905362 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661864.756078460 INFO:     127.0.0.1:54324 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661866.269637475 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661866.271722332 INFO:     127.0.0.1:54372 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661867.213714479 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661867.216009851 INFO:     127.0.0.1:54388 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661867.332185616 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661867.334717902 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=16 list=g01t2:1598,g01t1:1616,g01t7:1623,g01t6:1645,g01t5:1654,g01t0:1660,g01t4:1670,g00t3:3752,g00t0:3871,g00t6:3919,g00t4:3922,g00t2:3935,g00t1:3953,g00t5:3954,g00t7:4044,g02t0:5868
+1787661867.336835638 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=16 chosen=g01t2 tokens=1598 prior_evictions=0 baseline=g01t2
+1787661867.338966209 INFO:ThunderAgent.scheduler.router:Paused program g01t2 from http://localhost:8000 (tokens=1598)
+1787661867.341042289 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t2 (tokens=1598)
+1787661867.343327827 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=15 list=g01t1:1616,g01t7:1623,g01t6:1645,g01t5:1654,g01t0:1660,g01t4:1670,g00t3:3752,g00t0:3871,g00t6:3919,g00t4:3922,g00t2:3935,g00t1:3953,g00t5:3954,g00t7:4044,g02t0:5868
+1787661867.345619692 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=15 chosen=g01t1 tokens=1616 prior_evictions=0 baseline=g01t1
+1787661867.347793342 INFO:ThunderAgent.scheduler.router:Paused program g01t1 from http://localhost:8000 (tokens=1616)
+1787661867.349838763 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t1 (tokens=1616)
+1787661867.351807470 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 2 programs on http://localhost:8000
+1787661867.354204927 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661868.992168320 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661868.995216564 INFO:     127.0.0.1:54394 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661869.300181476 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661869.302665165 INFO:     127.0.0.1:54396 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661869.531481955 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661869.533674382 INFO:     127.0.0.1:54398 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661869.753907648 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661869.756191690 INFO:     127.0.0.1:54404 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661869.938728538 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661869.940914759 INFO:     127.0.0.1:54418 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661870.245520100 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661870.247693981 INFO:     127.0.0.1:54428 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661870.265150953 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661870.267230179 INFO:     127.0.0.1:54440 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661870.815885862 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661870.818175750 INFO:     127.0.0.1:54446 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661870.926135195 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661870.929070677 INFO:     127.0.0.1:54448 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661871.890099345 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661871.892329055 INFO:     127.0.0.1:54458 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661872.340571927 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661872.342907169 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=14 list=g01t6:1645,g01t5:1654,g01t4:1670,g01t7:1949,g01t0:1986,g00t7:4044,g00t3:4078,g00t0:4197,g00t6:4245,g00t4:4248,g00t2:4261,g00t1:4279,g00t5:4280,g02t0:5868
+1787661872.345106659 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=14 chosen=g01t6 tokens=1645 prior_evictions=0 baseline=g01t6
+1787661872.347547137 INFO:ThunderAgent.scheduler.router:Paused program g01t6 from http://localhost:8000 (tokens=1645)
+1787661872.349756727 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t6 (tokens=1645)
+1787661872.352272619 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=13 list=g01t5:1654,g01t4:1670,g01t7:1949,g01t0:1986,g00t7:4044,g00t3:4078,g00t0:4197,g00t6:4245,g00t4:4248,g00t2:4261,g00t1:4279,g00t5:4280,g02t0:5868
+1787661872.354442651 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=13 chosen=g01t5 tokens=1654 prior_evictions=0 baseline=g01t5
+1787661872.356501036 INFO:ThunderAgent.scheduler.router:Paused program g01t5 from http://localhost:8000 (tokens=1654)
+1787661872.358430669 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t5 (tokens=1654)
+1787661872.360244089 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 2 programs on http://localhost:8000
+1787661872.362253275 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661873.616043475 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661873.618238188 INFO:     127.0.0.1:54484 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661875.858067300 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661875.860338024 INFO:     127.0.0.1:50750 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661875.863475288 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661875.865538657 INFO:     127.0.0.1:50754 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661876.443677883 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661876.446010133 INFO:     127.0.0.1:50772 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661877.302858972 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661877.305083582 INFO:     127.0.0.1:50784 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661877.323104680 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661877.325517456 INFO:     127.0.0.1:50786 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661877.350360254 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661877.353254440 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=12 list=g01t7:1949,g01t4:1996,g01t0:2312,g00t3:4078,g00t6:4245,g00t1:4279,g00t5:4280,g00t7:4370,g00t0:4523,g00t4:4574,g00t2:4587,g02t0:5868
+1787661877.355871940 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=12 chosen=g01t7 tokens=1949 prior_evictions=0 baseline=g01t7
+1787661877.358449333 INFO:ThunderAgent.scheduler.router:Paused program g01t7 from http://localhost:8000 (tokens=1949)
+1787661877.360831341 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t7 (tokens=1949)
+1787661877.363259290 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661877.365991509 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661878.966306846 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661878.969417742 INFO:     127.0.0.1:50796 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661879.528053764 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661879.530211248 INFO:     127.0.0.1:50818 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661880.420297821 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661880.422428433 INFO:     127.0.0.1:50826 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661880.911663548 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661880.913848600 INFO:     127.0.0.1:50838 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661881.609662681 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661881.611956103 INFO:     127.0.0.1:50844 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661881.736262407 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661881.738508482 INFO:     127.0.0.1:50860 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661882.362929665 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661882.365389605 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=11 list=g01t4:1996,g01t0:2312,g00t3:4404,g00t0:4523,g00t6:4571,g00t4:4574,g00t2:4587,g00t1:4605,g00t5:4606,g00t7:4696,g02t0:5868
+1787661882.367856032 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=11 chosen=g01t4 tokens=1996 prior_evictions=0 baseline=g01t4
+1787661882.370206933 INFO:ThunderAgent.scheduler.router:Paused program g01t4 from http://localhost:8000 (tokens=1996)
+1787661882.372248952 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t4 (tokens=1996)
+1787661882.374610052 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661882.376588310 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661885.649230044 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661885.651470294 INFO:     127.0.0.1:55324 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661885.801622856 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661885.803856746 INFO:     127.0.0.1:55330 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661886.968841265 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661886.971158795 INFO:     127.0.0.1:55344 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661887.375274460 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661887.377950614 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 47 new programs
+1787661887.385786131 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661887.661676876 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661887.663990741 INFO:     127.0.0.1:55370 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661887.716687914 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661887.718912706 INFO:     127.0.0.1:55380 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661889.419253288 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661889.421583786 INFO:     127.0.0.1:55392 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661889.981608223 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661889.983819409 INFO:     127.0.0.1:55408 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661891.135475821 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661891.138016660 INFO:     127.0.0.1:55424 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661891.636765489 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661891.639017372 INFO:     127.0.0.1:55434 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661892.383934075 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661892.386341060 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=9 list=g01t0:2638,g00t3:4730,g00t0:4849,g00t6:4897,g00t4:4900,g00t2:4913,g00t5:4932,g00t7:5022,g02t0:5868
+1787661892.388690864 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=9 chosen=g01t0 tokens=2638 prior_evictions=0 baseline=g01t0
+1787661892.391114941 INFO:ThunderAgent.scheduler.router:Paused program g01t0 from http://localhost:8000 (tokens=2638)
+1787661892.393416452 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t0 (tokens=2638)
+1787661892.395661990 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661892.397630163 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661892.415887010 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661892.418045381 INFO:     127.0.0.1:55448 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661895.169180768 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661895.171450468 INFO:     127.0.0.1:61984 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661896.559481666 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661896.561686510 INFO:     127.0.0.1:61994 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661897.207010780 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661897.209289696 INFO:     127.0.0.1:62008 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661897.395012862 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661897.397675800 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 47 new programs
+1787661897.407424630 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661898.899708816 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661898.902151175 INFO:     127.0.0.1:62014 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661899.003341675 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661899.005569376 INFO:     127.0.0.1:62020 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661899.019233986 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661899.021633445 INFO:     127.0.0.1:62028 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661901.121678601 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661901.123826043 INFO:     127.0.0.1:62038 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661901.784615018 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661901.786747018 INFO:     127.0.0.1:62052 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661901.850149463 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661901.852352337 INFO:     127.0.0.1:62062 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661902.403710745 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661902.406261067 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=9 list=g00t3:4730,g00t1:4931,g00t0:5175,g00t6:5223,g00t4:5226,g00t7:5348,g00t2:5565,g00t5:5584,g02t0:5868
+1787661902.408453942 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=9 chosen=g00t3 tokens=4730 prior_evictions=0 baseline=g00t3
+1787661902.410491049 INFO:ThunderAgent.scheduler.router:Paused program g00t3 from http://localhost:8000 (tokens=4730)
+1787661902.412780277 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g00t3 (tokens=4730)
+1787661902.415398044 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661902.417477058 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661904.534162484 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661904.537435419 INFO:     127.0.0.1:64572 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661905.634573592 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661905.636719756 INFO:     127.0.0.1:64582 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661906.661782944 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661906.664130968 INFO:     127.0.0.1:64586 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661907.416423976 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661907.419358006 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 47 new programs
+1787661907.421735127 INFO:ThunderAgent.scheduler.router:Resumed program g01t3 to http://localhost:8000 (status=reasoning, tokens=1525, active=45097)
+1787661907.424120595 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=1, new=0, acting=0)
+1787661907.428906795 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661907.950122290 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661907.952330061 INFO:     127.0.0.1:54262 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661908.176803297 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661908.179829901 INFO:     127.0.0.1:64590 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661908.669251805 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661908.672188365 INFO:     127.0.0.1:64594 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661910.547443429 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661910.549583971 INFO:     127.0.0.1:64602 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661911.163614637 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661911.165876656 INFO:     127.0.0.1:64604 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661912.424967742 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661912.427868197 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 47 new programs
+1787661912.439796455 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661912.728118198 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661912.730418755 INFO:     127.0.0.1:64618 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661913.035580045 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661913.037688344 INFO:     127.0.0.1:64630 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661913.955763944 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661913.957993422 INFO:     127.0.0.1:64640 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661913.971718270 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661913.973783714 INFO:     127.0.0.1:64656 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661915.533509027 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661915.536292429 INFO:     127.0.0.1:62740 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661915.794676012 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661915.796936355 INFO:     127.0.0.1:62746 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661915.814328974 INFO:ThunderAgent.scheduler.router:Released and removed program: g00t2
+1787661915.816340268 INFO:     127.0.0.1:62762 - "POST /programs/release HTTP/1.1" 200 OK
+1787661917.009812844 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661917.012160396 INFO:     127.0.0.1:62776 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661917.133376717 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661917.135572797 INFO:     127.0.0.1:62782 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661917.436639974 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661917.439467622 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 47 new programs
+1787661917.442310145 INFO:ThunderAgent.scheduler.router:Resumed program g01t1 to http://localhost:8000 (status=reasoning, tokens=1883, active=43105)
+1787661917.444729890 INFO:ThunderAgent.scheduler.router:Resumed program g01t2 to http://localhost:8000 (status=reasoning, tokens=1866, active=44971)
+1787661917.447064604 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=2, new=0, acting=0)
+1787661917.450300223 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661917.934357617 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661917.936702793 INFO:     127.0.0.1:54488 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661917.940222400 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661917.942433502 INFO:     127.0.0.1:54464 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661918.242240453 INFO:ThunderAgent.scheduler.router:Released and removed program: g00t4
+1787661918.244422276 INFO:     127.0.0.1:62794 - "POST /programs/release HTTP/1.1" 200 OK
+1787661918.912955736 INFO:ThunderAgent.scheduler.router:Released and removed program: g00t5
+1787661918.915175621 INFO:     127.0.0.1:62800 - "POST /programs/release HTTP/1.1" 200 OK
+1787661919.183553415 INFO:ThunderAgent.scheduler.router:Released and removed program: g00t7
+1787661919.186694064 INFO:     127.0.0.1:62804 - "POST /programs/release HTTP/1.1" 200 OK
+1787661920.408716724 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661920.410850014 INFO:     127.0.0.1:62808 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661922.449219984 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661922.451981404 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 47 new programs
+1787661922.454568065 INFO:ThunderAgent.scheduler.router:Resumed program g00t3 to http://localhost:8000 (status=reasoning, tokens=4992, active=33535)
+1787661922.456993544 INFO:ThunderAgent.scheduler.router:Resumed program g01t0 to http://localhost:8000 (status=reasoning, tokens=2905, active=36440)
+1787661922.459335415 INFO:ThunderAgent.scheduler.router:Resumed program g01t4 to http://localhost:8000 (status=reasoning, tokens=2263, active=38703)
+1787661922.461575285 INFO:ThunderAgent.scheduler.router:Resumed program g01t7 to http://localhost:8000 (status=reasoning, tokens=2216, active=40919)
+1787661922.464127557 INFO:ThunderAgent.scheduler.router:Resumed program g01t5 to http://localhost:8000 (status=reasoning, tokens=1922, active=42841)
+1787661922.466912522 INFO:ThunderAgent.scheduler.router:Resumed program g01t6 to http://localhost:8000 (status=reasoning, tokens=1912, active=44753)
+1787661922.469098327 INFO:ThunderAgent.scheduler.router:Scheduler resumed 6 programs (reasoning=6, new=0, acting=0)
+1787661922.473998026 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661922.880238450 INFO:ThunderAgent.scheduler.router:Released and removed program: g02t0
+1787661922.882517285 INFO:     127.0.0.1:62828 - "POST /programs/release HTTP/1.1" 200 OK
+1787661923.061589545 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661923.064160773 INFO:     127.0.0.1:62822 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661923.270869299 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661923.273458219 INFO:     127.0.0.1:62070 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661923.279201695 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661923.281404174 INFO:     127.0.0.1:61992 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661923.287526455 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661923.289895860 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661923.292348548 INFO:     127.0.0.1:50810 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661923.294638983 INFO:     127.0.0.1:55356 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661923.296766993 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661923.298823919 INFO:     127.0.0.1:50760 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661923.300879781 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661923.302912881 INFO:     127.0.0.1:54480 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661923.918948464 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661923.921286385 INFO:     127.0.0.1:62842 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661924.352119250 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661924.354888014 INFO:     127.0.0.1:61846 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661924.453554373 INFO:ThunderAgent.scheduler.router:Released and removed program: g00t0
+1787661924.455745190 INFO:     127.0.0.1:61854 - "POST /programs/release HTTP/1.1" 200 OK
+1787661926.793956942 INFO:ThunderAgent.scheduler.router:Released and removed program: g00t1
+1787661926.796288568 INFO:     127.0.0.1:61866 - "POST /programs/release HTTP/1.1" 200 OK
+1787661926.841448756 INFO:ThunderAgent.scheduler.router:Released and removed program: g00t6
+1787661926.843875324 INFO:     127.0.0.1:61870 - "POST /programs/release HTTP/1.1" 200 OK
+1787661927.459698579 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661927.462125317 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 47 new programs
+1787661927.464525464 INFO:ThunderAgent.scheduler.router:Resumed program g02t4 to http://localhost:8000 (status=reasoning, tokens=5841, active=29164)
+1787661927.466600646 INFO:ThunderAgent.scheduler.router:Resumed program g02t2 to http://localhost:8000 (status=reasoning, tokens=5782, active=34946)
+1787661927.468568152 INFO:ThunderAgent.scheduler.router:Resumed program g02t1 to http://localhost:8000 (status=reasoning, tokens=5607, active=40553)
+1787661927.470566446 INFO:ThunderAgent.scheduler.router:Resumed program g02t3 to http://localhost:8000 (status=reasoning, tokens=5570, active=46123)
+1787661927.472564752 INFO:ThunderAgent.scheduler.router:Scheduler resumed 4 programs (reasoning=0, new=4, acting=0)
+1787661927.484470211 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661928.214431399 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661928.216679801 INFO:     127.0.0.1:62286 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661928.253741634 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661928.255929942 INFO:     127.0.0.1:56934 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661928.262306909 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661928.264539564 INFO:     127.0.0.1:56950 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661928.271108726 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661928.273230171 INFO:     127.0.0.1:56948 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661929.454516699 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661929.456685727 INFO:     127.0.0.1:61878 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661930.640455895 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661930.642671053 INFO:     127.0.0.1:61892 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661931.532781940 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661931.535055298 INFO:     127.0.0.1:61898 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661931.539403223 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661931.541446242 INFO:     127.0.0.1:61902 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661932.469002229 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661932.471447355 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=13 list=g01t6:1971,g01t3:2237,g01t2:2250,g01t7:2275,g01t5:2306,g01t4:2322,g01t1:2594,g01t0:3290,g00t3:5382,g02t3:5662,g02t1:5706,g02t2:5884,g02t4:5937
+1787661932.473721463 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=13 chosen=g01t6 tokens=1971 prior_evictions=1 baseline=g01t6
+1787661932.475725144 INFO:ThunderAgent.scheduler.router:Paused program g01t6 from http://localhost:8000 (tokens=1971)
+1787661932.477623839 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t6 (tokens=1971)
+1787661932.479727226 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661932.491608688 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661933.649310438 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661933.651552274 INFO:     127.0.0.1:61908 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661933.697591568 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661933.700125279 INFO:     127.0.0.1:61912 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661933.732904441 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661933.735151281 INFO:     127.0.0.1:61924 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661934.288453995 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661934.290660175 INFO:     127.0.0.1:58990 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661934.388913836 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661934.391159573 INFO:     127.0.0.1:58996 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661934.521502154 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661934.523741675 INFO:     127.0.0.1:59004 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661935.957246243 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661935.959943597 INFO:     127.0.0.1:59024 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661937.479681330 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661937.482912782 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=12 list=g01t5:2306,g01t3:2563,g01t2:2576,g01t1:2594,g01t7:2601,g01t4:2648,g01t0:3290,g00t3:5382,g02t3:5662,g02t1:5706,g02t2:5884,g02t4:5937
+1787661937.485276780 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=12 chosen=g01t5 tokens=2306 prior_evictions=1 baseline=g01t5
+1787661937.487379820 INFO:ThunderAgent.scheduler.router:Paused program g01t5 from http://localhost:8000 (tokens=2306)
+1787661937.489423189 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t5 (tokens=2306)
+1787661937.491483204 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661937.503395344 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661938.289916292 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661938.292408730 INFO:     127.0.0.1:59030 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661939.154476470 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661939.156683255 INFO:     127.0.0.1:59032 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661939.842117299 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661939.844243351 INFO:     127.0.0.1:59034 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661940.044089582 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661940.046810424 INFO:     127.0.0.1:59040 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661940.494813854 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661940.497055489 INFO:     127.0.0.1:59056 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661940.772247498 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661940.774470343 INFO:     127.0.0.1:59066 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661942.491946120 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661942.494239640 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 43 new programs
+1787661942.511988365 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661942.870615203 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661942.873339000 INFO:     127.0.0.1:59082 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661944.066139121 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661944.068370859 INFO:     127.0.0.1:59100 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661944.509207378 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661944.511360309 INFO:     127.0.0.1:52472 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661946.203200310 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661946.205548347 INFO:     127.0.0.1:52482 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661946.451434918 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661946.453633069 INFO:     127.0.0.1:52496 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661947.182880207 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661947.185155497 INFO:     127.0.0.1:52508 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661947.500901734 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661947.503094740 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=11 list=g01t2:2902,g01t1:2920,g01t7:2927,g01t4:2974,g01t3:3215,g01t0:3616,g02t3:5662,g02t1:5706,g00t3:5708,g02t2:5884,g02t4:5937
+1787661947.505242450 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=11 chosen=g01t2 tokens=2902 prior_evictions=1 baseline=g01t2
+1787661947.507358224 INFO:ThunderAgent.scheduler.router:Paused program g01t2 from http://localhost:8000 (tokens=2902)
+1787661947.509605468 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g01t2 (tokens=2902)
+1787661947.512402751 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661947.521082500 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661947.646314303 INFO:ThunderAgent.scheduler.router:Released and removed program: g01t0
+1787661947.648972477 INFO:     127.0.0.1:52516 - "POST /programs/release HTTP/1.1" 200 OK
+1787661948.829040752 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661948.831279998 INFO:     127.0.0.1:52522 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661949.492650986 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661949.494877678 INFO:     127.0.0.1:52538 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661950.544886856 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661950.547561873 INFO:     127.0.0.1:52554 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661951.005687677 INFO:ThunderAgent.scheduler.router:Released and removed program: g00t3
+1787661951.008471665 INFO:     127.0.0.1:52568 - "POST /programs/release HTTP/1.1" 200 OK
+1787661952.279523540 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661952.281720078 INFO:     127.0.0.1:52584 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661952.513926566 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661952.516479119 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 43 new programs
+1787661952.519306487 INFO:ThunderAgent.scheduler.router:Resumed program g01t2 to http://localhost:8000 (status=reasoning, tokens=3168, active=38983)
+1787661952.521544689 INFO:ThunderAgent.scheduler.router:Resumed program g01t5 to http://localhost:8000 (status=reasoning, tokens=2571, active=41554)
+1787661952.523802255 INFO:ThunderAgent.scheduler.router:Resumed program g01t6 to http://localhost:8000 (status=reasoning, tokens=2235, active=43789)
+1787661952.525974836 INFO:ThunderAgent.scheduler.router:Resumed program g03t0 to http://localhost:8000 (status=reasoning, tokens=1916, active=45705)
+1787661952.528210018 INFO:ThunderAgent.scheduler.router:Scheduler resumed 4 programs (reasoning=3, new=1, acting=0)
+1787661952.533762692 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661952.992377404 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661952.994626395 INFO:     127.0.0.1:52600 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661953.249994946 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661953.252039011 INFO:     127.0.0.1:52566 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661953.259240384 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661953.261207340 INFO:     127.0.0.1:59016 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661953.263491115 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661953.265963092 INFO:     127.0.0.1:59084 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661953.268756850 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661953.271235077 INFO:     127.0.0.1:62318 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661953.362124339 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661953.364296104 INFO:     127.0.0.1:52616 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661955.583735800 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661955.585941562 INFO:     127.0.0.1:53518 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661957.009252518 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661957.011590156 INFO:     127.0.0.1:53528 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661957.525266908 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661957.527747651 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 42 new programs
+1787661957.545004845 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661958.655324906 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661958.657638490 INFO:     127.0.0.1:53532 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661959.029705845 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661959.031858894 INFO:     127.0.0.1:53538 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661959.047935335 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661959.050181021 INFO:     127.0.0.1:53554 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661959.116329250 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661959.118627809 INFO:     127.0.0.1:53566 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661959.867548292 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661959.869816496 INFO:     127.0.0.1:53574 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661960.488100845 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661960.490350475 INFO:     127.0.0.1:53576 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661961.310452767 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661961.313167031 INFO:     127.0.0.1:53588 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661961.517944642 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661961.520251395 INFO:     127.0.0.1:53592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661961.695096159 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661961.697928577 INFO:     127.0.0.1:53596 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661962.535165838 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661962.537725264 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=12 list=g03t0:2309,g01t6:2623,g01t5:2632,g01t4:3300,g01t3:3541,g01t2:3554,g01t1:3572,g01t7:3579,g02t3:5662,g02t1:5706,g02t2:5884,g02t4:5937
+1787661962.540434398 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=12 chosen=g03t0 tokens=2309 prior_evictions=0 baseline=g03t0
+1787661962.542576337 INFO:ThunderAgent.scheduler.router:Paused program g03t0 from http://localhost:8000 (tokens=2309)
+1787661962.544969011 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g03t0 (tokens=2309)
+1787661962.547467029 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787661962.554720653 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661963.884645330 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661963.887111151 INFO:     127.0.0.1:53600 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661964.639912503 INFO:ThunderAgent.scheduler.router:Released and removed program: g01t3
+1787661964.642208423 INFO:     127.0.0.1:60340 - "POST /programs/release HTTP/1.1" 200 OK
+1787661965.065935065 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661965.068168892 INFO:     127.0.0.1:60332 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661965.283858813 INFO:ThunderAgent.scheduler.router:Released and removed program: g01t7
+1787661965.286104157 INFO:     127.0.0.1:60342 - "POST /programs/release HTTP/1.1" 200 OK
+1787661966.423409044 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661966.425622358 INFO:     127.0.0.1:60352 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661967.546688908 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661967.549403471 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 42 new programs
+1787661967.552301715 INFO:ThunderAgent.scheduler.router:Resumed program g02t5 to http://localhost:8000 (status=reasoning, tokens=5847, active=45572)
+1787661967.554674332 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787661967.567531727 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661967.748581741 INFO:ThunderAgent.scheduler.router:Released and removed program: g01t1
+1787661967.750688339 INFO:     127.0.0.1:60378 - "POST /programs/release HTTP/1.1" 200 OK
+1787661967.947862922 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661967.950067604 INFO:     127.0.0.1:60360 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661968.174340448 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661968.176730595 INFO:     127.0.0.1:60368 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661968.223974875 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661968.226197599 INFO:     127.0.0.1:62300 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661969.812428189 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661969.814740353 INFO:     127.0.0.1:60380 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661971.089357451 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661971.091623877 INFO:     127.0.0.1:60396 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661972.121573147 INFO:ThunderAgent.scheduler.router:Released and removed program: g01t2
+1787661972.123957678 INFO:     127.0.0.1:60404 - "POST /programs/release HTTP/1.1" 200 OK
+1787661972.302963947 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661972.305248293 INFO:     127.0.0.1:60400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661972.556308334 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661972.558692979 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 41 new programs
+1787661972.561206070 INFO:ThunderAgent.scheduler.router:Resumed program g03t0 to http://localhost:8000 (status=reasoning, tokens=2574, active=41565)
+1787661972.563781130 INFO:ThunderAgent.scheduler.router:Resumed program g03t2 to http://localhost:8000 (status=reasoning, tokens=2036, active=43601)
+1787661972.565940595 INFO:ThunderAgent.scheduler.router:Resumed program g03t1 to http://localhost:8000 (status=reasoning, tokens=1966, active=45567)
+1787661972.568179290 INFO:ThunderAgent.scheduler.router:Scheduler resumed 3 programs (reasoning=1, new=2, acting=0)
+1787661972.575670547 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661973.089141763 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661973.092133921 INFO:     127.0.0.1:60398 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661973.095527326 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661973.098360755 INFO:     127.0.0.1:62334 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661973.101060757 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661973.103788468 INFO:     127.0.0.1:62350 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661975.053320379 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661975.056167740 INFO:     127.0.0.1:56960 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661976.154564899 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661976.156988803 INFO:     127.0.0.1:56966 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661976.404303546 INFO:ThunderAgent.scheduler.router:Released and removed program: g01t4
+1787661976.406489259 INFO:     127.0.0.1:57010 - "POST /programs/release HTTP/1.1" 200 OK
+1787661976.678015643 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661976.680271498 INFO:     127.0.0.1:56980 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661976.684560172 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661976.686495782 INFO:     127.0.0.1:56994 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661977.459208483 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661977.461680559 INFO:     127.0.0.1:57022 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661977.565213517 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661977.567668496 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 39 new programs
+1787661977.569791577 INFO:ThunderAgent.scheduler.router:Resumed program g03t3 to http://localhost:8000 (status=reasoning, tokens=2001, active=44787)
+1787661977.572359467 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787661977.583452847 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661978.020339486 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661978.022687834 INFO:     127.0.0.1:62352 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661980.270065471 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661980.272330825 INFO:     127.0.0.1:57032 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661982.134450828 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661982.136914778 INFO:     127.0.0.1:57046 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661982.140383933 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661982.142407542 INFO:     127.0.0.1:57050 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661982.573842626 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661982.576191318 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 38 new programs
+1787661982.590847368 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661982.913186272 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661982.916205580 INFO:     127.0.0.1:57058 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661983.240108963 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661983.242276755 INFO:     127.0.0.1:57072 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661983.921475318 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661983.924147549 INFO:     127.0.0.1:57086 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661984.202239638 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661984.204471184 INFO:     127.0.0.1:61026 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661985.235760746 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661985.238572857 INFO:     127.0.0.1:61036 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661985.494242377 INFO:ThunderAgent.scheduler.router:Released and removed program: g02t2
+1787661985.496481316 INFO:     127.0.0.1:61042 - "POST /programs/release HTTP/1.1" 200 OK
+1787661986.276176860 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661986.278470714 INFO:     127.0.0.1:61052 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661986.697270191 INFO:ThunderAgent.scheduler.router:Released and removed program: g01t5
+1787661986.700291453 INFO:     127.0.0.1:61076 - "POST /programs/release HTTP/1.1" 200 OK
+1787661987.288056464 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661987.290294883 INFO:     127.0.0.1:61064 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661987.330076017 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661987.332209406 INFO:     127.0.0.1:61066 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661987.583860154 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661987.586520136 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 38 new programs
+1787661987.589192878 INFO:ThunderAgent.scheduler.router:Resumed program g02t6 to http://localhost:8000 (status=reasoning, tokens=5871, active=43126)
+1787661987.591846211 INFO:ThunderAgent.scheduler.router:Resumed program g03t4 to http://localhost:8000 (status=reasoning, tokens=2046, active=45172)
+1787661987.594674238 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=0, new=2, acting=0)
+1787661987.604755295 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661988.165492320 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661988.167929490 INFO:     127.0.0.1:61086 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661988.210715830 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661988.213016103 INFO:     127.0.0.1:62304 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661988.216458975 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661988.218470382 INFO:     127.0.0.1:62364 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661989.594408795 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661989.597128888 INFO:     127.0.0.1:61088 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661989.796999622 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661989.799254948 INFO:     127.0.0.1:61094 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661992.429198041 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661992.432126583 INFO:     127.0.0.1:61098 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661992.593611612 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661992.595840692 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 36 new programs
+1787661992.612098585 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661994.160768956 INFO:ThunderAgent.scheduler.router:Released and removed program: g01t6
+1787661994.162956730 INFO:     127.0.0.1:57760 - "POST /programs/release HTTP/1.1" 200 OK
+1787661994.412945977 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661994.415235836 INFO:     127.0.0.1:57728 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661994.731445638 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661994.733532787 INFO:     127.0.0.1:57742 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661994.747501141 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661994.749725026 INFO:     127.0.0.1:57754 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661995.125776830 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661995.128162891 INFO:     127.0.0.1:57774 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661995.389498197 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661995.391834823 INFO:     127.0.0.1:57780 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661995.623933164 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661995.626163377 INFO:     127.0.0.1:57796 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661996.659197834 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661996.661627208 INFO:     127.0.0.1:57804 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661997.606317158 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661997.608956569 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 36 new programs
+1787661997.611199199 INFO:ThunderAgent.scheduler.router:Resumed program g03t5 to http://localhost:8000 (status=reasoning, tokens=1983, active=45734)
+1787661997.613234393 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787661997.623897530 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787661998.066254325 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661998.068499699 INFO:     127.0.0.1:62374 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661999.762462207 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661999.765262427 INFO:     127.0.0.1:57818 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787661999.848871793 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787661999.851010155 INFO:     127.0.0.1:57830 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662000.020066073 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662000.022312837 INFO:     127.0.0.1:57836 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662000.138215276 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662000.140481364 INFO:     127.0.0.1:57846 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662000.214128749 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662000.216433194 INFO:     127.0.0.1:57858 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662001.384928219 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662001.387193279 INFO:     127.0.0.1:57864 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662002.614418166 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662002.616859862 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=10 list=g03t5:2051,g03t1:3010,g03t3:3045,g03t2:3407,g03t0:3939,g02t3:5662,g02t1:5706,g02t4:5937,g02t5:5943,g02t6:5966
+1787662002.619080646 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=10 chosen=g03t5 tokens=2051 prior_evictions=0 baseline=g03t5
+1787662002.621245187 INFO:ThunderAgent.scheduler.router:Paused program g03t5 from http://localhost:8000 (tokens=2051)
+1787662002.623419263 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g03t5 (tokens=2051)
+1787662002.625770439 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662002.632854756 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662002.788093142 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662002.790432780 INFO:     127.0.0.1:57870 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662004.280194246 INFO:ThunderAgent.scheduler.router:Released and removed program: g02t3
+1787662004.282312013 INFO:     127.0.0.1:57162 - "POST /programs/release HTTP/1.1" 200 OK
+1787662004.895464867 INFO:ThunderAgent.scheduler.router:Released and removed program: g02t4
+1787662004.897599801 INFO:     127.0.0.1:57164 - "POST /programs/release HTTP/1.1" 200 OK
+1787662006.411715668 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662006.413932479 INFO:     127.0.0.1:57176 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662007.580124969 INFO:ThunderAgent.scheduler.router:Released and removed program: g02t1
+1787662007.582324414 INFO:     127.0.0.1:57180 - "POST /programs/release HTTP/1.1" 200 OK
+1787662007.626456853 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662007.628641928 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 35 new programs
+1787662007.630964003 INFO:ThunderAgent.scheduler.router:Resumed program g04t0 to http://localhost:8000 (status=reasoning, tokens=6315, active=34391)
+1787662007.633207481 INFO:ThunderAgent.scheduler.router:Resumed program g02t7 to http://localhost:8000 (status=reasoning, tokens=5626, active=40017)
+1787662007.635552772 INFO:ThunderAgent.scheduler.router:Resumed program g03t5 to http://localhost:8000 (status=reasoning, tokens=2316, active=42333)
+1787662007.637654057 INFO:ThunderAgent.scheduler.router:Resumed program g03t7 to http://localhost:8000 (status=reasoning, tokens=2078, active=44411)
+1787662007.639720082 INFO:ThunderAgent.scheduler.router:Resumed program g03t6 to http://localhost:8000 (status=reasoning, tokens=1977, active=46388)
+1787662007.642224009 INFO:ThunderAgent.scheduler.router:Scheduler resumed 5 programs (reasoning=1, new=4, acting=0)
+1787662007.644997856 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662008.356515092 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662008.358708087 INFO:     127.0.0.1:62398 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662008.376448122 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662008.378745537 INFO:     127.0.0.1:62312 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662008.383976098 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662008.386550437 INFO:     127.0.0.1:62390 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662008.389242738 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662008.391536225 INFO:     127.0.0.1:57166 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662008.393879838 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662008.396464390 INFO:     127.0.0.1:62386 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662008.900587060 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662008.903239660 INFO:     127.0.0.1:57184 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662011.068668937 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662011.070818199 INFO:     127.0.0.1:57186 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662011.104190071 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662011.106678970 INFO:     127.0.0.1:57188 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662012.386960681 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662012.389240864 INFO:     127.0.0.1:57190 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662012.599567030 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662012.601746180 INFO:     127.0.0.1:57198 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662012.635921151 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662012.638423953 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=11 list=g03t6:2045,g03t7:2146,g03t5:2377,g03t4:3092,g03t1:3336,g03t3:3371,g03t2:3733,g02t7:5719,g02t5:5943,g02t6:5966,g04t0:6409
+1787662012.640593909 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=11 chosen=g03t6 tokens=2045 prior_evictions=0 baseline=g03t6
+1787662012.642821886 INFO:ThunderAgent.scheduler.router:Paused program g03t6 from http://localhost:8000 (tokens=2045)
+1787662012.645560061 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g03t6 (tokens=2045)
+1787662012.647973223 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662012.650075528 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662012.652050150 INFO:     127.0.0.1:57212 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662012.654503444 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662016.035524168 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662016.037960881 INFO:     127.0.0.1:52598 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662016.134872201 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662016.137147840 INFO:     127.0.0.1:52608 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662016.545793894 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662016.547930531 INFO:     127.0.0.1:52618 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662016.594042111 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662016.596331414 INFO:     127.0.0.1:52622 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662017.474511733 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662017.476889366 INFO:     127.0.0.1:52626 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662017.644464954 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662017.646750145 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=10 list=g03t7:2472,g03t5:2703,g03t4:3092,g03t3:3371,g03t1:3662,g03t2:3733,g03t0:4265,g02t7:5719,g02t5:5943,g04t0:6409
+1787662017.648828885 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=10 chosen=g03t7 tokens=2472 prior_evictions=0 baseline=g03t7
+1787662017.650789185 INFO:ThunderAgent.scheduler.router:Paused program g03t7 from http://localhost:8000 (tokens=2472)
+1787662017.652759234 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g03t7 (tokens=2472)
+1787662017.654679820 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662017.664793615 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662017.824549777 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662017.826847777 INFO:     127.0.0.1:52642 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662018.225934795 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662018.228244168 INFO:     127.0.0.1:52648 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662021.209972314 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662021.212333830 INFO:     127.0.0.1:52664 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662022.655091615 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662022.657447742 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 31 new programs
+1787662022.674113090 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662023.167819927 INFO:ThunderAgent.scheduler.router:Released and removed program: g03t0
+1787662023.170751569 INFO:     127.0.0.1:52692 - "POST /programs/release HTTP/1.1" 200 OK
+1787662023.179280652 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662023.182042229 INFO:     127.0.0.1:52672 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662023.224956369 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662023.227168309 INFO:     127.0.0.1:52676 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662023.463251447 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662023.465470993 INFO:     127.0.0.1:52680 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662024.262410256 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662024.264600817 INFO:     127.0.0.1:64352 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662025.979453533 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662025.982238490 INFO:     127.0.0.1:64368 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662027.666209882 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662027.668912530 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 31 new programs
+1787662027.671006757 INFO:ThunderAgent.scheduler.router:Resumed program g03t6 to http://localhost:8000 (status=reasoning, tokens=2310, active=44393)
+1787662027.673144423 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=1, new=0, acting=0)
+1787662027.683684061 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662027.959652196 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662027.961796879 INFO:     127.0.0.1:64390 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662028.133652970 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662028.135837252 INFO:     127.0.0.1:64402 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662028.264650149 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662028.266921282 INFO:     127.0.0.1:52656 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662029.660204912 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662029.662385043 INFO:     127.0.0.1:64404 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662029.903907175 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662029.906602307 INFO:     127.0.0.1:64408 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662032.145697178 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662032.148522995 INFO:     127.0.0.1:64416 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662032.675562785 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662032.678069855 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 31 new programs
+1787662032.693307805 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662032.728871289 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662032.731250879 INFO:     127.0.0.1:64432 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662032.795886043 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662032.798612591 INFO:     127.0.0.1:64442 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662033.999515237 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662034.001822006 INFO:     127.0.0.1:64456 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662034.178804092 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662034.181106665 INFO:     127.0.0.1:64470 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662034.592635229 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662034.594973025 INFO:     127.0.0.1:58324 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662034.917676682 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662034.919994587 INFO:     127.0.0.1:58328 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662036.237895605 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662036.240253552 INFO:     127.0.0.1:58344 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662037.683864988 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662037.686188143 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 31 new programs
+1787662037.702536053 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662039.625449202 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662039.627675462 INFO:     127.0.0.1:58360 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662041.008319276 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662041.011162239 INFO:     127.0.0.1:58364 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662042.203558091 INFO:ThunderAgent.scheduler.router:Released and removed program: g03t1
+1787662042.205718054 INFO:     127.0.0.1:58390 - "POST /programs/release HTTP/1.1" 200 OK
+1787662042.246995400 INFO:ThunderAgent.scheduler.router:Released and removed program: g03t2
+1787662042.249703451 INFO:     127.0.0.1:58394 - "POST /programs/release HTTP/1.1" 200 OK
+1787662042.287922126 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662042.290201560 INFO:     127.0.0.1:58380 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662042.692388563 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662042.695080819 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 31 new programs
+1787662042.697827127 INFO:ThunderAgent.scheduler.router:Resumed program g05t0 to http://localhost:8000 (status=reasoning, tokens=4433, active=42941)
+1787662042.700656872 INFO:ThunderAgent.scheduler.router:Resumed program g03t7 to http://localhost:8000 (status=reasoning, tokens=2737, active=45678)
+1787662042.703202501 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=1, new=1, acting=0)
+1787662042.714534678 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662043.336600912 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662043.338825680 INFO:     127.0.0.1:62460 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662043.344331074 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662043.346364331 INFO:     127.0.0.1:64378 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662043.351407882 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662043.353361200 INFO:     127.0.0.1:58404 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662045.250506528 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662045.252698796 INFO:     127.0.0.1:55544 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662045.299985015 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662045.302228093 INFO:     127.0.0.1:55552 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662045.784190392 INFO:ThunderAgent.scheduler.router:Released and removed program: g02t5
+1787662045.786478807 INFO:     127.0.0.1:55568 - "POST /programs/release HTTP/1.1" 200 OK
+1787662046.378418016 INFO:ThunderAgent.scheduler.router:Released and removed program: g03t3
+1787662046.380538700 INFO:     127.0.0.1:55596 - "POST /programs/release HTTP/1.1" 200 OK
+1787662046.454885563 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662046.457051962 INFO:     127.0.0.1:55584 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662047.704297441 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662047.707257621 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 30 new programs
+1787662047.709587530 INFO:ThunderAgent.scheduler.router:Resumed program g04t1 to http://localhost:8000 (status=reasoning, tokens=6342, active=42785)
+1787662047.711820879 INFO:ThunderAgent.scheduler.router:Resumed program g07t0 to http://localhost:8000 (status=reasoning, tokens=2766, active=45551)
+1787662047.714069581 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=0, new=2, acting=0)
+1787662047.723513919 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662047.983895693 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662047.986095611 INFO:     127.0.0.1:55604 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662048.353175272 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662048.355339457 INFO:     127.0.0.1:62410 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662048.369045561 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662048.371752928 INFO:     127.0.0.1:54304 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662048.862834996 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662048.865017304 INFO:     127.0.0.1:55618 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662050.082661638 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662050.084921969 INFO:     127.0.0.1:55620 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662051.472421980 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662051.474652387 INFO:     127.0.0.1:55622 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662051.568908933 INFO:ThunderAgent.scheduler.router:Released and removed program: g02t6
+1787662051.571160799 INFO:     127.0.0.1:55624 - "POST /programs/release HTTP/1.1" 200 OK
+1787662052.163249159 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662052.165511253 INFO:     127.0.0.1:55636 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662052.713770378 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662052.716116926 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 28 new programs
+1787662052.718288694 INFO:ThunderAgent.scheduler.router:Resumed program g05t1 to http://localhost:8000 (status=reasoning, tokens=4405, active=45192)
+1787662052.720363287 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662052.732066128 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662053.318392149 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662053.320604719 INFO:     127.0.0.1:62476 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662053.372782494 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662053.374975244 INFO:     127.0.0.1:55650 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662053.690829628 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662053.693153903 INFO:     127.0.0.1:55664 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662054.390091965 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662054.392294689 INFO:     127.0.0.1:59020 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662055.623598939 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662055.625794451 INFO:     127.0.0.1:59032 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662056.080253296 INFO:ThunderAgent.scheduler.router:Released and removed program: g03t4
+1787662056.082359481 INFO:     127.0.0.1:59034 - "POST /programs/release HTTP/1.1" 200 OK
+1787662056.674773237 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662056.676952551 INFO:     127.0.0.1:59046 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662056.732970103 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662056.735215062 INFO:     127.0.0.1:59054 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662057.722002638 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662057.724440692 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 27 new programs
+1787662057.726590221 INFO:ThunderAgent.scheduler.router:Resumed program g05t2 to http://localhost:8000 (status=reasoning, tokens=4328, active=46508)
+1787662057.728568925 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662057.738823023 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662058.289213135 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662058.291619360 INFO:     127.0.0.1:62482 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662058.567333511 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662058.569683970 INFO:     127.0.0.1:59066 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662060.111726051 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662060.114597957 INFO:     127.0.0.1:59074 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662061.126573285 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662061.128810919 INFO:     127.0.0.1:59084 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662061.709531843 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662061.711764975 INFO:     127.0.0.1:59086 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662062.730466959 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662062.733279725 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=9 list=g03t7:3450,g07t0:3486,g03t6:3675,g05t2:4406,g05t1:4811,g05t0:4839,g02t7:5719,g04t0:6409,g04t1:6436
+1787662062.735441143 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=9 chosen=g03t7 tokens=3450 prior_evictions=1 baseline=g03t7
+1787662062.737688442 INFO:ThunderAgent.scheduler.router:Paused program g03t7 from http://localhost:8000 (tokens=3450)
+1787662062.739750808 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g03t7 (tokens=3450)
+1787662062.741734182 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662062.745894116 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662062.981171482 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662062.983376826 INFO:     127.0.0.1:59102 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662065.458972135 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662065.461231297 INFO:     127.0.0.1:51578 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662065.832979598 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662065.835186898 INFO:     127.0.0.1:51580 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662067.175672875 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662067.177925018 INFO:     127.0.0.1:51586 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662067.402459376 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662067.404762715 INFO:     127.0.0.1:51594 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662067.739286536 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662067.741591066 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 26 new programs
+1787662067.753991029 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662068.521725935 INFO:ThunderAgent.scheduler.router:Released and removed program: g03t5
+1787662068.524523909 INFO:     127.0.0.1:51610 - "POST /programs/release HTTP/1.1" 200 OK
+1787662068.795516541 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662068.798888062 INFO:     127.0.0.1:51606 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662069.737159406 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662069.739339470 INFO:     127.0.0.1:51620 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662070.720806917 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662070.722933429 INFO:     127.0.0.1:51626 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662072.070631550 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662072.072930483 INFO:     127.0.0.1:51642 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662072.751836797 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662072.754597983 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 26 new programs
+1787662072.756850135 INFO:ThunderAgent.scheduler.router:Resumed program g03t7 to http://localhost:8000 (status=reasoning, tokens=3714, active=45388)
+1787662072.759007562 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=1, new=0, acting=0)
+1787662072.767633960 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662073.139947710 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662073.142104453 INFO:     127.0.0.1:51646 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662073.334140962 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662073.336264212 INFO:     127.0.0.1:59114 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662074.039833754 INFO:ThunderAgent.scheduler.router:Released and removed program: g04t0
+1787662074.042623270 INFO:     127.0.0.1:54660 - "POST /programs/release HTTP/1.1" 200 OK
+1787662074.487444563 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662074.489598152 INFO:     127.0.0.1:54652 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662074.503133235 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662074.505224435 INFO:     127.0.0.1:54656 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662077.761082026 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662077.763340989 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 26 new programs
+1787662077.765914810 INFO:ThunderAgent.scheduler.router:Resumed program g04t2 to http://localhost:8000 (status=reasoning, tokens=6592, active=46607)
+1787662077.768459733 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662077.780423215 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662078.103546752 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662078.105853472 INFO:     127.0.0.1:54668 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662078.341720736 INFO:ThunderAgent.scheduler.router:Released and removed program: g02t7
+1787662078.343764299 INFO:     127.0.0.1:54684 - "POST /programs/release HTTP/1.1" 200 OK
+1787662078.423798796 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662078.426061319 INFO:     127.0.0.1:62412 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662078.804555694 INFO:ThunderAgent.scheduler.router:Released and removed program: g03t6
+1787662078.807123936 INFO:     127.0.0.1:54696 - "POST /programs/release HTTP/1.1" 200 OK
+1787662078.843126774 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662078.845259707 INFO:     127.0.0.1:54672 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662079.289569644 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662079.292585692 INFO:     127.0.0.1:54694 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662082.486926080 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662082.489173711 INFO:     127.0.0.1:54712 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662082.769249132 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662082.771565369 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 25 new programs
+1787662082.774252276 INFO:ThunderAgent.scheduler.router:Resumed program g04t3 to http://localhost:8000 (status=reasoning, tokens=6621, active=43929)
+1787662082.776543253 INFO:ThunderAgent.scheduler.router:Resumed program g07t1 to http://localhost:8000 (status=reasoning, tokens=2732, active=46661)
+1787662082.778684458 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=0, new=2, acting=0)
+1787662082.792430165 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662083.136106458 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662083.138381244 INFO:     127.0.0.1:54720 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662083.444556193 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662083.446782336 INFO:     127.0.0.1:54316 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662083.448916788 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662083.450933027 INFO:     127.0.0.1:62370 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662084.016447553 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662084.018696322 INFO:     127.0.0.1:54728 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662085.657265135 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662085.659485906 INFO:     127.0.0.1:52122 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662087.778394103 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662087.780753966 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=9 list=g07t1:2798,g03t7:4102,g07t0:4138,g05t2:5384,g05t1:5463,g05t0:5491,g04t1:6436,g04t2:6686,g04t3:6714
+1787662087.783116646 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=9 chosen=g07t1 tokens=2798 prior_evictions=0 baseline=g07t1
+1787662087.785175935 INFO:ThunderAgent.scheduler.router:Paused program g07t1 from http://localhost:8000 (tokens=2798)
+1787662087.787155115 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g07t1 (tokens=2798)
+1787662087.789151182 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662087.800437004 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662090.277810812 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662090.280070430 INFO:     127.0.0.1:52130 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662090.386042923 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662090.388492632 INFO:     127.0.0.1:52144 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662090.607432144 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662090.609666075 INFO:     127.0.0.1:52152 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662090.945884353 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662090.948168009 INFO:     127.0.0.1:52166 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662091.493832006 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662091.496096876 INFO:     127.0.0.1:52176 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662092.447570197 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662092.449879408 INFO:     127.0.0.1:52180 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662092.650774334 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662092.653151654 INFO:     127.0.0.1:52182 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662092.789577601 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662092.791995104 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 23 new programs
+1787662092.808194263 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662093.030660366 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662093.032934734 INFO:     127.0.0.1:52202 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662096.764593140 INFO:ThunderAgent.scheduler.router:Released and removed program: g03t7
+1787662096.766779938 INFO:     127.0.0.1:54714 - "POST /programs/release HTTP/1.1" 200 OK
+1787662097.106817501 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662097.109582681 INFO:     127.0.0.1:54706 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662097.797542161 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662097.800313558 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 23 new programs
+1787662097.802513199 INFO:ThunderAgent.scheduler.router:Resumed program g07t1 to http://localhost:8000 (status=reasoning, tokens=3064, active=43964)
+1787662097.804634047 INFO:ThunderAgent.scheduler.router:Resumed program g07t2 to http://localhost:8000 (status=reasoning, tokens=2879, active=46843)
+1787662097.806903065 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=1, new=1, acting=0)
+1787662097.818215758 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662098.502921812 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662098.505213183 INFO:     127.0.0.1:54722 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662098.511682279 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662098.514185787 INFO:     127.0.0.1:52198 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662098.516400235 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662098.518531965 INFO:     127.0.0.1:54338 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662098.526268506 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662098.528466162 INFO:     127.0.0.1:54736 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662100.059004627 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662100.061221265 INFO:     127.0.0.1:54750 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662100.184839940 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662100.187010878 INFO:     127.0.0.1:54764 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662100.408914606 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662100.411179853 INFO:     127.0.0.1:54768 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662102.158848355 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662102.161143360 INFO:     127.0.0.1:54784 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662102.806585707 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662102.808909048 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=9 list=g07t2:2945,g07t1:3124,g07t0:4790,g05t1:5463,g05t0:5491,g05t2:5710,g04t1:6436,g04t2:6686,g04t3:6714
+1787662102.811125420 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=9 chosen=g07t2 tokens=2945 prior_evictions=0 baseline=g07t2
+1787662102.813130150 INFO:ThunderAgent.scheduler.router:Paused program g07t2 from http://localhost:8000 (tokens=2945)
+1787662102.815012140 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g07t2 (tokens=2945)
+1787662102.817276266 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662102.828996328 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662105.862863782 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662105.865116252 INFO:     127.0.0.1:52030 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662106.169374149 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662106.171699473 INFO:     127.0.0.1:52040 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662106.830619183 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662106.832861096 INFO:     127.0.0.1:52056 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662107.814923068 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662107.817222239 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 22 new programs
+1787662107.837616997 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662107.943587936 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662107.945764115 INFO:     127.0.0.1:52062 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662108.958101869 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662108.960292596 INFO:     127.0.0.1:52078 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662109.476734956 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662109.479245099 INFO:     127.0.0.1:52088 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662112.064770782 INFO:ThunderAgent.scheduler.router:Released and removed program: g05t1
+1787662112.067012268 INFO:     127.0.0.1:52106 - "POST /programs/release HTTP/1.1" 200 OK
+1787662112.513454351 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662112.515758685 INFO:     127.0.0.1:52092 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662112.823071909 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662112.825290997 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 22 new programs
+1787662112.827368532 INFO:ThunderAgent.scheduler.router:Resumed program g07t2 to http://localhost:8000 (status=reasoning, tokens=3211, active=42745)
+1787662112.829391623 INFO:ThunderAgent.scheduler.router:Resumed program g07t3 to http://localhost:8000 (status=reasoning, tokens=2882, active=45627)
+1787662112.831646262 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=1, new=1, acting=0)
+1787662112.846353748 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662113.524707582 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662113.526938353 INFO:     127.0.0.1:52114 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662113.533807596 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662113.535863057 INFO:     127.0.0.1:54352 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662113.537918491 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662113.540053611 INFO:     127.0.0.1:52028 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662113.768764737 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662113.771150542 INFO:     127.0.0.1:52126 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662114.532366204 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662114.534573823 INFO:     127.0.0.1:59548 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662115.570593444 INFO:ThunderAgent.scheduler.router:Released and removed program: g07t0
+1787662115.572722444 INFO:     127.0.0.1:59560 - "POST /programs/release HTTP/1.1" 200 OK
+1787662117.832000144 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662117.834184743 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 21 new programs
+1787662117.836279238 INFO:ThunderAgent.scheduler.router:Resumed program g05t3 to http://localhost:8000 (status=reasoning, tokens=4255, active=44960)
+1787662117.838256157 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662117.855629318 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662118.353136911 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662118.355308515 INFO:     127.0.0.1:62484 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662118.582911792 INFO:ThunderAgent.scheduler.router:Released and removed program: g05t0
+1787662118.585308887 INFO:     127.0.0.1:59570 - "POST /programs/release HTTP/1.1" 200 OK
+1787662118.970228088 INFO:ThunderAgent.scheduler.router:Released and removed program: g04t1
+1787662118.973255858 INFO:     127.0.0.1:59584 - "POST /programs/release HTTP/1.1" 200 OK
+1787662121.030395451 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662121.032685624 INFO:     127.0.0.1:59594 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662121.595631983 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662121.597737929 INFO:     127.0.0.1:59610 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662122.844751881 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662122.847100549 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 20 new programs
+1787662122.849464498 INFO:ThunderAgent.scheduler.router:Resumed program g04t5 to http://localhost:8000 (status=reasoning, tokens=6572, active=40009)
+1787662122.851619047 INFO:ThunderAgent.scheduler.router:Resumed program g04t4 to http://localhost:8000 (status=reasoning, tokens=6493, active=46502)
+1787662122.853941482 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=0, new=2, acting=0)
+1787662122.868424403 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662123.521773346 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662123.524407014 INFO:     127.0.0.1:62416 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662123.540930825 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662123.543130156 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662123.762489844 INFO:ThunderAgent.scheduler.router:Released and removed program: g05t2
+1787662123.764714517 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662123.984413647 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662123.986680410 INFO:     127.0.0.1:59618 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662125.245219720 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662125.247502468 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662125.970967331 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662125.973225613 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662127.776766054 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662127.778949812 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662127.853697173 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662127.856003871 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 18 new programs
+1787662127.858191252 INFO:ThunderAgent.scheduler.router:Resumed program g05t4 to http://localhost:8000 (status=reasoning, tokens=4459, active=46088)
+1787662127.860226309 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662127.876822956 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662128.390193647 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662128.392944772 INFO:     127.0.0.1:62498 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662128.941281055 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662128.943516606 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662130.069617006 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662130.071855445 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662131.928682421 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662131.931038454 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662132.865197773 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662132.867553619 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 17 new programs
+1787662132.886515812 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662133.135591991 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662133.137736420 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662134.297157026 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662134.299339728 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662134.328614679 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662134.330686208 INFO:     127.0.0.1:55782 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662136.553863784 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662136.556145489 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662137.151001270 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662137.153285801 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662137.648723383 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662137.650979311 INFO:     127.0.0.1:55782 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662137.873259788 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662137.876040536 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=8 list=g07t3:3599,g07t2:3923,g07t1:4102,g05t4:4864,g04t4:6584,g04t5:6666,g04t2:6686,g04t3:6714
+1787662137.878589358 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=8 chosen=g07t3 tokens=3599 prior_evictions=0 baseline=g07t3
+1787662137.880665796 INFO:ThunderAgent.scheduler.router:Paused program g07t3 from http://localhost:8000 (tokens=3599)
+1787662137.882721086 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g07t3 (tokens=3599)
+1787662137.884793115 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662137.899699279 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662138.390607004 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662138.393464679 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662139.493720390 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662139.495879852 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662141.174047922 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662141.176374846 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662142.715659609 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662142.718053134 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662142.881177746 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662142.883665957 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 17 new programs
+1787662142.908174669 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662143.930212349 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662143.932446214 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662144.332625551 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662144.334781378 INFO:     127.0.0.1:63836 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662145.971492300 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662145.973674927 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662146.109217484 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662146.111389279 INFO:     127.0.0.1:63836 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662147.889411924 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662147.891722469 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 17 new programs
+1787662147.916620115 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662148.848387196 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662148.850587532 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662148.928010458 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662148.930328798 INFO:     127.0.0.1:63836 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662150.088616223 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662150.090887752 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662151.338722759 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662151.340893776 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662152.897791808 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662152.899988300 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 17 new programs
+1787662152.924264873 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662153.212697412 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662153.215891283 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662153.631633200 INFO:ThunderAgent.scheduler.router:Released and removed program: g04t3
+1787662153.634016225 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662153.703409271 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662153.705619927 INFO:     127.0.0.1:63836 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662154.526396695 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662154.528725459 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662155.700522794 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662155.702781736 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662156.229168532 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662156.231437218 INFO:     127.0.0.1:63836 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662157.908126773 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662157.910738271 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 17 new programs
+1787662157.912938174 INFO:ThunderAgent.scheduler.router:Resumed program g07t3 to http://localhost:8000 (status=reasoning, tokens=3864, active=44282)
+1787662157.915256816 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=1, new=0, acting=0)
+1787662157.933357876 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662158.433233308 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662158.435424235 INFO:     127.0.0.1:55782 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662159.403589216 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662159.405912877 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662159.992601984 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662159.995305345 INFO:     127.0.0.1:55782 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662160.381789649 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662160.384103104 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662162.920610131 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662162.922960688 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 17 new programs
+1787662162.945809622 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662163.432435083 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662163.434721923 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662164.235708101 INFO:ThunderAgent.scheduler.router:Released and removed program: g04t2
+1787662164.237936830 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662165.382665461 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662165.384903717 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662165.674806549 INFO:ThunderAgent.scheduler.router:Released and removed program: g07t1
+1787662165.677092970 INFO:     127.0.0.1:51186 - "POST /programs/release HTTP/1.1" 200 OK
+1787662165.948130799 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662165.950258200 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662167.087845685 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662167.090271992 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662167.640495696 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662167.643003714 INFO:     127.0.0.1:51186 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662167.932966522 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662167.935279348 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 17 new programs
+1787662167.937321467 INFO:ThunderAgent.scheduler.router:Resumed program g04t7 to http://localhost:8000 (status=reasoning, tokens=6643, active=39872)
+1787662167.939300891 INFO:ThunderAgent.scheduler.router:Resumed program g04t6 to http://localhost:8000 (status=reasoning, tokens=6497, active=46369)
+1787662167.941186598 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=0, new=2, acting=0)
+1787662167.953689106 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662168.597053566 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662168.599413065 INFO:     127.0.0.1:62444 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662168.622167918 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662168.624405834 INFO:     127.0.0.1:62428 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662170.732613318 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662170.734898014 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662171.357573247 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662171.359776381 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662172.154284164 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662172.156478380 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662172.940798821 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662172.961322915 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662174.285344559 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662174.287576572 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662175.057368702 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662175.059623812 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662176.684240292 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662176.686420856 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662177.014990714 INFO:ThunderAgent.scheduler.router:Released and removed program: g05t3
+1787662177.017284425 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662177.168717317 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662177.170969596 INFO:     127.0.0.1:60696 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662177.949497706 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662177.951708380 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 15 new programs
+1787662177.953809198 INFO:ThunderAgent.scheduler.router:Resumed program g05t5 to http://localhost:8000 (status=reasoning, tokens=4245, active=45745)
+1787662177.955849641 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662177.970249244 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662178.218792346 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662178.221036886 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662178.537529956 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662178.540218494 INFO:     127.0.0.1:62516 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662179.092452965 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662179.095385171 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662180.549576195 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662180.551838599 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662182.813877319 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662182.816078971 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662182.957353338 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662182.959627363 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 14 new programs
+1787662182.978344672 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662184.035350590 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662184.037593597 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662185.007775990 INFO:ThunderAgent.scheduler.router:Released and removed program: g07t2
+1787662185.009881501 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662186.709779094 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662186.711947799 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662187.618202039 INFO:ThunderAgent.scheduler.router:Released and removed program: g04t4
+1787662187.620320584 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662187.965764335 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662187.968078468 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 14 new programs
+1787662187.970734023 INFO:ThunderAgent.scheduler.router:Resumed program g05t7 to http://localhost:8000 (status=reasoning, tokens=4428, active=38767)
+1787662187.973444835 INFO:ThunderAgent.scheduler.router:Resumed program g05t6 to http://localhost:8000 (status=reasoning, tokens=4320, active=43087)
+1787662187.975959850 INFO:ThunderAgent.scheduler.router:Resumed program g07t4 to http://localhost:8000 (status=reasoning, tokens=2668, active=45755)
+1787662187.978269931 INFO:ThunderAgent.scheduler.router:Scheduler resumed 3 programs (reasoning=0, new=3, acting=0)
+1787662187.988888971 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662188.432662066 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662188.434879384 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662188.646771110 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662188.649295361 INFO:     127.0.0.1:62544 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662188.654608504 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662188.656686604 INFO:     127.0.0.1:62532 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662188.660808428 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662188.662738210 INFO:     127.0.0.1:54354 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662189.999809407 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662190.002192686 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662191.933782056 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662191.936555097 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662192.977519895 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662192.979726057 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 11 new programs
+1787662193.000567546 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662194.001359318 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662194.004290344 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662194.568415802 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662194.571096903 INFO:     127.0.0.1:51428 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662196.045070194 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662196.047305455 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662196.353718377 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662196.355898770 INFO:     127.0.0.1:51428 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662197.986897001 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662197.989306296 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=9 list=g07t4:3061,g05t7:4504,g05t5:4650,g05t6:4725,g07t3:4903,g05t4:5516,g04t6:6588,g04t5:6666,g04t7:6737
+1787662197.991506497 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=9 chosen=g07t4 tokens=3061 prior_evictions=0 baseline=g07t4
+1787662197.993657307 INFO:ThunderAgent.scheduler.router:Paused program g07t4 from http://localhost:8000 (tokens=3061)
+1787662197.995690386 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g07t4 (tokens=3061)
+1787662197.997603606 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662197.999520950 INFO:ThunderAgent.scheduler.router:Released and removed program: g04t5
+1787662198.001574997 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662198.009737197 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662198.733805051 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662198.736116755 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662198.851786367 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662198.853887307 INFO:     127.0.0.1:51428 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662199.817410028 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662199.819628551 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662201.932385320 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662201.934557342 INFO:     127.0.0.1:51428 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662202.998882503 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662203.001931847 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 11 new programs
+1787662203.004896442 INFO:ThunderAgent.scheduler.router:Resumed program g06t1 to http://localhost:8000 (status=reasoning, tokens=4974, active=43504)
+1787662203.007804721 INFO:ThunderAgent.scheduler.router:Resumed program g07t4 to http://localhost:8000 (status=reasoning, tokens=3326, active=46830)
+1787662203.010548316 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=1, new=1, acting=0)
+1787662203.027710871 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662203.655837248 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662203.658151537 INFO:     127.0.0.1:51428 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662203.702399912 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662203.704575658 INFO:     127.0.0.1:62570 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662203.714708674 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662203.716761434 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662204.267996812 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662204.270266461 INFO:     127.0.0.1:51266 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662206.097984691 INFO:ThunderAgent.scheduler.router:Released and removed program: g05t4
+1787662206.100421121 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662207.548852815 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662207.551450128 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662208.008180217 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662208.010712658 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 10 new programs
+1787662208.012960151 INFO:ThunderAgent.scheduler.router:Resumed program g07t5 to http://localhost:8000 (status=reasoning, tokens=2641, active=44490)
+1787662208.015083284 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662208.037094375 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662208.477624604 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662208.479906025 INFO:     127.0.0.1:54360 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662209.681850643 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662209.684081590 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662211.352239964 INFO:ThunderAgent.scheduler.router:Released and removed program: g07t3
+1787662211.355088003 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662212.844653658 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662212.846916199 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662213.022394291 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662213.025447113 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 9 new programs
+1787662213.028377347 INFO:ThunderAgent.scheduler.router:Resumed program g06t0 to http://localhost:8000 (status=reasoning, tokens=5122, active=45033)
+1787662213.031145295 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662213.045773621 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662213.647481162 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662213.649719533 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662213.663049638 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662213.665182590 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662214.321431301 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662214.323613731 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662215.371242458 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662215.373394688 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662215.814156273 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662215.816482902 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662217.252815364 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662217.255065325 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662218.035332772 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662218.037660584 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 8 new programs
+1787662218.054062560 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662218.425477683 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662218.428041395 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662218.921577051 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662218.924523434 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662220.885001223 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662220.887249450 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662222.813897413 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662222.816194589 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662223.043187455 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662223.045495276 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=9 list=g07t5:3034,g07t4:3713,g06t0:5198,g05t5:5302,g05t6:5377,g05t7:5482,g06t1:5703,g04t6:6588,g04t7:6737
+1787662223.047723456 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=9 chosen=g07t5 tokens=3034 prior_evictions=0 baseline=g07t5
+1787662223.049763461 INFO:ThunderAgent.scheduler.router:Paused program g07t5 from http://localhost:8000 (tokens=3034)
+1787662223.051665973 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g07t5 (tokens=3034)
+1787662223.053554709 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662223.061597758 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662223.642469375 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662223.644881503 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662224.073978882 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662224.076228677 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662224.294884798 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662224.297135887 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662225.769473415 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662225.771656803 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662225.844012824 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662225.846204302 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662226.188426207 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662226.190657824 INFO:     127.0.0.1:62714 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662228.051047638 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662228.053263273 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 8 new programs
+1787662228.074114456 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662228.195980202 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662228.198329458 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662229.817666970 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662229.819941130 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662230.901830560 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662230.904085373 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662231.999223765 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662232.001484460 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662233.059423283 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662233.061498358 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 8 new programs
+1787662233.081971045 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662234.259152940 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662234.261342721 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662235.257895156 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662235.260155121 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662235.730864510 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662235.733059166 INFO:     127.0.0.1:62018 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662235.949784594 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662235.952153107 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662236.723216980 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662236.725404208 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662238.067806449 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662238.070341001 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 8 new programs
+1787662238.092900728 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662238.968157743 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662238.970486494 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662239.353662264 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662239.355937546 INFO:     127.0.0.1:62018 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662240.015238285 INFO:ThunderAgent.scheduler.router:Released and removed program: g04t6
+1787662240.017456759 INFO:     127.0.0.1:62550 - "POST /programs/release HTTP/1.1" 200 OK
+1787662242.508325099 INFO:ThunderAgent.scheduler.router:Released and removed program: g04t7
+1787662242.510594572 INFO:     127.0.0.1:62550 - "POST /programs/release HTTP/1.1" 200 OK
+1787662243.077323156 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662243.080175821 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 8 new programs
+1787662243.082757170 INFO:ThunderAgent.scheduler.router:Resumed program g06t2 to http://localhost:8000 (status=reasoning, tokens=5149, active=37554)
+1787662243.084795373 INFO:ThunderAgent.scheduler.router:Resumed program g06t3 to http://localhost:8000 (status=reasoning, tokens=5076, active=42630)
+1787662243.086778684 INFO:ThunderAgent.scheduler.router:Resumed program g07t5 to http://localhost:8000 (status=reasoning, tokens=3299, active=45929)
+1787662243.088680047 INFO:ThunderAgent.scheduler.router:Scheduler resumed 3 programs (reasoning=1, new=2, acting=0)
+1787662243.101151907 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662243.736823039 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662243.738998881 INFO:     127.0.0.1:62582 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662243.762607804 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662243.764753779 INFO:     127.0.0.1:62592 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662243.769314603 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662243.771288344 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662244.974635334 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662244.976767312 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662246.227817548 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662246.229956235 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662246.368812242 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662246.370978919 INFO:     127.0.0.1:62550 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662246.410164538 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662246.412315891 INFO:     127.0.0.1:62582 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662247.648159255 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662247.650441399 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662248.091932713 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662248.094468659 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 6 new programs
+1787662248.115179042 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662248.446013313 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662248.448420069 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662249.828565151 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662249.830784937 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662252.106753823 INFO:ThunderAgent.scheduler.router:Released and removed program: g05t6
+1787662252.108973731 INFO:     127.0.0.1:52176 - "POST /programs/release HTTP/1.1" 200 OK
+1787662252.347598237 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662252.349783265 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662252.365717102 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662252.367862560 INFO:     127.0.0.1:52146 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662252.575238371 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662252.577482347 INFO:     127.0.0.1:52160 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662253.103884378 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662253.106792382 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 6 new programs
+1787662253.108977191 INFO:ThunderAgent.scheduler.router:Resumed program g06t4 to http://localhost:8000 (status=reasoning, tokens=5235, active=46660)
+1787662253.110991324 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662253.123199763 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662253.693053249 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662253.695374932 INFO:     127.0.0.1:62620 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662254.064431119 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662254.066632400 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662254.472544538 INFO:ThunderAgent.scheduler.router:Released and removed program: g05t7
+1787662254.474676900 INFO:     127.0.0.1:62620 - "POST /programs/release HTTP/1.1" 200 OK
+1787662254.666258911 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662254.668482713 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662257.329638735 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662257.332571638 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662258.038721623 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662258.040880680 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662258.113121454 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662258.115495137 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 5 new programs
+1787662258.117516213 INFO:ThunderAgent.scheduler.router:Resumed program g07t6 to http://localhost:8000 (status=reasoning, tokens=2858, active=44702)
+1787662258.119644023 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662258.131518952 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662258.540882650 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662258.543186382 INFO:     127.0.0.1:62620 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662258.739546666 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662258.742394243 INFO:     127.0.0.1:54362 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662258.872316947 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662258.875408550 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662262.183404496 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662262.185661368 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662262.976739714 INFO:ThunderAgent.scheduler.router:Released and removed program: g07t4
+1787662262.978937519 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662263.124565157 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662263.126849448 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 4 new programs
+1787662263.128931892 INFO:ThunderAgent.scheduler.router:Resumed program g06t5 to http://localhost:8000 (status=reasoning, tokens=5092, active=44909)
+1787662263.130968861 INFO:ThunderAgent.scheduler.router:Scheduler resumed 1 programs (reasoning=0, new=1, acting=0)
+1787662263.137516905 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662263.689547430 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662263.691868513 INFO:     127.0.0.1:62644 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662263.956178244 INFO:ThunderAgent.scheduler.router:Released and removed program: g05t5
+1787662263.958478897 INFO:     127.0.0.1:59530 - "POST /programs/release HTTP/1.1" 200 OK
+1787662264.208289041 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662264.210502831 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662264.522453748 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662264.524928966 INFO:     127.0.0.1:62644 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662266.630401199 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662266.632645769 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662267.004753447 INFO:ThunderAgent.scheduler.router:Released and removed program: g06t1
+1787662267.007531244 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662268.133614527 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662268.135748720 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 3 new programs
+1787662268.138080015 INFO:ThunderAgent.scheduler.router:Resumed program g06t7 to http://localhost:8000 (status=reasoning, tokens=5265, active=39762)
+1787662268.140269435 INFO:ThunderAgent.scheduler.router:Resumed program g06t6 to http://localhost:8000 (status=reasoning, tokens=5045, active=44807)
+1787662268.142260389 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=0, new=2, acting=0)
+1787662268.146752302 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662268.242229882 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662268.244453079 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662268.438554193 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662268.440603664 INFO:     127.0.0.1:62644 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662268.784935317 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662268.787405236 INFO:     127.0.0.1:54290 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662268.792582871 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662268.794919159 INFO:     127.0.0.1:54254 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662272.679589914 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662272.681961420 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662273.145104480 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662273.147300757 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 1 new programs
+1787662273.154704573 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662273.506850906 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662273.509004279 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662273.524756315 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662273.526864118 INFO:     127.0.0.1:62644 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662273.749546295 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662273.751643832 INFO:     127.0.0.1:54254 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662274.493862106 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662274.496120447 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662274.833494199 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662274.835801355 INFO:     127.0.0.1:62644 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662275.609781354 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662275.611976345 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662277.895820188 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662277.898061420 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662278.152754209 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662278.154917126 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 1 new programs
+1787662278.161699339 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662278.955576173 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662278.957684378 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662280.352697186 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662280.354877255 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662281.529420321 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662281.531549079 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662282.307525782 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662282.309786587 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662282.726926887 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662282.729649754 INFO:     127.0.0.1:58882 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662283.161662308 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662283.164104928 INFO:ThunderAgent.scheduler.router:CHURN_CANDIDATES acting n=8 list=g07t6:3576,g07t5:4664,g06t6:5449,g06t3:5482,g06t5:5494,g06t0:5524,g06t4:5641,g06t7:5671
+1787662283.166948968 INFO:ThunderAgent.scheduler.router:CHURN_DECISION phase=acting beta=0.00 n=8 chosen=g07t6 tokens=3576 prior_evictions=0 baseline=g07t6
+1787662283.169907252 INFO:ThunderAgent.scheduler.router:Paused program g07t6 from http://localhost:8000 (tokens=3576)
+1787662283.172634829 INFO:ThunderAgent.scheduler.router:Scheduler paused ACTING program g07t6 (tokens=3576)
+1787662283.175277077 INFO:ThunderAgent.scheduler.router:Scheduler paused/marked 1 programs on http://localhost:8000
+1787662283.178186452 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662283.583647705 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662283.585862340 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662284.673054330 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662284.675310674 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662285.032780758 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662285.034967899 INFO:     127.0.0.1:58882 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662286.005100367 INFO:ThunderAgent.scheduler.router:Released and removed program: g06t0
+1787662286.007348694 INFO:     127.0.0.1:58882 - "POST /programs/release HTTP/1.1" 200 OK
+1787662287.983615518 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662287.985805559 INFO:     127.0.0.1:58882 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662288.175319097 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662288.178415185 INFO:ThunderAgent.scheduler.router:ADMIT_ORDER=fifo applied to 1 new programs
+1787662288.180728400 INFO:ThunderAgent.scheduler.router:Resumed program g07t6 to http://localhost:8000 (status=reasoning, tokens=3843, active=41799)
+1787662288.183468982 INFO:ThunderAgent.scheduler.router:Resumed program g07t7 to http://localhost:8000 (status=reasoning, tokens=2863, active=44662)
+1787662288.185710126 INFO:ThunderAgent.scheduler.router:Scheduler resumed 2 programs (reasoning=1, new=1, acting=0)
+1787662288.188358828 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662288.734893004 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662288.737283760 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662288.741269096 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662288.743295721 INFO:     127.0.0.1:54370 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662291.652716791 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662291.654887088 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662292.154130639 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662292.156397874 INFO:     127.0.0.1:54370 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662292.219674782 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662292.221842954 INFO:     127.0.0.1:58882 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662292.413761243 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662292.416242676 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662293.183450049 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662293.199093719 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662293.452968765 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662293.455190360 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662295.054743334 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662295.056937449 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662297.218517470 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662297.220697654 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662298.197116004 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662298.201968159 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662298.204292239 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662298.211001083 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662298.524355231 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662298.527092039 INFO:     127.0.0.1:52742 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662298.851958520 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662298.854213622 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662299.350849309 INFO:ThunderAgent.scheduler.router:Released and removed program: g07t5
+1787662299.352970193 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662300.565354406 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662300.567621090 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662301.367395525 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662301.369517754 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662302.167729730 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662302.169874177 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662303.102823927 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662303.105070000 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662303.205808320 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662303.218732006 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662303.653087301 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662303.655277072 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662304.172783008 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662304.174959072 INFO:     127.0.0.1:60488 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662308.216276033 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662308.228180783 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662308.468733139 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662308.471081662 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662309.283478377 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662309.286404733 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662309.616746745 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662309.618984629 INFO:     127.0.0.1:60488 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662309.801929122 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662309.804394476 INFO:     127.0.0.1:60500 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662311.793777021 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662311.796229631 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662313.224993512 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662313.235368471 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662313.261969818 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662313.264191241 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662314.296763019 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662314.299007780 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662314.479346547 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662314.482046052 INFO:     127.0.0.1:60488 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662316.536948269 INFO:ThunderAgent.scheduler.router:Released and removed program: g06t3
+1787662316.539188280 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662318.122694906 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662318.125219345 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662318.233263167 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662318.242367054 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662320.002376546 INFO:ThunderAgent.scheduler.router:Released and removed program: g06t2
+1787662320.004932494 INFO:     127.0.0.1:58578 - "POST /programs/release HTTP/1.1" 200 OK
+1787662320.544463841 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662320.547193653 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662320.906825937 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662320.909056873 INFO:     127.0.0.1:58578 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662320.989191432 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662320.991832627 INFO:     127.0.0.1:58580 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662323.241574713 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662323.250710447 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662324.367401134 INFO:ThunderAgent.scheduler.router:Released and removed program: g06t4
+1787662324.369600923 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662325.333871752 INFO:ThunderAgent.scheduler.router:Released and removed program: g07t6
+1787662325.336107348 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662326.802568709 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662326.804758729 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662328.250311597 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662328.258120320 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662328.988560589 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662328.991515079 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662329.451893684 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662329.454121294 INFO:     127.0.0.1:59234 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662331.207133757 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662331.209371603 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662333.258553257 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662333.265847096 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662335.549181031 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662335.551407600 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662336.616396369 INFO:ThunderAgent.scheduler.router:Released and removed program: g06t7
+1787662336.618590120 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662337.360113731 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662337.362368120 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662338.266849356 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662338.277406798 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662342.252616488 INFO:ThunderAgent.scheduler.router:Released and removed program: g06t6
+1787662342.254756735 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662343.274823251 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662343.284429679 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662343.862119944 INFO:httpx:HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+1787662343.864352514 INFO:     127.0.0.1:62400 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+1787662346.039544407 INFO:ThunderAgent.scheduler.router:Released and removed program: g06t5
+1787662346.041694758 INFO:     127.0.0.1:62400 - "POST /programs/release HTTP/1.1" 200 OK
+1787662348.288227355 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662348.297235380 INFO:httpx:HTTP Request: GET http://localhost:8000/metrics "HTTP/1.1 200 OK"
+1787662351.053848263 INFO:ThunderAgent.scheduler.router:Released and removed program: g07t7
+1787662351.055963947 INFO:     127.0.0.1:52498 - "POST /programs/release HTTP/1.1" 200 OK
+1787662351.128560598 INFO:     Shutting down
+1787662351.229746137 INFO:     Waiting for application shutdown.
+1787662351.232109781 INFO:ThunderAgent.scheduler.router:Stopped scheduler loop
+1787662351.234256248 INFO:ThunderAgent.backend.vllm_metrics:Stopped metrics monitoring for http://localhost:8000
+1787662351.236336620 INFO:ThunderAgent.scheduler.router:Router stopped
+1787662351.238383470 INFO:     Application shutdown complete.
+1787662351.240418411 INFO:     Finished server process [45277]

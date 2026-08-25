@@ -28,9 +28,9 @@ DEC_RE = re.compile(r"CHURN_DECISION .* chosen=(\S+) tokens=")
 ARMS = ["smallest", "fifo", "largest"]
 
 
-def load(arm, results_dir="results"):
-    cj = Path(results_dir) / f"admit_{arm}.json"
-    log = Path(results_dir) / f"scheduler_admit_{arm}.log"
+def load(arm, seed=100, results_dir="results"):
+    cj = Path(results_dir) / f"admit_{arm}_s{seed}.json"
+    log = Path(results_dir) / f"scheduler_admit_{arm}_s{seed}.log"
     if not cj.exists():
         return None
 
@@ -96,15 +96,21 @@ def group_times(progs):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--seed", type=int, default=100)
+    args = ap.parse_args()
+
+    print(f"  seed {args.seed}")
     runs = {}
     for arm in ARMS:
-        r = load(arm)
+        r = load(arm, args.seed)
         if r:
             runs[arm] = r
             print(f"  loaded {arm}: {len(r['progs'])} programs, "
                   f"{r['ok']}/{r['n_events']} ok")
         else:
-            print(f"  MISSING admit_{arm}.json")
+            print(f"  MISSING admit_{arm}_s{args.seed}.json")
     if len(runs) < 2:
         print("need at least two arms")
         return
